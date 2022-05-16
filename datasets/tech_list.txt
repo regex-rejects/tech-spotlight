@@ -148,7 +148,6 @@ WooCommerce
 Grunt
 Symfony
 Animate.css 
-Animate.css
 Memcached
 Zendesk
 Mailgun
