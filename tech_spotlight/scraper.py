@@ -1,3 +1,4 @@
+from types import NoneType
 import requests
 import urllib
 from urllib.parse import urlparse
@@ -43,22 +44,26 @@ def scraper(job_title, location, age):
     # hrefs = jobsearch_results.find(href=True)
     # this is the URL we need to format with the ID from each job card https://www.indeed.com/viewjob?jk=db2fa6c6354e06f7
     # each UL item in results has a data-jk value, this is the ID we need
+    # print(jobsearch_results)
 
     for list_elem in jobsearch_results:
         a_tag = list_elem.find('a')
-        attribute = a_tag.get('data-jk')
-        print(attribute)
+        if a_tag:
+            attribute = a_tag.get('data-jk')
+            print(attribute)
 
-        # job_url = 'https://www.indeed.com/viewjob?jk='
-        # li = list_elem.li
-        # id = li['data-jk']
-        # print(id)
-        # print(list_elem)
-        # data_jk = list_elem.find('data-jk')
-        # data_jk['data-jk']
-        # print(data_jk)
-
-    return print(hrefs)
+            job_url = 'https://www.indeed.com/viewjob?jk=' + str(attribute)
+            
+            page = requests.get(job_url)
+            post_soup  = BeautifulSoup(page.content, 'html.parser')
+            # li = list_elem.li
+            # id = li['data-jk']
+            # print(id)
+            # print(list_elem)
+            # data_jk = list_elem.find('data-jk')
+            # data_jk['data-jk']
+            # print(data_jk)
+    return # print(hrefs)
 
 
 scraper('software engineer', 'remote', '3')
