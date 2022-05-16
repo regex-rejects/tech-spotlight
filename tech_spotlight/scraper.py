@@ -56,14 +56,14 @@ def scraper(job_title, location, age):
             
             page = requests.get(job_url)
             post_soup  = BeautifulSoup(page.content, 'html.parser')
-            # li = list_elem.li
-            # id = li['data-jk']
-            # print(id)
-            # print(list_elem)
-            # data_jk = list_elem.find('data-jk')
-            # data_jk['data-jk']
-            # print(data_jk)
-    return # print(hrefs)
+            
+            description = post_soup.find(class_='jobsearch-jobDescriptionText')
+            description = description.text
+    
+            with open('jobs_raw.txt','a+') as f:
+                f.write(description)
+                
+    return 
 
 
 scraper('software engineer', 'remote', '3')
