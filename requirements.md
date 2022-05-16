@@ -2,65 +2,53 @@
 
 ## Vision
 
-Minimum Length: 3-5 sentences
+This product provides users with relevant and up-to-date job search data, in particular for software engineering roles with remote location. The user interface is either a Kaggle dataset/notebook, a Command Line Interface (CLI), or both. The data is extracted via web-scraping from Indeed.
 
-What is the vision of this product?
+This application helps users who are currently making decisions relevant to their job search. It does the work for them, so they do not need to comb through a variety of different job listings on Indeed to get the context they need to understand what roles are out there, what salary ranges are accessible, and even what programming languages seem to be garnering the highest salaries in the current software climate.
 
-What pain point does this project solve?
+## Scope
 
-Why should we care about your product?
+* What our product does:
+  * Collects the most relevant tech terms from Stackshare.io
+  * Uses those terms as basis for creating search criteria for scraping of Indeed job data
+  * Parses scraped job data and assembles into presentable and useful format within a data set
+  * Present data set and analysis of data in Kaggle notebook
+  * Potentially created CLI for users to access relevant information about the data set
 
-## Scope (In/Out)
+* What our product will not do:
+  * Have a frontend user interface outside of command-line or Kaggle (i.e. a deployed frontend site to query or display data)
 
-IN - What will your product do  
+### MVP
 
-* Describe the individual features that your product will do.  
-* High overview of each. Only need to list 4-5  
+* Minimum Viable Product:
+  * Occurrences of tech terms for a given search (for our dataset)
+    * queries include: job_title (Software Engineer), location (Remote), from_age: 3 days (since posting, but also cap at first 300 job posts, to start)
 
-* Example:  
-  * The web app will provide information to the users about all the different Cat Cafe’s in the area
-  * The web app will provide both walking and driving directions to each of the destinations
-  * Users will be able to “Star” their favorite shops.
-  * Each shop will contain reviews of the customer’s experiences  
+### Stretch
 
-OUT - What will your product not do.  
-
-* These should be features that you will make very clear from the beginning that you will not do during development. These should be limited and very few. Pick your battles wisely. This should only be 1 or 2 things. Example: My website will never turn into an IOS or Android app.  
-
-Minimum Viable Product vs
-What will your MVP functionality be?  
-
-What are your stretch goals?
-
-## Stretch
-
-What stretch goals are you going to aim for?
+* Stretch Goals:
+  * get salary data - draw a correlation between salary data and tech terms
+  * keep the href for a given search so a user can connect the search data they get back with jobs
 
 ## Functional Requirements
 
-List the functionality of your product. This will consist of tasks such as the following:
-
-1. An admin can create and delete user accounts
-2. A user can update their profile information
-3. A user can search all of the products in the inventory
+1. Data scraped from Indeed using specific criteria
+2. Data parsed for only relevant, desired text content
+3. Time-efficient data collection and parsing
+4. Data set assembled
+5. Data analyzed and displayed in user-friendly, accessible format
 
 ## Data Flow
 
-Describe the flow of data in your application. Write out what happens from the time the user begins using the app to the time the user is done with the app. Think about the “Happy Path” of the application. Describe through visuals and text what requests are made, and what data is processed, in addition to any other details about how the user moves through the site.
+Stackshare.io terms data
+-> criteria for Indeed scrape
+--> Indeed job data
+---> Parsed job data
+----> Assembled data set
+-----> Kaggle and/or CLI
 
 ## Non-Functional Requirements (301 & 401 only)
 
-Non-functional requirements are requirements that are not directly related to the functionality of the application but still important to the app.
-
-Examples include:
-
-1. Security
-2. Usability
-3. Testability
-4. etc….
-
-### Pick 2 non-functional requirements and describe their functionality in your application.
-
-If you are stuck on what non-functional requirements are, do a quick online search and do some research. Write a minimum of 3-5 sentences to describe how the non-functional requirements fits into your app.
-
-You MUST describe what the non-functional requirement is and how it will be implemented. Simply saying “Our project will be testable for testibility” is NOT acceptable. Tell us how, why, and what.
+1. Security: ensure web scrapers are designed to not get flagged by a site's robots.txt
+2. Usability: Kaggle and/or CLI data is user-friendly, easy to understand, and uniquely edifying
+3. Testability: test driven development (TDD) ensures functions and methods are designed properly before full implementation of large-scale scraping or parsing
