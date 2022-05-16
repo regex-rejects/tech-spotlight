@@ -37,13 +37,28 @@ def scraper(job_title, location, age):
     url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
-    jobs_soup = soup.find(class_='jobsearch-ResultsList') # gets all job cards from within the page for a given search
+    jobsearch_results = soup.find(class_='jobsearch-ResultsList') # gets all job cards from within the page for a given search
 
     # split jobs_soup at the li to get the individual job postings.
+    # hrefs = jobsearch_results.find(href=True)
+    # this is the URL we need to format with the ID from each job card https://www.indeed.com/viewjob?jk=db2fa6c6354e06f7
+    # each UL item in results has a data-jk value, this is the ID we need
 
+    for list_elem in jobsearch_results:
+        a_tag = list_elem.find('a')
+        attribute = a_tag.get('data-jk')
+        print(attribute)
 
+        # job_url = 'https://www.indeed.com/viewjob?jk='
+        # li = list_elem.li
+        # id = li['data-jk']
+        # print(id)
+        # print(list_elem)
+        # data_jk = list_elem.find('data-jk')
+        # data_jk['data-jk']
+        # print(data_jk)
 
-    return print(jobs_soup)
+    return print(hrefs)
 
 
 scraper('software engineer', 'remote', '3')
