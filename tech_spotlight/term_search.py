@@ -20,8 +20,24 @@ def get_terms():
     data_list = []
     match_num = 0
     for term in term_list:
-        if term == "Java":
+        if term == "Amazon EC2":
+            pattern = r'Amazon EC2\W[^C]'
+        elif term == "Docker":
+            pattern = r'Docker\W[^C]'
+        elif term == "Git":
+            pattern = r'Git[^HL]'
+        elif term == "GitHub":
+            pattern = r'GitHub\W[^P]'
+        elif term == "Java":
             pattern = r'Java[^S]'
+        elif term == "JQuery":
+            pattern = r'JQuery\W[^U]'
+        elif term == "React":
+            pattern = r'React\W[^N]'
+        elif term == "Twilio":
+            pattern = r'Twilio\W[^S]'
+        elif term == "Visual Studio":
+            pattern = r'Visual Studio\W[^C]'
         else:
             pattern = r'' + re.escape(term)
         match = re.findall(pattern, text_content, re.IGNORECASE)
