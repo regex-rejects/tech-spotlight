@@ -2,6 +2,7 @@ import requests
 import urllib
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+import time
 
 """
 Scrape indeed.com for the job title software engineer
@@ -104,10 +105,11 @@ def scraper_two_point_oh(job_title, location, age):
                     post_soup = job_soup(job_url)
                     description = post_soup.find(class_='jobsearch-jobDescriptionText')
                     description = description.text
-                    with open('jobs_data_raw', 'a+') as f:
+                    with open('jobs_data_raw.txt', 'a+', encoding='utf-8') as f:
                         f.write(description)
                     start += 10
                     print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
+        time.sleep(20.0)
     return print('scrape finished')
 
 
