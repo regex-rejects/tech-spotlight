@@ -2,6 +2,7 @@ import requests
 import urllib
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+import time
 
 """
 Scrape indeed.com for the job title software engineer
@@ -10,15 +11,15 @@ Example URL https://www.indeed.com/jobs?q=Software%20Engineer&l=remote&fromage=3
 Query = the job title to search
 L = the location in put "remote" - "Seattle" etc.
 fromage = the age of the posts, we will start with 3
-start = we can increment this by 10 for each itteration to get new job posts each time.
+start = we can increment this by 10 for each iteration to get new job posts each time.
 
 We may also need to handle some job cards that are adds for indeed. (these can show up among the job posts)
 
 within the job posts we want to scrape into id="jobDescriptionText"
 
-find a way to itterate through the cards on indeed
+find a way to iterate through the cards on indeed
 for each card grab its id="jobDescriptionText" 
-thats the document we are saving to later search for terms.
+that's the document we are saving to later search for terms.
 """
 
 
@@ -36,7 +37,7 @@ def scraper(job_title, location, age):
         # soup = BeautifulSoup(page.content, 'html.parser')
         # jobsearch_results = soup.find(class_='jobsearch-ResultsList')
         # end of soup kitchen funcitonality #
-        results = soup_kitchen("software engineer", 'remote', 3, 0)  # change args to customize scrape.
+        results = soup_kitchen(job_title, location, age, start)  # change args to customize scrape.
 
         for list_elem in results:
             a_tag = list_elem.find('a')  # grabs all links by A tag.
@@ -83,5 +84,34 @@ def job_soup(job_url):
     return post_soup
 
 
+def scraper_two_point_oh(job_title, location, age):
+    start = 0
+    scrapes = 30
+    scraped_jobs = 0
+    job_id_set = set()
+    while scraped_jobs < scrapes:
+        results = soup_kitchen(job_title, location, age, start)
+        for element in results:
+            a_tag = element.find('a')
+            if a_tag:
+                job_id = a_tag.get("data-jk")
+                if job_id in job_id_set:
+                    continue
+                else:
+                    job_id_set.add(job_id)
+                    scraped_jobs = len(job_id_set)
+                    job_url = 'https://www.indeed.com/viewjob?jk=' + str(job_id)  # formats our URL
+
+                    post_soup = job_soup(job_url)
+                    description = post_soup.find(class_='jobsearch-jobDescriptionText')
+                    description = description.text
+                    with open('jobs_data_raw.txt', 'a+', encoding='utf-8') as f:
+                        f.write(description)
+                    start += 10
+                    print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
+        time.sleep(20.0)
+    return print('scrape finished')
+
+
 if __name__ == '__main__':
-    scraper('software engineer', 'remote', '3')
+    scraper_two_point_oh('software engineer', 'remote', '3')
