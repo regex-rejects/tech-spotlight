@@ -3,7 +3,6 @@ import urllib
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
-
 """
 Scrape indeed.com for the job title software engineer
 
@@ -24,33 +23,34 @@ thats the document we are saving to later search for terms.
 
 
 def scraper(job_title, location, age):
-    start = 0
-    scraped_jobs = 0
-    scrapes = 300
+    start = 0  # used to get new jobs within URL as a query
+    scraped_jobs = 0  # Counter to display total num of scrapes performed
+    scrapes = 60  # num of scrapes to do, (increments of 15 due to indeed page structure)
 
     while scraped_jobs < scrapes:
+        # Structuring the URL can be broken into a new function
+        # Input is query args, Output is formatted soup
+        # get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
+        # url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
+        # page = requests.get(url)
+        # soup = BeautifulSoup(page.content, 'html.parser')
+        # jobsearch_results = soup.find(class_='jobsearch-ResultsList')
+        # end of soup kitchen funcitonality #
+        results = soup_kitchen("software engineer", 'remote', 3, 0)  # change args to customize scrape.
 
-        get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
-        url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
-        page = requests.get(url)
-        soup = BeautifulSoup(page.content, 'html.parser')
-        jobsearch_results = soup.find(class_='jobsearch-ResultsList')
+        for list_elem in results:
+            a_tag = list_elem.find('a')  # grabs all links by A tag.
+            if a_tag:  # filters Nonetypes so we pass over those.
+                scraped_jobs += 1  # scrape counter
+                job_id = a_tag.get('data-jk')  # gets each job ID for a given A tag
+                print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
+                job_url = 'https://www.indeed.com/viewjob?jk=' + str(job_id)  # formats our URL
 
-        for list_elem in jobsearch_results:
-            a_tag = list_elem.find('a')
-            if a_tag:
-                scraped_jobs += 1
-                attribute = a_tag.get('data-jk')
-                print(attribute)
-
-                job_url = 'https://www.indeed.com/viewjob?jk=' + str(attribute)
-
-                page = requests.get(job_url)
-                post_soup = BeautifulSoup(page.content, 'html.parser')
+                post_soup = job_soup(job_url)
 
                 description = post_soup.find(class_='jobsearch-jobDescriptionText')
                 description = description.text
-                with open('jobs_raw.txt', 'a+') as f:
+                with open('jobs_data_raw', 'a+') as f:
                     f.write(description)
         start += 10
     print(scraped_jobs)
@@ -58,4 +58,30 @@ def scraper(job_title, location, age):
     return
 
 
-scraper('software engineer', 'remote', '3')
+def soup_kitchen(job_title, location, age, start):
+    """
+        # Structuring the URL can be broken into a new function
+        # Input is query args, Output is formatted soup
+        get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
+        url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
+        page = requests.get(url)
+        soup = BeautifulSoup(page.content, 'html.parser')
+        jobsearch_results = soup.find(class_='jobsearch-ResultsList')
+        # end of soup kitchen funcitonality
+    """
+    get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
+    url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
+    soup = job_soup(url)
+    results = soup.find(class_='jobsearch-ResultsList')
+    return results
+
+
+def job_soup(job_url):
+    # Function to take in URL and make soup
+    page = requests.get(job_url)  # gets the page content
+    post_soup = BeautifulSoup(page.content, 'html.parser')  # makes some soup
+    return post_soup
+
+
+if __name__ == '__main__':
+    scraper('software engineer', 'remote', '3')
