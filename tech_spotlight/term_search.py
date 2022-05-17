@@ -20,12 +20,12 @@ def get_terms():
     data_list = []
     match_num = 0
     for term in term_list:
-        pattern = r'' + re.escape(term)
-        # pattern =
-        # print(pattern)
+        if term == "Java":
+            pattern = r'Java[^S]'
+        else:
+            pattern = r'' + re.escape(term)
         match = re.findall(pattern, text_content, re.IGNORECASE)
         lower_match = []
-
         for item in match:
             match_num += 1
             lower_match.append(item.lower())
@@ -37,7 +37,7 @@ def get_terms():
 header = ["Term", "Frequency"]
 data_list = get_terms()
 
-with open('first_300.csv', 'a+') as f:
+with open('test_java_fix.csv', 'w') as f:
     writer = csv.writer(f)
     writer.writerow(header)
     writer.writerows(data_list)
