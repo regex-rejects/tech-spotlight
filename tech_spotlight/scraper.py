@@ -4,6 +4,7 @@ import urllib
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
+
 """
 Scrape indeed.com for the job title software engineer
 
@@ -20,32 +21,21 @@ within the job posts we want to scrape into id="jobDescriptionText"
 find a way to itterate through the cards on indeed
 for each card grab its id="jobDescriptionText" 
 thats the document we are saving to later search for terms.
-
-
-
-
 """
-# Done: build and test URL
-# Done: select each job card
-# TODO: scrape one full job post via description
-# TODO:
 
 
 def scraper(job_title, location, age):
-    start = 0 # we will want to increment this by 10 for each loop through
+    start = 0
     scraped_jobs = 0
-    while scraped_jobs < 100:
+    scrapes = 300
+
+    while scraped_jobs < scrapes:
+
         get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
         url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
         page = requests.get(url)
         soup = BeautifulSoup(page.content, 'html.parser')
-        jobsearch_results = soup.find(class_='jobsearch-ResultsList') # gets all job cards from within the page for a given search
-
-        # split jobs_soup at the li to get the individual job postings.
-        # hrefs = jobsearch_results.find(href=True)
-        # this is the URL we need to format with the ID from each job card https://www.indeed.com/viewjob?jk=db2fa6c6354e06f7
-        # each UL item in results has a data-jk value, this is the ID we need
-        # print(jobsearch_results)
+        jobsearch_results = soup.find(class_='jobsearch-ResultsList')
 
         for list_elem in jobsearch_results:
             a_tag = list_elem.find('a')
@@ -55,44 +45,18 @@ def scraper(job_title, location, age):
                 print(attribute)
 
                 job_url = 'https://www.indeed.com/viewjob?jk=' + str(attribute)
-                
+
                 page = requests.get(job_url)
-                post_soup  = BeautifulSoup(page.content, 'html.parser')
-                
+                post_soup = BeautifulSoup(page.content, 'html.parser')
+
                 description = post_soup.find(class_='jobsearch-jobDescriptionText')
                 description = description.text
-
-                with open('jobs_raw.txt','a+') as f:
+                with open('jobs_raw.txt', 'a+') as f:
                     f.write(description)
         start += 10
-    print(scraped_jobs)           
-    return 
+    print(scraped_jobs)
+
+    return
 
 
 scraper('software engineer', 'remote', '3')
-
-"""
-
-def get_user_input():
-    pass
-
-
-def format_url(job_title, location, age):
-    get_vars = {'q' : job_title, 'l' : location, 'fromage' : age}
-    url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, 'html.parser')
-    jobs_soup = soup.find(id="resultsCol")
-    return soup
-
-
-def get_raw_html():
-    pass
-
-
-test = format_url('software engineer', 'remote', 3)
-
-print(test)
-
-
-"""
