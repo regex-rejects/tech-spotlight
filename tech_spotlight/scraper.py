@@ -63,7 +63,21 @@ def scraper(job_title, location, age):
 
 
 def soup_kitchen(job_title, location, age, start):
-    pass
+    """
+        # Structuring the URL can be broken into a new function
+        # Input is query args, Output is formatted soup
+        get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
+        url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
+        page = requests.get(url)
+        soup = BeautifulSoup(page.content, 'html.parser')
+        jobsearch_results = soup.find(class_='jobsearch-ResultsList')
+        # end of soup kitchen funcitonality
+    """
+    get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
+    url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
+    soup = job_soup(url)
+    results = soup.find(class_='jobsearch-ResultsList')
+    return results
 
 
 def job_soup(job_url):
@@ -71,5 +85,6 @@ def job_soup(job_url):
     page = requests.get(job_url)  # gets the page content
     post_soup = BeautifulSoup(page.content, 'html.parser')  # makes some soup
     return post_soup
+
 
 scraper('software engineer', 'remote', '3')

@@ -6,14 +6,19 @@ def test_scraper_exists():
 
 
 def test_valid_url():
-    actual = scraper('software engineer', 'remote', '3')
-    expected = "https://www.indeed.com/jobs?q=software+engineer&l=remote&fromage=3&start=0"
-    assert actual == expected
+    pass
 
-
-def test_job_soup():
+def test_job_soup_input():
     pass
 
 
-def test_soup_kitchen():
+def test_job_soup_output():
+    pass
+
+
+def test_soup_kitchen_input():
+    pass
+
+
+def test_soup_kitchen_output():
     pass
