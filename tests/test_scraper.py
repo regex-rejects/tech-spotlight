@@ -12,4 +12,8 @@ def test_valid_url():
 
 
 def test_job_soup():
-    act
+    pass
+
+
+def test_soup_kitchen():
+    pass
