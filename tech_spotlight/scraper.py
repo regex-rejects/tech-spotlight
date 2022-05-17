@@ -3,6 +3,7 @@ import urllib
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import time
+import random
 
 """
 Scrape indeed.com for the job title software engineer
@@ -81,7 +82,15 @@ def job_soup(job_url):
     # Function to take in URL and make soup
     page = requests.get(job_url)  # gets the page content
     post_soup = BeautifulSoup(page.content, 'html.parser')  # makes some soup
+    time.sleep(random.random())
     return post_soup
+
+
+def sleepy_pill():
+    sleep_time = random.randint(60, 240)
+    print(f'nap for {sleep_time} this many zzzz\'s (seconds)')
+    time.sleep(sleep_time)
+    return
 
 
 def scraper_two_point_oh(job_title, location, age):
@@ -90,6 +99,8 @@ def scraper_two_point_oh(job_title, location, age):
     scraped_jobs = 0
     job_id_set = set()
     while scraped_jobs < scrapes:
+        if scraped_jobs % 100 == 0:
+            sleepy_pill()
         results = soup_kitchen(job_title, location, age, start)
         for element in results:
             a_tag = element.find('a')
@@ -109,7 +120,6 @@ def scraper_two_point_oh(job_title, location, age):
                         f.write(description)
                     start += 10
                     print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
-        time.sleep(20.0)
     return print('scrape finished')
 
 
