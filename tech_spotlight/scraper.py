@@ -24,29 +24,33 @@ thats the document we are saving to later search for terms.
 
 
 def scraper(job_title, location, age):
-    start = 0
-    scraped_jobs = 0
-    scrapes = 300
+    start = 0  # used to get new jobs within URL as a query
+    scraped_jobs = 0  # Counter to display total num of scrapes performed
+    scrapes = 30  # num of scrapes to do, (increments of 15 due to indeed page structure)
 
     while scraped_jobs < scrapes:
-
+        # Structuring the URL can be broken into a new function
+        # Input is query args, Output is formatted soup
         get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
         url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
         page = requests.get(url)
         soup = BeautifulSoup(page.content, 'html.parser')
         jobsearch_results = soup.find(class_='jobsearch-ResultsList')
+        # end of soup kitchen funcitonality
 
         for list_elem in jobsearch_results:
-            a_tag = list_elem.find('a')
-            if a_tag:
-                scraped_jobs += 1
-                attribute = a_tag.get('data-jk')
-                print(attribute)
+            a_tag = list_elem.find('a')  # grabs all links by A tag.
+            if a_tag:  # filters Nonetypes so we pass over those.
 
-                job_url = 'https://www.indeed.com/viewjob?jk=' + str(attribute)
+                scraped_jobs += 1  # scrape counter
+                job_id = a_tag.get('data-jk')  # gets each job ID for a given A tag
+                print(job_id + " Num scraped: " + scraped_jobs)  # prints ID and Num scraped.
 
-                page = requests.get(job_url)
-                post_soup = BeautifulSoup(page.content, 'html.parser')
+                job_url = 'https://www.indeed.com/viewjob?jk=' + str(job_id)  # formats our URL
+
+                # Function to take in URL and make soup
+                page = requests.get(job_url)  # gets the page content
+                post_soup = BeautifulSoup(page.content, 'html.parser')  # makes some soup
 
                 description = post_soup.find(class_='jobsearch-jobDescriptionText')
                 description = description.text
@@ -57,5 +61,15 @@ def scraper(job_title, location, age):
 
     return
 
+
+def soup_kitchen(job_title, location, age, start):
+    pass
+
+
+def job_soup(job_url):
+    # Function to take in URL and make soup
+    page = requests.get(job_url)  # gets the page content
+    post_soup = BeautifulSoup(page.content, 'html.parser')  # makes some soup
+    return post_soup
 
 scraper('software engineer', 'remote', '3')
