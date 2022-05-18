@@ -58,11 +58,3 @@ with open('test_java_fix.csv', 'w') as f:
     writer.writerow(header)
     writer.writerows(data_list)
 
-'''
-1. Bring in the raw data file [X]
-2. Bring in the term list [X]
-4. create a regex for each key in our dictionary(potentially some weird neat cool regex that will match all them) [X]
-5. input regex key in our findall() for each dict key [X]
-6. increment to the dictionary for each occurrance of key [X]
-7. write the counts+terms to new file (csv) [X]
-'''
