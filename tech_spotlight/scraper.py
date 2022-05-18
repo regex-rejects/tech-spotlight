@@ -24,40 +24,40 @@ that's the document we are saving to later search for terms.
 """
 
 
-def scraper(job_title, location, age):
-    start = 0  # used to get new jobs within URL as a query
-    scraped_jobs = 0  # Counter to display total num of scrapes performed
-    scrapes = 60  # num of scrapes to do, (increments of 15 due to indeed page structure)
-
-    while scraped_jobs < scrapes:
-        # Structuring the URL can be broken into a new function
-        # Input is query args, Output is formatted soup
-        # get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
-        # url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
-        # page = requests.get(url)
-        # soup = BeautifulSoup(page.content, 'html.parser')
-        # jobsearch_results = soup.find(class_='jobsearch-ResultsList')
-        # end of soup kitchen funcitonality #
-        results = soup_kitchen(job_title, location, age, start)  # change args to customize scrape.
-
-        for list_elem in results:
-            a_tag = list_elem.find('a')  # grabs all links by A tag.
-            if a_tag:  # filters Nonetypes so we pass over those.
-                scraped_jobs += 1  # scrape counter
-                job_id = a_tag.get('data-jk')  # gets each job ID for a given A tag
-                print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
-                job_url = 'https://www.indeed.com/viewjob?jk=' + str(job_id)  # formats our URL
-
-                post_soup = job_soup(job_url)
-
-                description = post_soup.find(class_='jobsearch-jobDescriptionText')
-                description = description.text
-                with open('jobs_data_raw', 'a+') as f:
-                    f.write(description)
-        start += 10
-    print(scraped_jobs)
-
-    return
+# def scraper(job_title, location, age):
+#     start = 0  # used to get new jobs within URL as a query
+#     scraped_jobs = 0  # Counter to display total num of scrapes performed
+#     scrapes = 60  # num of scrapes to do, (increments of 15 due to indeed page structure)
+#
+#     while scraped_jobs < scrapes:
+#         # Structuring the URL can be broken into a new function
+#         # Input is query args, Output is formatted soup
+#         # get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
+#         # url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
+#         # page = requests.get(url)
+#         # soup = BeautifulSoup(page.content, 'html.parser')
+#         # jobsearch_results = soup.find(class_='jobsearch-ResultsList')
+#         # end of soup kitchen funcitonality #
+#         results = soup_kitchen(job_title, location, age, start)  # change args to customize scrape.
+#
+#         for list_elem in results:
+#             a_tag = list_elem.find('a')  # grabs all links by A tag.
+#             if a_tag:  # filters Nonetypes so we pass over those.
+#                 scraped_jobs += 1  # scrape counter
+#                 job_id = a_tag.get('data-jk')  # gets each job ID for a given A tag
+#                 print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
+#                 job_url = 'https://www.indeed.com/viewjob?jk=' + str(job_id)  # formats our URL
+#
+#                 post_soup = job_soup(job_url)
+#
+#                 description = post_soup.find(class_='jobsearch-jobDescriptionText')
+#                 description = description.text
+#                 with open('jobs_data_raw', 'a+') as f:
+#                     f.write(description)
+#         start += 10
+#     print(scraped_jobs)
+#
+#     return
 
 
 def soup_kitchen(job_title, location, age, start):
@@ -73,6 +73,7 @@ def soup_kitchen(job_title, location, age, start):
     """
     get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
     url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
+    print("your search URL: " + url)
     soup = job_soup(url)
     results = soup.find(class_='jobsearch-ResultsList')
     return results
@@ -87,7 +88,7 @@ def job_soup(job_url):
 
 
 def sleepy_pill():
-    sleep_time = random.randint(60, 240)
+    sleep_time = random.randint(240, 360)
     print(f'nap for {sleep_time} this many zzzz\'s (seconds)')
     time.sleep(sleep_time)
     return
@@ -95,15 +96,25 @@ def sleepy_pill():
 
 def scraper_two_point_oh(job_title, location, age):
     start = 0
-    scrapes = 30
+    scrapes = 900
     scraped_jobs = 0
     job_id_set = set()
+    break_time = 0
     while scraped_jobs < scrapes:
-        if scraped_jobs % 100 == 0:
-            sleepy_pill()
         results = soup_kitchen(job_title, location, age, start)
+
+        if results is None:
+            input("******************** Nonetype recieved wait for like..... 10 minutes and try again ****************")
+            time.sleep(2)
         for element in results:
             a_tag = element.find('a')
+            if break_time == 100:
+            #     input(">>>>>>>>>>>>> Reset your IP address with a VPN, then press enter. <<<<<<<<<<<<<")
+                break_time = 0
+            #     time.sleep(2)
+                sleepy_pill()
+            if scraped_jobs == 350 or scraped_jobs == 700:
+                input(">>>>>>>>>>>>> Reset your IP address with a VPN, then press enter. <<<<<<<<<<<<<")
             if a_tag:
                 job_id = a_tag.get("data-jk")
                 if job_id in job_id_set:
@@ -111,17 +122,20 @@ def scraper_two_point_oh(job_title, location, age):
                 else:
                     job_id_set.add(job_id)
                     scraped_jobs = len(job_id_set)
+                    break_time += 1
                     job_url = 'https://www.indeed.com/viewjob?jk=' + str(job_id)  # formats our URL
 
                     post_soup = job_soup(job_url)
                     description = post_soup.find(class_='jobsearch-jobDescriptionText')
                     description = description.text
-                    with open('jobs_data_raw.txt', 'a+', encoding='utf-8') as f:
+                    with open('complete_scrape_may_17_900_jobs.txt', 'a+', encoding='utf-8') as f:
                         f.write(description)
-                    start += 10
+
                     print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
+        start += 10
+
     return print('scrape finished')
 
 
 if __name__ == '__main__':
-    scraper_two_point_oh('software engineer', 'remote', '3')
+    scraper_two_point_oh('software engineer', 'remote', '7')
