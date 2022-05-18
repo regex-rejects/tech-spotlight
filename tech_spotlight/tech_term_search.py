@@ -82,4 +82,5 @@ def write_data(read, terms, write):
     f.close()
 
 
-write_data('./jobs_raw.txt', './datasets/tech_list.txt', 'test_java_fix.csv')
+if __name__ == '__main__':
+    write_data('tech_spotlight/duplicate_test_100_jobs.txt', 'datasets/tech_list.txt', 'duplicate_test_100_jobs.csv')
