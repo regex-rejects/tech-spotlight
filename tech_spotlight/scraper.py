@@ -73,6 +73,7 @@ def soup_kitchen(job_title, location, age, start):
     """
     get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
     url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
+    print("your search URL: " + url)
     soup = job_soup(url)
     results = soup.find(class_='jobsearch-ResultsList')
     return results
@@ -82,12 +83,12 @@ def job_soup(job_url):
     # Function to take in URL and make soup
     page = requests.get(job_url)  # gets the page content
     post_soup = BeautifulSoup(page.content, 'html.parser')  # makes some soup
-    # time.sleep(random.random())
+    time.sleep(random.random())
     return post_soup
 
 
 def sleepy_pill():
-    sleep_time = random.randint(60, 240)
+    sleep_time = random.randint(240, 360)
     print(f'nap for {sleep_time} this many zzzz\'s (seconds)')
     time.sleep(sleep_time)
     return
@@ -101,11 +102,19 @@ def scraper_two_point_oh(job_title, location, age):
     break_time = 0
     while scraped_jobs < scrapes:
         results = soup_kitchen(job_title, location, age, start)
+
+        if results is None:
+            input("******************** Nonetype recieved wait for like..... 10 minutes and try again ****************")
+            time.sleep(2)
         for element in results:
             a_tag = element.find('a')
             if break_time == 100:
-                input(">>>>>>>>>>>>> Reset your IP address with a VPN, then press enter. <<<<<<<<<<<<<")
+            #     input(">>>>>>>>>>>>> Reset your IP address with a VPN, then press enter. <<<<<<<<<<<<<")
                 break_time = 0
+            #     time.sleep(2)
+                sleepy_pill()
+            if scraped_jobs == 350 or scraped_jobs == 700:
+                input(">>>>>>>>>>>>> Reset your IP address with a VPN, then press enter. <<<<<<<<<<<<<")
             if a_tag:
                 job_id = a_tag.get("data-jk")
                 if job_id in job_id_set:
@@ -121,11 +130,12 @@ def scraper_two_point_oh(job_title, location, age):
                     description = description.text
                     with open('complete_scrape_may_17_900_jobs.txt', 'a+', encoding='utf-8') as f:
                         f.write(description)
-                    start += 10
+
                     print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
+        start += 10
 
     return print('scrape finished')
 
 
 if __name__ == '__main__':
-    scraper_two_point_oh('software engineer', 'remote', '3')
+    scraper_two_point_oh('software engineer', 'remote', '7')
