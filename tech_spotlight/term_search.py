@@ -1,12 +1,12 @@
 import re
 import csv
 
-with open('./tech_spotlight/jobs_raw.txt', 'rt') as f:  # BRING IN RAW FILE
+with open('/Users/bencarter/projects/Code401/tech-spotlight/tech_spotlight/complete_scrape_may_17_900_jobs.txt', 'rt') as f:  # BRING IN RAW FILE
     text_content = f.read()
 
 
 def open_term_file():
-    with open('./datasets/tech_list.txt', 'rt') as l:  # BRING IN TERMS
+    with open('/Users/bencarter/projects/Code401/tech-spotlight/datasets/tech_list.txt', 'rt') as l:  # BRING IN TERMS
         list_content = l.readlines()
         tech_terms = []
         for line in list_content:
@@ -53,7 +53,7 @@ def get_terms():
 header = ["Term", "Frequency"]
 data_list = get_terms()
 
-with open('test_java_fix.csv', 'w') as f:
+with open('may_17_900_jobs.csv', 'w') as f:
     writer = csv.writer(f)
     writer.writerow(header)
     writer.writerows(data_list)
