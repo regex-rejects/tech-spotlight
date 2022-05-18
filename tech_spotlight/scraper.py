@@ -4,6 +4,7 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import time
 import random
+import sys
 
 """
 Scrape indeed.com for the job title software engineer
@@ -24,52 +25,14 @@ that's the document we are saving to later search for terms.
 """
 
 
-# def scraper(job_title, location, age):
-#     start = 0  # used to get new jobs within URL as a query
-#     scraped_jobs = 0  # Counter to display total num of scrapes performed
-#     scrapes = 60  # num of scrapes to do, (increments of 15 due to indeed page structure)
-#
-#     while scraped_jobs < scrapes:
-#         # Structuring the URL can be broken into a new function
-#         # Input is query args, Output is formatted soup
-#         # get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
-#         # url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
-#         # page = requests.get(url)
-#         # soup = BeautifulSoup(page.content, 'html.parser')
-#         # jobsearch_results = soup.find(class_='jobsearch-ResultsList')
-#         # end of soup kitchen funcitonality #
-#         results = soup_kitchen(job_title, location, age, start)  # change args to customize scrape.
-#
-#         for list_elem in results:
-#             a_tag = list_elem.find('a')  # grabs all links by A tag.
-#             if a_tag:  # filters Nonetypes so we pass over those.
-#                 scraped_jobs += 1  # scrape counter
-#                 job_id = a_tag.get('data-jk')  # gets each job ID for a given A tag
-#                 print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
-#                 job_url = 'https://www.indeed.com/viewjob?jk=' + str(job_id)  # formats our URL
-#
-#                 post_soup = job_soup(job_url)
-#
-#                 description = post_soup.find(class_='jobsearch-jobDescriptionText')
-#                 description = description.text
-#                 with open('jobs_data_raw', 'a+') as f:
-#                     f.write(description)
-#         start += 10
-#     print(scraped_jobs)
-#
-#     return
-
-
 def soup_kitchen(job_title, location, age, start):
     """
-        # Structuring the URL can be broken into a new function
-        # Input is query args, Output is formatted soup
-        get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
-        url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
-        page = requests.get(url)
-        soup = BeautifulSoup(page.content, 'html.parser')
-        jobsearch_results = soup.find(class_='jobsearch-ResultsList')
-        # end of soup kitchen funcitonality
+
+    :param job_title:
+    :param location:
+    :param age:
+    :param start:
+    :return:
     """
     get_vars = {'q': job_title, 'l': location, 'fromage': age, 'start': start}
     url = 'https://www.indeed.com/jobs?' + urllib.parse.urlencode(get_vars)
@@ -80,62 +43,217 @@ def soup_kitchen(job_title, location, age, start):
 
 
 def job_soup(job_url):
-    # Function to take in URL and make soup
-    page = requests.get(job_url)  # gets the page content
-    post_soup = BeautifulSoup(page.content, 'html.parser')  # makes some soup
+    """
+
+    :param job_url: completed URL with
+    :return:
+    """
+    page = requests.get(job_url)
+    post_soup = BeautifulSoup(page.content, 'html.parser')
     time.sleep(random.random())
     return post_soup
 
 
 def sleepy_pill():
+    """
+    gets a random sleep time, between 240 and 360 seconds, prints a sleep message to terminal.
+    :return: None
+    """
     sleep_time = random.randint(240, 360)
     print(f'nap for {sleep_time} this many zzzz\'s (seconds)')
     time.sleep(sleep_time)
     return
 
 
-def scraper_two_point_oh(job_title, location, age):
+def get_input():
+    """
+    Function called during scrape execution, this forces a pause to get user input, Helping to avoid rate limit.
+    Asks if user wants to continue or stop the scrape.
+    :return: None
+    """
+    print(">> Consider swapping IP address with a VPN to avoid rate limit. <<")
+    input_ = input(">> 'c' to continue your scrape, 'q' to quit here <<")
+    input_ = input_.lower()
+    print(input_)
+    if input_ == 'c':
+        print('>> Continuing scrape <<')
+        return
+    elif input_ == 'q':
+        print(">> are you sure you want to stop the scrape? <<")
+        confirm = input(">> 'quit' to quit scraping, 'c' to continue << ")
+        print(confirm)
+        confirm = confirm.lower()
+        if confirm == 'c':
+            print('>> Continuing scrape <<')
+            return
+        elif confirm == 'quit':
+            sys.exit()
+        else:
+            print(">> unexpected input received <<")
+            get_input()
+    else:
+        print(">> unexpected input received <<")
+        get_input()
+
+
+def nonetype_received(scrapes, scraped_jobs):
+    """
+    returns a message informing the user about the failed scrape, includes information about the scrape,
+    exits the script.
+    :param scrapes: the attempted total jobs to scrape: int
+    :param scraped_jobs: the num of jobs successfully scraped: Int
+    :return: None
+    """
+    print(f"""
+        >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<
+        >>> Nonetype received, you likely hit a captcha <<<
+        >>> or ran out of job posts for a given search, <<<
+        >>> unfortunately scraper cannot recover from   <<<
+        >>> this. You will need to start over. Try,     <<<
+        >>> using a vpn, to swap your IP address mid    <<<
+        >>> scrape.                                     <<<
+        >>> We successfully scraped {scraped_jobs}      <<<
+        >>> out of the attempted {scrapes} total.       <<<
+        >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<
+    """)
+    sys.exit()
+
+
+def main():
+    """
+    prompts user for search params and calls scraper.
+    :return: N/A Calls scraper
+    """
+    age_inputs = ['1', '3', '5', '7']
+    print("""
+        >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<
+        >>>>>>>>>>> Welcome to the Tech Spotlight <<<<<<<<<<
+        >>> This tool, scrapes indeed for a given search <<<
+        >>> query, Returning both a raw text file, and   <<<
+        >>> a processed .CSV file, containing the number <<<
+        >>> of times a given tech appears in the raw     <<<
+        >>> text.                                        <<<
+        >>>                                              <<<
+        >>> text. If you would like to see the techs we  <<<
+        >>> are counting, the list is under /datasets as <<<
+        >>> tech_list.txt                                <<<
+        >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<
+    """)
+    job_tile = input("""
+    > Please enter a development job title to search for, 
+    i.e. 'software developer', 'software engineer',
+    'dev ops engineer' etc. 
+    > """)
+    location = input("""
+    > Please enter a location to search, i.e. 'remote',
+    'seattle', 'chicago' etc. 
+    > """)
+    age = input("""
+    > Please enter a job post age to scrape, accepted inputs 
+    are as follows: 
+    '1' for postings within the last 24 hours
+    '3' for postings within the last 3 days
+    '5' for postings within the last 5 days
+    '7' for postings within the last 7 days
+    > """)
+    while age not in age_inputs:
+        print('>>> Invalid post age received <<<')
+        age = input("""
+        > Please enter a job post age to scrape, accepted inputs 
+        are as follows: 
+        '1' for postings within the last 24 hours
+        '3' for postings within the last 3 days
+        '5' for postings within the last 5 days
+        '7' for postings within the last 7 days
+        > """)
+    scrapes = input("""
+    > Please enter a number of jobs to scrape,
+    This determines the size of the dataset,
+    Keep in mind the larger the dataset the longer
+    the scrape will take. 
+        
+    example: a scrape of 900 jobs will take 
+    over an hour in most cases, and runs the risk
+    of being stopped by indeed. Consider using a
+    VPN if scraping more than 300 jobs.
+    > """)
+    filename = input("""
+    > Please enter output filename, raw file
+    will be a .txt file
+    !! you do not need to add the .txt extension !!
+    example input: dev_ops_Seattle_300_jobs
+    
+    > """)
+
+    print(f"""
+    Beginning scrape of Indeed.com for the following query
+    job tile: {job_tile}
+    location: {location}
+    age: {age}
+    scrapes: {scrapes}
+    filename: {filename}
+    """)
+    time.sleep(5)
+    scraper(job_tile, location, age, int(scrapes), filename)
+
+
+def scraper(job_title, location, age, scrapes, filename):
+    """
+    Main application function, calls all other functions to perform the requested job scrape.
+    :param job_title: string
+    :param location: string
+    :param age: string
+    :param scrapes: int
+    :param filename: string
+    :return: raw text file
+    """
     start = 0
-    scrapes = 900
+    scrapes = scrapes
     scraped_jobs = 0
     job_id_set = set()
     break_time = 0
-    while scraped_jobs < scrapes:
+    while scraped_jobs < int(scrapes):
         results = soup_kitchen(job_title, location, age, start)
 
         if results is None:
-            input("******************** Nonetype recieved wait for like..... 10 minutes and try again ****************")
-            time.sleep(2)
+            nonetype_received(scrapes, scraped_jobs)
+
         for element in results:
             a_tag = element.find('a')
+
             if break_time == 100:
-            #     input(">>>>>>>>>>>>> Reset your IP address with a VPN, then press enter. <<<<<<<<<<<<<")
                 break_time = 0
-            #     time.sleep(2)
                 sleepy_pill()
+
             if scraped_jobs == 350 or scraped_jobs == 700:
-                input(">>>>>>>>>>>>> Reset your IP address with a VPN, then press enter. <<<<<<<<<<<<<")
+                get_input()
+
             if a_tag:
                 job_id = a_tag.get("data-jk")
                 if job_id in job_id_set:
                     continue
+
                 else:
                     job_id_set.add(job_id)
                     scraped_jobs = len(job_id_set)
                     break_time += 1
-                    job_url = 'https://www.indeed.com/viewjob?jk=' + str(job_id)  # formats our URL
 
-                    post_soup = job_soup(job_url)
-                    description = post_soup.find(class_='jobsearch-jobDescriptionText')
-                    description = description.text
-                    with open('complete_scrape_may_17_900_jobs.txt', 'a+', encoding='utf-8') as f:
+                    description = job_id_to_description(job_id)
+                    file = str(filename) + '.txt'
+                    with open(file, 'a+', encoding='utf-8') as f:
                         f.write(description)
-
-                    print(str(job_id) + " Num scraped: " + str(scraped_jobs))  # prints ID and Num scraped.
+                    print(str(job_id) + " Num scraped: " + str(scraped_jobs))
+                    if scraped_jobs == scrapes:
+                        return print('scrape finished')
         start += 10
 
-    return print('scrape finished')
+
+def job_id_to_description(job_id):
+    job_url = 'https://www.indeed.com/viewjob?jk=' + str(job_id)
+    post_soup = job_soup(job_url)
+    description = post_soup.find(class_='jobsearch-jobDescriptionText')
+    return description.text
 
 
 if __name__ == '__main__':
-    scraper_two_point_oh('software engineer', 'remote', '7')
+    main()
