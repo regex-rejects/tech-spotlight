@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import time
 import random
 import sys
-from tech_term_search import write_data, get_terms,open_terms,open_text
+from tech_term_search import write_data
 
 def soup_kitchen(job_title, location, age, start):
     """
@@ -44,7 +44,7 @@ def sleepy_pill():
     :return: None
     """
     sleep_time = random.randint(240, 360)
-    print(f'nap for {sleep_time} this many zzzz\'s (seconds)')
+    print(f"nap for {sleep_time} this many zzzz's (seconds)")
     time.sleep(sleep_time)
     return
 

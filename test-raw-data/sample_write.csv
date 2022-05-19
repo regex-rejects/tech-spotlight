@@ -1,103 +1,103 @@
 Term,Frequency
-JavaScript,1680
-GitHub,7
-Python,2694
-Git,314
-Node.js,348
-Docker,456
-React,510
+JavaScript,32
+GitHub,5
+Python,22
+Git,33
+Node.js,7
+Docker,6
+React,24
 Visual Studio Code,0
-jQuery,1
-HTML5,773
-PHP,244
-Java,3938
-Slack,504
-MySQL,303
+jQuery,2
+HTML5,22
+PHP,4
+Java,39
+Slack,2
+MySQL,10
 Google Analytics,0
-NGINX,1
+NGINX,0
 Gmail,0
-npm,0
-PostgreSQL,78
-MongoDB,43
+npm,3
+PostgreSQL,7
+MongoDB,4
 Postman,0
-WordPress,21
+WordPress,1
 Google Drive,0
-TypeScript,169
-Ubuntu,0
-ES6,3
+TypeScript,15
+Ubuntu,2
+ES6,2
 Stack Overflow,0
-GitLab,0
-Jenkins,50
-Jira,71
-AngularJS,3
-Redis,146
-CloudFlare,6
-Kubernetes,512
+GitLab,5
+Jenkins,2
+Jira,1
+AngularJS,1
+Redis,2
+CloudFlare,0
+Kubernetes,5
 Apache HTTP Server,0
 Google Fonts,0
-C#,202
+C#,14
 Amazon S3,0
-Vue.js,1
-CSS 3,538
+Vue.js,4
+CSS 3,22
 Amazon EC2,0
-Trello,38
+Trello,0
 Visual Studio,3
 Google Tag Manager,0
 Font Awesome,0
-Bitbucket,1
+Bitbucket,2
 IntelliJ IDEA,0
 Sass,2
-Firebase,1
-Django,181
-Webpack,3
+Firebase,0
+Django,5
+Webpack,2
 Google Maps,0
 Sublime Text,0
-Elasticsearch,42
-React Native,194
+Elasticsearch,2
+React Native,4
 jQuery UI,0
-Ruby,321
-GraphQL,78
+Ruby,10
+GraphQL,1
 VirtualBox,0
 G Suite,0
-ExpressJS,0
-Redux,182
-Laravel,0
+ExpressJS,27
+Redux,1
+Laravel,1
 Vim,0
-Heroku,78
+Heroku,1
 Android SDK,0
 PyCharm,0
-Spring Boot,7
-Dropbox,227
-Android Studio,1
-Confluence,39
-Kafka,49
-AWS Lambda,0
-Microsoft Azure,2
-RabbitMQ,99
+Spring Boot,4
+Dropbox,0
+Android Studio,0
+Confluence,2
+Kafka,4
+AWS Lambda,1
+Microsoft Azure,1
+RabbitMQ,0
 Mailchimp,0
-ASP.NET,1
+ASP.NET,3
 Kibana,0
 Markdown,0
 Docker Compose,0
-Rails,122
+Rails,7
 ESLint,0
-Flask,2
+Flask,4
 Notepad++,0
 Amazon CloudFront,0
-Ansible,33
-Atom,1
-Google Cloud Platform,293
-New Relic,1
+Ansible,2
+Atom,0
+Google Cloud Platform,0
+New Relic,0
 Xcode,0
-PayPal,3
+PayPal,0
 Modernizr,0
 DigitalOcean,0
 Yarn,0
 GitHub Pages,0
-Microsoft SQL Server,14
-Babel,0
-Swift,75
-Terraform,29
+Microsoft SQL Server,3
+Babel,2
+Swift,4
+Terraform,2
 SQLite,0
 Skype,0
 Stripe,0
@@ -106,8 +106,8 @@ Apache Tomcat,0
 Grafana,0
 Amazon RDS,0
 MariaDB,0
-Selenium,60
-Gradle,22
+Selenium,1
+Gradle,0
 Debian,0
 PhpStorm,0
 Flutter,0
@@ -115,9 +115,9 @@ gulp,0
 Amazon Route 53,0
 Microsoft IIS,0
 Amazon EC2 Container Service,0
-Sentry,69
+Sentry,0
 WebStorm,0
-Kotlin,30
+Kotlin,8
 Socket.IO,0
 CentOS,0
 Travis CI,0
@@ -126,47 +126,47 @@ Amazon CloudWatch,0
 AWS Elastic Load Balancing (ELB),0
 Material Design for Angular,0
 CircleCI,1
-Electron,275
+Electron,2
 Logstash,0
 Vagrant,0
 SourceTree,0
 Twilio,0
 OpenSSL,0
-Ionic,1
-Scala,1462
-Objective-C,36
+Ionic,0
+Scala,27
+Objective-C,1
 Google App Engine,0
 Twilio SendGrid,0
 Shopify,0
-Asana,14
+Asana,0
 Varnish,0
-Datadog,0
+Datadog,2
 HubSpot,0
 Amazon SES,0
-InVision,20
-Drupal,0
+InVision,0
+Drupal,1
 WooCommerce,0
-Grunt,0
+Grunt,3
 Symfony,0
 Animate.css ,0
-Memcached,0
-Zendesk,7
+Memcached,1
+Zendesk,1
 Mailgun,0
 Bower,0
 RequireJS,0
-Backbone.js,123
+Backbone.js,0
 Slick,0
 Handlebars.js,0
 Intercom,0
-Mixpanel,1
-Xamarin,2
-.NET CORE,0
-Hadoop,67
-Cassandra,14
-Oracle,127
-Angular,127
-Perl,478
-SQL,231
-MatLab,12
-Groovy,3
-NoSQL,261
+Mixpanel,0
+Xamarin,1
+.NET CORE,7
+Hadoop,0
+Cassandra,1
+Oracle,3
+Angular,16
+Perl,2
+SQL,21
+MatLab,0
+Groovy,0
+NoSQL,9
