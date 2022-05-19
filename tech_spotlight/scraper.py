@@ -162,7 +162,8 @@ def main():
     VPN if scraping more than 300 jobs.
     ---> The scraper will pause for a number of 
     minutes every 100 jobs. <---
-    > """)
+    
+    Please enter a number of jobs to scrape > """)
     filename = input("""
     > Please enter output filename, raw file
     will be a .txt file
@@ -191,7 +192,11 @@ def main():
     raw_file_path = f"./{filename}.txt"
     csv_file_path = f"{filename}_terms.csv"
     write_data(raw_file_path, './datasets/tech_list.txt', csv_file_path)
-    
+    print(f"""
+    Tech Spotlight has finished the scrape and 
+    processed the raw data into a csv file.
+    The csv file name is : {filename}_terms.csv       
+    """)
 
 def scraper(job_title, location, age, scrapes, filename):
     """
