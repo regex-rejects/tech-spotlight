@@ -67,7 +67,6 @@ def get_terms(read_file, terms_file):
         for item in match:
             match_num += 1
             lower_match.append(item.lower())
-            print(match_num)
         data_list.append((term, len(lower_match)))
     return data_list
 

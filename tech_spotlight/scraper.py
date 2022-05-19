@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import time
 import random
 import sys
-from tech_term_search import write_data
+from tech_term_search import write_data, get_terms,open_terms,open_text
 
 def soup_kitchen(job_title, location, age, start):
     """
@@ -96,8 +96,8 @@ def nonetype_received(scrapes, scraped_jobs):
         >>> this. You will need to start over. Try,     <<<
         >>> using a vpn, to swap your IP address mid    <<<
         >>> scrape.                                     <<<
-        >>> We successfully scraped {scraped_jobs}      <<<
-        >>> out of the attempted {scrapes} total.       <<<
+            We successfully scraped {scraped_jobs}      
+            out of the attempted {scrapes} total.       
         >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<
     """)
     sys.exit()
@@ -113,12 +113,12 @@ def main():
         >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<
         >>>>>>>>>>> Welcome to the Tech Spotlight <<<<<<<<<<
         >>> This tool, scrapes indeed for a given search <<<
-        >>> query, Returning both a raw text file, and   <<<
+        >>> query, returning both a raw text file, and   <<<
         >>> a processed .CSV file, containing the number <<<
-        >>> of times a given tech appears in the raw     <<<
+        >>> of times a given term appears in the raw     <<<
         >>> text.                                        <<<
         >>>                                              <<<
-        >>> text. If you would like to see the techs we  <<<
+        >>> If you would like to see the technologies we <<<
         >>> are counting, the list is under /datasets as <<<
         >>> tech_list.txt                                <<<
         >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -152,21 +152,24 @@ def main():
         > """)
     scrapes = input("""
     > Please enter a number of jobs to scrape,
-    This determines the size of the dataset,
-    Keep in mind the larger the dataset the longer
+    this determines the size of the dataset,
+    keep in mind the larger the dataset the longer
     the scrape will take. 
         
     example: a scrape of 900 jobs will take 
     over an hour in most cases, and runs the risk
     of being stopped by indeed. Consider using a
     VPN if scraping more than 300 jobs.
-    > """)
+    ---> The scraper will pause for a number of 
+    minutes every 100 jobs. <---
+    
+    Please enter a number of jobs to scrape > """)
     filename = input("""
     > Please enter output filename, raw file
     will be a .txt file
-    !! you do not need to add the .txt extension !!
+    !! You do not need to add the .txt extension !!
     example input: dev_ops_Seattle_300_jobs
-    
+    example output: dev_ops_Seattle_300_jobs.txt
     > """)
 
     print(f"""
@@ -176,10 +179,24 @@ def main():
     age: {age}
     scrapes: {scrapes}
     filename: {filename}
+    After scraper is done the raw txt file will
+    be processed into a csv file. 
+    
+    Your raw text file will be called: {filename}.txt
+    Your processed csv file will be called: {filename}_terms.csv
+    
+    Your scrape will begin shortly...
     """)
     time.sleep(2)
     scraper(job_tile, location, age, int(scrapes), filename)
-
+    raw_file_path = f"./{filename}.txt"
+    csv_file_path = f"{filename}_terms.csv"
+    write_data(raw_file_path, './datasets/tech_list.txt', csv_file_path)
+    print(f"""
+    Tech Spotlight has finished the scrape and 
+    processed the raw data into a csv file.
+    The csv file name is : {filename}_terms.csv       
+    """)
 
 def scraper(job_title, location, age, scrapes, filename):
     """
