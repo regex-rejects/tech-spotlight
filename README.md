@@ -131,5 +131,4 @@ ___
 - Adam Owada
 - Aaron Imbrock
 - Joseph Streifel
-- Aaron Imbrock
 - Chloe Nott
