@@ -1,48 +1,82 @@
-# Tech Spotlight / Beacon
+# Tech Spotlight
+
+## Project Description
+
+Welcome to Tech Spotlight. The goal of this project is to search through relevant job postings and find the frequency of technologies associated with those jobs.
+
+This is achieved in two parts: a scraper that scrapes data off Indeed.com with three queries, location, age of posting and number of postings and a Kaggle notebook that tells the story about what technologies, frameworks and libraries were found and how frequently they were posted.
 
 ## Project Authors
 
-Benjamin Carter, Eden Brekke, Nicholas Mercado, Christopher Yamas
+**Team Beacon**
 
-## User Stories
+- Benjamin Carter
+- Eden Brekke
+- Nicholas Mercado
+- Christopher Yamas
 
-![Screenshot of User Stories Backlog in Jira](./image_assets/jira_user_stories.png)
-    *Above: a screenshot of the user stories in Jira project backlog*
+## How to install/Use
 
-### 1. Furthered Learning
+### Scraper
 
-- As someone who's searching for a job I want to know what technologies are most relevant in job postings, and thus where I should be focusing my learning into.
-- Web scraper will grab technology terms from a number of job postings.
-- Data scraped from the postings will be posted as a graph to show which terms show up most often.
+```py
 
-### 2. Where do I belong?
+    git clone https://github.com/regex-rejects/tech-spotlight.git
 
-- As someone who's searching for a job I would like to be able to see where to point my job search, based on my current tech stack.
-- Web Scraper will show the tech terms companies are interested in.
-- Data scraped will be counted to show how much each term is listed within the set.
+    Create visual python environment (venv)
 
-### 3. Visualization
+        example: 
+            python3 -m venv .venv
 
-- As a job searcher I'm a lot more visual and would like to see the data within graphs.
-- Data analysis on the web scraped data to display a graph of the terms grabbed and their relevance.
-- Graph of terms and their counts will be displayed in a readable graph.
+    activate virtual environment
 
-### 4. Consistency
+        example:
+            source .venv/bin/activate
 
-- As someone searching for a job I want to know how frequently the technology desired is changing.
-- Perform two scrapes, one at the start of the week and one a couple of days later and compare the patterns
-- Display two graphs, and show the difference(if any) between the two scrapes.
+    pip install -r requirements
 
-### 5. Compare Salary to Tech Term (Stretch)
+    Run web scraper:
+    
+         python tech_spotlight/scraper.py
 
-- As someone who's searching for a job I'd like to know how salary ranges compare between two tech skill sets.
-- Web Scraper will include salary ranges listed on job listing, and data visualization will compare these two columns (tech term and salary)
-- Graph will display the comparison between tech terms and salary range.
+```
 
-## Software Requirements
+### Kaggle Notebook
 
-You can read the [Software Requirements](./requirements.md) for this project.
+[link to Kaggle]("https://www.kaggle.com/code/edenbrekke/indeed-past-7-day-900-listing-term-data-18may2022")
 
-## Domain Modeling
+Upload output csv file to new notebook and use above code as reference
 
-![Domain Modeling Screenshot](./image_assets/domain_modeling.png)
+## Version
+
+Version 1.0
+
+## Technologies Used
+
+Kaggle
+
+### libraries
+
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- requests
+- urllib
+- bs4
+- time
+- random
+- sys
+- csv
+
+## Acknowledgments
+
+- JB Tellez
+- David Hecker
+- Adam Owada
+- Aaron Imbrock
+- Joseph Streifel
+- Aaron Imbrock
+- Chloe Nott
+
+## Known issues
