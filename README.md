@@ -4,7 +4,7 @@
 
 Welcome to Tech Spotlight. The goal of this project is to search through relevant job postings and find the frequency of technologies associated with those jobs.
 
-This is achieved in two parts: a scraper that scrapes data off Indeed.com with three queries, location, age of posting and number of postings and a Kaggle notebook that tells the story about what technologies, frameworks and libraries were found and how frequently they were posted.
+This is achieved in two parts: a scraper that scrapes data off Indeed.com with four queries, job title, location, age of posting, and a number of jobs to scrape, and a Kaggle notebook that tells the story about what technologies, frameworks, and libraries were found and how frequently they were posted.
 
 ## Project Authors
 
@@ -28,18 +28,18 @@ This is achieved in two parts: a scraper that scrapes data off Indeed.com with t
 
     Create visual python environment (venv)
 
-        example: 
-            python3 -m venv .venv
+        example:
+            python3 -m venv .venv (mac/wsl)
+            py -m venv .venv (windows native)
 
     activate virtual environment
-
         example:
-            source .venv/bin/activate
+            source .venv/bin/activate (mac/wsl)
+            .\.venv\Scripts\activate (windows native)
 
-    pip install -r requirements
+    pip install -r requirements.txt
 
     Run web scraper:
-    
          python tech_spotlight/scraper.py
 
 ```
