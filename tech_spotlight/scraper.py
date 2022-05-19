@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import time
 import random
 import sys
-
+from tech_term_search import write_data
 
 def soup_kitchen(job_title, location, age, start):
     """
@@ -226,6 +226,7 @@ def scraper(job_title, location, age, scrapes, filename):
                     file = str(filename) + '.txt'
                     with open(file, 'a+', encoding='utf-8') as f:
                         f.write(description)
+                        f.write('\n \n _________________________________New Job______________________________ \n \n ')
                     print(str(job_id) + " Num scraped: " + str(scraped_jobs))
                     if scraped_jobs == scrapes:
                         return print('scrape finished')
