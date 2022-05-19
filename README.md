@@ -1,39 +1,51 @@
-# Tech Spotlight / Beacon
+# Tech Spotlight
+
+## Project Description
+
+Welcome to Tech Spotlight. The goal of this project is to search through relevant job postings and find the frequency of technologies associated with those jobs.
+
+This is achieved in two parts: a scraper that scrapes data off Indeed.com with three queries, location, age of posting and number of postings and a Kaggle notebook that tells the story about what technologies, frameworks and libraries were found and how frequently they were posted.
 
 ## Project Authors
+
+**Team Beacon**
 
 - Benjamin Carter
 - Eden Brekke
 - Nicholas Mercado
 - Christopher Yamas
 
-## Project Description
+## How to install/Use
 
-<!-- As someone who's searching for a job I want to know what technologies are most relevant in job postings, and thus where I should be focusing my learning into.
-- Web scraper will grab technology terms from a number of job postings.
-- Data scraped from the postings will be posted as a graph to show which terms show up most often. -->
+### Scraper
 
+```py
 
+    git clone https://github.com/regex-rejects/tech-spotlight.git
 
-Welcome to Tech Spotlight. 
-<!-- Describe project and main goal -->
+    Create visual python environment (venv)
 
-<!-- What your application does,
+        example: 
+            python3 -m venv .venv
 
-Why you used the technologies you used,
+    activate virtual environment
 
-Some of the challenges you faced and features you hope to implement in the future. -->
+        example:
+            source .venv/bin/activate
 
-How to install
-<!-- steps to install -->
+    pip install -r requirements
 
-How to use
-<!-- walkthrough on using the program
-    - Two parts
-      - Scraper cli
-      - Notebook link to Kaggle https://www.kaggle.com/code/edenbrekke/indeed-past-7-day-900-listing-term-data-18may2022/edit -->
+    Run web scraper:
+    
+         python tech_spotlight/scraper.py
 
+```
 
+### Kaggle Notebook
+
+[link to Kaggle]("https://www.kaggle.com/code/edenbrekke/indeed-past-7-day-900-listing-term-data-18may2022")
+
+Upload output csv file to new notebook and use above code as reference
 
 ## Version
 
@@ -68,9 +80,3 @@ Kaggle
 - Chloe Nott
 
 ## Known issues
-
-Stuff thats broke!
-
-## Software Requirements
-
-You can read the [Software Requirements](./requirements.md) for this project.
