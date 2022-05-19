@@ -5,7 +5,6 @@ import csv
 def open_text(read_file):
     with open(read_file, 'rt') as f:  # BRING IN RAW FILE
         text_content = f.read()
-    f.close()
     return text_content
 
 
@@ -16,7 +15,6 @@ def open_terms(terms_file):
         for line in list_content:
             line_stripped = line.strip('\n')
             tech_terms.append(line_stripped)
-    f.close()
     return tech_terms
 
 
@@ -24,7 +22,7 @@ def get_terms(read_file, terms_file):
     text_content = open_text(read_file)
     term_list = open_terms(terms_file)
     data_list = []
-    match_num = 0
+    # match_num = 0
     for term in term_list:
         if term == "Amazon EC2":
             pattern = r'Amazon EC2\W[^C]'
@@ -62,13 +60,15 @@ def get_terms(read_file, terms_file):
             pattern = r'Visual Studio\W[^C]'
         else:
             pattern = r'' + re.escape(term)
-        match = re.findall(pattern, text_content, re.IGNORECASE)
-        lower_match = []
-        for item in match:
-            match_num += 1
-            lower_match.append(item.lower())
-        data_list.append((term, len(lower_match)))
+        match = 0
+        text_posts_list = text_content.split('__New Job__')
+        for post in text_posts_list:
+            match_list = re.findall(pattern, post, re.IGNORECASE)
+            if len(match_list) > 0:
+                match += 1
+        data_list.append((term, match))
     return data_list
+
 
 
 def write_data(read, terms, write):
@@ -78,8 +78,7 @@ def write_data(read, terms, write):
         writer = csv.writer(f)
         writer.writerow(header)
         writer.writerows(data_list)
-    f.close()
 
 
 if __name__ == '__main__':
-    write_data('tech_spotlight/duplicate_test_100_jobs.txt', 'datasets/tech_list.txt', 'duplicate_test_100_jobs.csv')
+    write_data('./datasets/sf_300jobs_raw.txt', 'datasets/tech_list.txt', './datasets/new_sf_300_jobs.csv')
