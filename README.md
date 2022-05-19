@@ -8,12 +8,15 @@ This is achieved in two parts: a scraper that scrapes data off Indeed.com with t
 
 ## Project Authors
 
-**Team Beacon**
+**Team Spotlight**
 
-- Benjamin Carter
-- Eden Brekke
-- Nicholas Mercado
-- Christopher Yamas
+- Benjamin Carter: [GitHub](https://github.com/MotoBenny) and [LinkedIn](https://www.linkedin.com/in/benjamin-carter-dev/)
+
+- Nicholas Mercado: [GitHub](https://github.com/Nicholas-Mercado) and [LinkedIn](https://www.linkedin.com/in/nicholasmercado/)
+
+- Christopher Yamas: [GitHub](https://github.com/chrisyamas)  and [LinkedIn](https://www.linkedin.com/in/chrisyamas/)
+
+- Eden Brekke: [GitHub](https://github.com/eden-brekke) and [LinkedIn](https://www.linkedin.com/in/eden-brekke/)
 
 ## How to install/Use
 
@@ -43,7 +46,7 @@ This is achieved in two parts: a scraper that scrapes data off Indeed.com with t
 
 ### Kaggle Notebook
 
-[link to Kaggle]("https://www.kaggle.com/code/edenbrekke/indeed-past-7-day-900-listing-term-data-18may2022")
+[Indeed Past 7 Day 900 Listing Term Data 18 May 2022]("https://www.kaggle.com/code/edenbrekke/indeed-past-7-day-900-listing-term-data-18may2022")
 
 Upload output csv file to new notebook and use above code as reference
 
@@ -53,7 +56,7 @@ Version 1.0
 
 ## Technologies Used
 
-Kaggle
+[Kaggle](https://www.kaggle.com/)
 
 ### libraries
 
@@ -79,4 +82,3 @@ Kaggle
 - Aaron Imbrock
 - Chloe Nott
 
-## Known issues
