@@ -4,22 +4,25 @@ import csv
 
 def open_text(read_file):
     """
-    Opens the raw text file as 'rt'
-    :param read_file:  raw text file to read
-    :return: text_content .read() of raw text file
+    Function opens and reads the text file of job description
+    content from Indeed.com
+    :param read_file: job description text file
+    :return: content of text file as a string
     """
-    with open(read_file, 'rt') as f:  # BRING IN RAW FILE
+    with open(read_file, 'rt') as f:
         text_content = f.read()
     return text_content
 
 
 def open_terms(terms_file):
     """
-    Opens the terms list file, creating a list of its contents seperated by each term/tech
-    :param terms_file: raw txt of techs to search for
-    :return: formatted list, of the terms split by each term.
+    Function opens text file containing the list of common
+    tech terms, reading each line and stripping the terms
+    into a list
+    :param terms_file: text file of terms
+    :return: list containing strings of each term
     """
-    with open(terms_file, 'rt') as f:  # BRING IN TERMS
+    with open(terms_file, 'rt') as f:
         list_content = f.readlines()
         tech_terms = []
         for line in list_content:
@@ -30,12 +33,14 @@ def open_terms(terms_file):
 
 def get_terms(read_file, terms_file):
     """
-    Function iterates through the raw text file, checking for the terms included in term list.
-    Uses conditional regex pattern matching, and ensures that only one count of each term is counted once
-    for a given job posting.
-    :param read_file: Raw text file of scraped job posts.
-    :param terms_file: tech terms to search for
-    :return: term: count
+    Function calls open_text() and open_terms() functions
+    to search the job description text content for each
+    tech term string to count the number of posts that
+    mention each terms
+    :param read_file: job description text file
+    :param terms_file: text file of terms
+    :return: list containing each term and the
+    corresponding number of posts mentioning it
     """
     text_content = open_text(read_file)
     term_list = open_terms(terms_file)
@@ -90,11 +95,14 @@ def get_terms(read_file, terms_file):
 
 def write_data(read, terms, write):
     """
-    writes a CSV of the output from get terms func. to a file with a provided name.
-    :param read: The raw text file to read
-    :param terms: the terms file
-    :param write: the output csv file name
-    :return: returns a CSV file to root application path.
+    Function calls get_terms() function to get
+    list of term occurrence frequency, then opens
+    and writes data to a comma-separated values (CSV)
+    file with appropriate labels
+    :param read: job description text file
+    :param terms: text file of terms
+    :param write: csv file to which data list is written
+    :return: none
     """
     data_list = get_terms(read, terms)
     header = ["Term", "Frequency"]
