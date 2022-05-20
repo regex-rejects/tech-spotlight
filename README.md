@@ -11,7 +11,6 @@ ___
 ## Display
 
 
-
 Example of output after csv file processed by kaggle notebook
 
 ### Full Dataset from Term Detection
@@ -93,7 +92,7 @@ Run web scraper:
     python tech_spotlight/scraper.py
 ```
 
-[You can input the CSV file this application has created into this notebook template](https://www.kaggle.com/code/edenbrekke/tech-spotlight-indeed-web-scraper-template/notebook)
+[You can input the CSV file this application has created into this notebook template to view your data](https://www.kaggle.com/code/edenbrekke/tech-spotlight-indeed-web-scraper-template/notebook)
 
 ___
 
