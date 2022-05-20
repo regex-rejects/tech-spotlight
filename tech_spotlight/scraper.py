@@ -7,6 +7,7 @@ import random
 import sys
 from tech_term_search import write_data
 
+
 def soup_kitchen(job_title, location, age, start):
     """
     Function receives args and formats URL query for each cycle through scraper.
@@ -200,7 +201,7 @@ def main():
     import your new dataset to visualize your data.
     https://www.kaggle.com/code/edenbrekke/tech-spotlight-indeed-web-scraper-template/notebook     
     """)
-   
+
     
 def scraper(job_title, location, age, scrapes, filename):
     """
