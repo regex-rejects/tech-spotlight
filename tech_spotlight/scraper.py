@@ -195,9 +195,16 @@ def main():
     print(f"""
     Tech Spotlight has finished the scrape and 
     processed the raw data into a csv file.
-    The csv file name is : {filename}_terms.csv       
+    The csv file name is : {filename}_terms.csv
+    We encourage you to fork this notebook and
+    import your new dataset to visualize your data.
+    https://www.kaggle.com/code/edenbrekke/tech-spotlight-indeed-web-scraper-template/notebook     
     """)
-
+    print("""
+          
+    
+    """)
+    
 def scraper(job_title, location, age, scrapes, filename):
     """
     Main application function, calls all other functions to perform the requested job scrape.
