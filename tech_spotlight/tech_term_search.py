@@ -45,7 +45,6 @@ def get_terms(read_file, terms_file):
     text_content = open_text(read_file)
     term_list = open_terms(terms_file)
     data_list = []
-    # match_num = 0
     for term in term_list:
         if term == "Amazon EC2":
             pattern = r'Amazon EC2\W[^C]'
