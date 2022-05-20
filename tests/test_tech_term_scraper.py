@@ -35,12 +35,3 @@ def test_write_data_content_exists():
     written_content = csv.reader(file)
     assert written_content
     file.close()
-
-
-# # @pytest.mark.skip("TODO")
-# def test_written_data_contains_python():
-#     read_file = './test-raw-data/sample_read.txt'
-#     terms_file = './datasets/tech_list.txt'
-#     write_file = './test-raw-data/sample_write.csv'
-#     write_data(read_file, terms_file, write_file)
-#     with open(write_file, )

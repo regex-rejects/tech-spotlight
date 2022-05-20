@@ -190,9 +190,9 @@ def main():
     """)
     time.sleep(2)
     scraper(job_tile, location, age, int(scrapes), filename)
-    raw_file_path = f"./{filename}.txt"
+    raw_file_path = f"{filename}.txt"
     csv_file_path = f"{filename}_terms.csv"
-    write_data(raw_file_path, './datasets/tech_list.txt', csv_file_path)
+    write_data(f'/Users/bencarter/projects/Code401/tech-spotlight/tech_spotlight/{raw_file_path}', '/Users/bencarter/projects/Code401/tech-spotlight/datasets/tech_list.txt', csv_file_path)
     print(f"""
     Tech Spotlight has finished the scrape and 
     processed the raw data into a csv file.
