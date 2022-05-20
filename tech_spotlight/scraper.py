@@ -200,10 +200,7 @@ def main():
     import your new dataset to visualize your data.
     https://www.kaggle.com/code/edenbrekke/tech-spotlight-indeed-web-scraper-template/notebook     
     """)
-    print("""
-          
-    
-    """)
+   
     
 def scraper(job_title, location, age, scrapes, filename):
     """
