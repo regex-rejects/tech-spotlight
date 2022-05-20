@@ -7,6 +7,7 @@ import random
 import sys
 from tech_term_search import write_data
 
+
 def soup_kitchen(job_title, location, age, start):
     """
     Function receives args and formats URL query for each cycle through scraper.
@@ -189,15 +190,19 @@ def main():
     """)
     time.sleep(2)
     scraper(job_tile, location, age, int(scrapes), filename)
-    raw_file_path = f"./{filename}.txt"
+    raw_file_path = f"{filename}.txt"
     csv_file_path = f"{filename}_terms.csv"
-    write_data(raw_file_path, './datasets/tech_list.txt', csv_file_path)
+    write_data(f'/Users/bencarter/projects/Code401/tech-spotlight/tech_spotlight/{raw_file_path}', '/Users/bencarter/projects/Code401/tech-spotlight/datasets/tech_list.txt', csv_file_path)
     print(f"""
     Tech Spotlight has finished the scrape and 
     processed the raw data into a csv file.
-    The csv file name is : {filename}_terms.csv       
+    The csv file name is : {filename}_terms.csv
+    We encourage you to fork this notebook and
+    import your new dataset to visualize your data.
+    https://www.kaggle.com/code/edenbrekke/tech-spotlight-indeed-web-scraper-template/notebook     
     """)
 
+    
 def scraper(job_title, location, age, scrapes, filename):
     """
     Main application function, calls all other functions to perform the requested job scrape.

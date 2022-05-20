@@ -3,13 +3,26 @@ import csv
 
 
 def open_text(read_file):
-    with open(read_file, 'rt') as f:  # BRING IN RAW FILE
+    """
+    Function opens and reads the text file of job description
+    content from Indeed.com
+    :param read_file: job description text file
+    :return: content of text file as a string
+    """
+    with open(read_file, 'rt') as f:
         text_content = f.read()
     return text_content
 
 
 def open_terms(terms_file):
-    with open(terms_file, 'rt') as f:  # BRING IN TERMS
+    """
+    Function opens text file containing the list of common
+    tech terms, reading each line and stripping the terms
+    into a list
+    :param terms_file: text file of terms
+    :return: list containing strings of each term
+    """
+    with open(terms_file, 'rt') as f:
         list_content = f.readlines()
         tech_terms = []
         for line in list_content:
@@ -19,10 +32,19 @@ def open_terms(terms_file):
 
 
 def get_terms(read_file, terms_file):
+    """
+    Function calls open_text() and open_terms() functions
+    to search the job description text content for each
+    tech term string to count the number of posts that
+    mention each terms
+    :param read_file: job description text file
+    :param terms_file: text file of terms
+    :return: list containing each term and the
+    corresponding number of posts mentioning it
+    """
     text_content = open_text(read_file)
     term_list = open_terms(terms_file)
     data_list = []
-    # match_num = 0
     for term in term_list:
         if term == "Amazon EC2":
             pattern = r'Amazon EC2\W[^C]'
@@ -70,8 +92,17 @@ def get_terms(read_file, terms_file):
     return data_list
 
 
-
 def write_data(read, terms, write):
+    """
+    Function calls get_terms() function to get
+    list of term occurrence frequency, then opens
+    and writes data to a comma-separated values (CSV)
+    file with appropriate labels
+    :param read: job description text file
+    :param terms: text file of terms
+    :param write: csv file to which data list is written
+    :return: none
+    """
     data_list = get_terms(read, terms)
     header = ["Term", "Frequency"]
     with open(write, 'w') as f:
