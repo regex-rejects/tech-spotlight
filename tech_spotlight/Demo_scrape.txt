@@ -1,0 +1,1484 @@
+
+Estimated time to complete: 5-10 minutes.
+UtilityAPI is a mission-driven company that is fighting climate change by helping solar, storage, energy efficiency, and energy management companies access the utility bill and usage data they need for their projects. Lack of access to data is a key chokepoint for many companies in renewable energy, and our automation helps shorten the sales cycle and lower their customer acquisition costs. Our customers love us.
+We have a diverse leadership team and we value the insights that a diverse team can bring. We encourage applications from members of groups that have been traditionally underrepresented and underestimated in tech, including women, people of color and people with disabilities.
+==Job Description==
+You will be writing application code and helping maintain/optimize/scale the Python stack. You will write scripts that collect data from utilities, and these scripts can break unexpectedly when utilities change their interfaces, so being able to update them quickly is important. Our codebase (Python, Django, Celery) is well organized, documented, and tested. You are welcome to work remotely in the United States or in our office in downtown Oakland, if we return there.
+REMOTE WORK: OK (U.S. Only)
+==Compensation==* Salary $70-90k, depending on experience and location* Stock options* Medical, dental, vision insurance* 401k
+==Requirements==* U.S. Citizen, Permanent Resident, or non-expiring Visa not requiring sponsorship* At least 1 year of Python work experience, and in-depth knowledge of Python Language* HTTP (an understanding of methods, cookies, headers, etc.)* Regular Expressions (you need to have a pretty solid understanding of these)* CSS Selectors (you need to be comfortable using them)* JavaScript (you don't need to be an expert but you do need some experience with it)* Git, SSH, GPG (basic understanding)
+==Preferred==* Experience with web scraping tools such as Selenium, Scrapy, Mechanize, etc.
+HOW TO APPLY
+Go to:
+https://goo.gl/forms/YICrUuz7XNjiTcId2 and fill out our application
+Job Type: Full-time
+Pay: $70,000.00 - $90,000.00 per year
+Benefits:
+
+401(k)
+Dental insurance
+Flexible schedule
+Health insurance
+Paid time off
+Vision insurance
+
+Schedule:
+
+Monday to Friday
+
+Experience:
+
+REST: 1 year (Preferred)
+Java: 1 year (Preferred)
+
+Work Location: Remote
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+About the team Are you interested in innovating new computer vision and deep learning technologies to power immersive experiences that change how people experience and envision their next home? Zillow’s Rich Media Experiences (RMX) team employs computer vision, 3D, and deep learning to invent the technology that enables Zillow's customers to make sense of a home's information in order to find their dream home. Using groundbreaking technologies, our team works across product, research, engineering, and business to enable people to walk through a home. You'll have the opportunity to create new state-of-the-art technologies that deliver unrivaled information and visual experiences to our customers. You can be a part of empowering the next-generation of home shopping!
+  
+ About the role
+ The RMX Team is looking for a Machine Learning Engineer to help us advance Zillow's mission by developing outstanding and highly engaging user experiences. The team is staffed with researchers, engineers, and designers building spatial understanding algorithms and deep learning models that power immersive media experiences for buyers and renters.
+ As a Machine Learning Engineer, you will work closely with Applied Scientists, other MLEs and software developers to improve the efficiency and effectiveness of our team’s codebase and technical exploration and position them to thrive. You will be encouraged to keep up with the latest CV/ML frameworks and best modeling and coding practices. Our solutions will ingest large volumes of data (imagery and metadata), and process it to build the exciting and immersive experiences that can be explored on zillow.com. In this role, you'll:
+
+ Collaborate with a team of scientists and engineers to build a computer vision platform for extracting geometric and semantic information from real estate photos
+ Develop algorithms and models for solving novel and exciting computer vision problems
+ Work hands-on in technical feature development, design and code-reviews, and prototyping
+
+ This role has been categorized as a Remote position. “Remote” employees do not have a permanent corporate office workplace and, instead, work from a physical location of their choice which must be identified to the Company. Employees may live in any of the 50 US States, with limited exceptions. In certain cases, an employee in a remote-designated job may need to live in a specific region or time zone to support customers or clients as part of their role.
+   In Colorado, Connecticut, Nevada and New York City the standard base pay range for this role is $132,400.00 - $211,600.00 Annually. This base pay range is specific to Colorado, Connecticut, Nevada and New York City and may not be applicable to other locations.
+  
+ Who you are
+ As a Machine Learning Engineer, you are a roll-up-the-sleeves and get it done practitioner in computer vision with exposure to machine learning. This is a new, fast-growing space, and we are looking for someone who has:
+
+ Degree in Computer Science or Engineering, Machine Learning, Computer Vision, or related domain or equivalent industry experience
+ Exposure to computer vision research, building models, and algorithms
+ Proficiency (academic is acceptable) with a high-level programming language (Python and/or C++)
+ Experience building data pipelines, exploration and visualization tools
+ Experience building computer vision prototypes in frameworks like OpenCV
+ Experience training machine learning models in frameworks like Tensorflow and PyTorch
+ Experience optimizing and deploying models
+ Practical knowledge of Deep Learning (academic coursework is acceptable)
+ The communication skills to work collaboratively to prototype, develop, and implement new technologies
+ The tenacity to embrace and solve challenging problems
+
+ In addition to a competitive base salary this position is also eligible for equity awards based on factors such as experience, performance and location.
+  
+ Get to know us
+ Zillow is reimagining real estate to make it easier to unlock life’s next chapter.
+
+ As the most-visited real estate website in the United States, Zillow® and its affiliates help movers find and win their home through digital solutions, first class partners, and easier buying, selling, financing and renting experiences. Millions of people visit Zillow Group sites every month to start their home search, and now they can rely on Zillow to help make it easier to move. The work we do is helping people move from dreaming to transacting — and no matter what job you're in, you will play a critical role in making this vision a reality.
+ Our efforts to streamline the real estate transaction are supported by a deep-rooted culture of innovation, our passion to redefine the employee experience, a fundamental commitment to Equity and Belonging, and world-class benefits. We’re also setting the standard for work experiences of the future, where our employees are supported in doing their best work and living a flexible, well-balanced life. But don’t just take our word for it. Read recent reviews on Glassdoor and recent recognition from multiple organizations, including: the 100 Best Companies to Work For in 2022 list, Glassdoor Employees’ Choice Award, honoring the Best Places to Work in 2022, Bloomberg Gender-Equality Index 2022, Human Rights Campaign (HRC) Corporate Equity Index and Best Place to Work for LGBTQ Equality 2022, and TIME 100 Most Influential Companies list. 
+
+Zillow Group is an equal opportunity employer committed to fostering an inclusive, innovative environment with the best employees. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. If you have a disability or special need that requires accommodation, please contact us at RecruitingAccessibility@zillowgroup.com.
+
+ Applicants who receive job offers from Zillow Group will be asked to sign a Proprietary Rights Agreement which includes confidentiality, intellectual property assignment, customer and employee non-solicitation, and non-competition provisions. If you are contacted for a role at Zillow Group and wish to review a copy of the Proprietary Rights Agreement prior to receiving an offer, you may request a copy from your Recruiter.
+
+ See what information we collect about you.
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+Position Summary
+This hands on role includes all phases of the software development lifecycle, including requirements, design, testing and deployment for large multi-tier applications.
+As part of our Enterprise team, you'll be able to offer design and technical creativity and flexibility.
+Primary Responsibilities
+
+Analyze, design, code, and debug software for new development.
+Implement feature/functions of enterprise applications.
+Modify and reuse existing code for software enhancements.
+Implement and adhere to software engineering best practices.
+Contribute to the organization, processes, teams and product in a significant manner.
+Adhere to organizational processes and procedures.
+Work independently and as a team member.
+Exhibit initiative and drive to complete tasks in a timely manner.
+Complete special projects or other duties as assigned.
+Contribute positively to the working environment.
+
+Skills and Qualifications
+
+Demonstrated knowledge of developing web applications.
+Proficient with Java.
+Proficient with JavaScript/CSS/HTML.
+Preference given to those having experience with open-source technologies such as Spring Boot and Spring-WS.
+Preference given to individuals with experience with developing web services (SOAP or REST) and/or experience with SAML 2.0 Single Sign On solutions.
+Preference given to those with experience in high availability and highly scalable web environment.
+Experience in coding and debugging.
+Working knowledge of SQL query commands and database fundamentals.
+An understanding of web standards, content management, web page layout, information architecture, user interaction, and usability.
+Able to think independently to resolve complex system issues.
+Excellent written and verbal communication skills.
+
+WE ARE AN EQUAL OPPORTUNITY EMPLOYER
+Job Type: Full-time
+Pay: From $75,000.00 per year
+Benefits:
+
+401(k)
+401(k) matching
+Dental insurance
+Flexible schedule
+Flexible spending account
+Health insurance
+Health savings account
+Life insurance
+Paid time off
+Parental leave
+Referral program
+Vision insurance
+
+Schedule:
+
+8 hour shift
+Day shift
+Monday to Friday
+
+Application Question(s):
+
+What is your desired salary range?
+Will you now or in the future require HealthTrio to commence (“sponsor”) an immigration case in order to employ you (for example, H-1B or other employment-based immigration case)?
+
+Education:
+
+Bachelor's (Preferred)
+
+Experience:
+
+Web Enterprise applications: 1 year (Preferred)
+SOAP or REST: 1 year (Preferred)
+Spring Boot and Sprint-WS/WebFlux: 1 year (Preferred)
+Java and/or GO: 1 year (Preferred)
+
+Work Location: Remote
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+
+    At Liberty Mutual, technology isn't just a part of our business, it's what drives us forward. We deliver our customers peace of mind every day by helping them protect what they value most. Our passion for placing the customer at the center of everything we do is driving a transformational shift at Liberty Mutual. Operating as an Agile team within a Fortune 100 company, we are on the front edge of an IT transformation for how people work and deliver solutions. 
+   
+
+
+    GRM US Business Lines (BL) Product is actively searching for a highly productive member of a remotely distributed, dynamic, and virtually collaborative agile team to serve as a technical expert in analysis, design, coding, and testing innovative front-end UI and API programming for the eSimple application. This position will support Products within Business Lines Software Engineering. 
+   
+
+Job Summary:
+ 
+As a Software Engineer, you will work collaboratively on a geographically diverse agile team to develop and enhance complex systems and/or software from user stories and technical/architectural specifications. You will analyze complex technical system problems and create innovative solutions that exceed customer expectations. 
+
+This is a fast-paced environment providing rapid delivery for our business partners. You will be working in a highly collaborative environment that values speed and quality, with a strong desire to drive change and foster a positive work environment as we continue our agile transformation journey. You will have the opportunity to help lead this change with us as we grow this culture, mindset and capability.
+
+ 
+
+
+In this role you will: 
+
+
+
+Work in a dynamic and exciting agile environment with Scrum Masters, Product Owners, and team members to develop creative solutions with our eSimple product that meet business and technical initiatives 
+Improve speed to market by focusing on current product needs as well as building out the long-term strategic solutions using Angular, TypeScript, Java, Spring Boot and possibly other backend languages.
+ Use of RXJS (Reactive Programming), NGRX (Store, Effects, Router-Store, Store-Devtools) and other emerging Front-End Technologies.
+ Use testing frameworks such as Junit5, Karma, and Jasmine
+ Build and use RESTful services
+ Demonstrate open minded and collaborative approach to creating innovative technical solutions 
+Analyze technical system problems to design and implement effective, flexible solutions
+ Handle end-to-end development, including coding, testing, and debugging during each cycle
+ Develop automated tests for multiple scopes (Unit, System, Integration, Regression)
+ Mentor new and junior developers
+ Identify and recommend appropriate continuous improvement opportunities 
+
+
+
+
+Bachelor's or Master's degree in technical or business discipline or equivalent experience, technical degree preferred
+ Generally, 1 - 3 years of professional experience
+ Experience developing design patterns using object-oriented languages
+ Knowledge of a variety of languages including Angular, React, Vue and Java
+ Cloud based programming experience
+ Extensive knowledge of IT concepts, strategies, methodologies.
+ Experience working with agile methodologies (Scrum, Kanban, XP) and cross-functional teams (Product Owners, Scrum Masters, Developers, Test Engineers)
+ Versed in diverse technologies and new technical architecture principles and concepts 
+Demonstrates leadership and active pursuit of optimizing CI/CD process and tools, testing frameworks and practices 
+Must be proactive, demonstrate initiative, be a logical thinker and problem solver
+ Above average communication skills
+ Must be team oriented with strong collaboration, prioritization, and adaptability skills required
+
+
+
+Additional Qualifications:
+ 
+
+Understanding of Cloud architecture concepts 
+Understanding of insurance industry and products
+ Excited by trying new technology and learning new tools
+
+
+
+
+     At Liberty Mutual, our purpose is to help people embrace today and confidently pursue tomorrow. That's why we provide an environment focused on openness, inclusion, trust and respect. Here, you'll discover our expansive range of roles, and a workplace where we aim to help turn your passion into a rewarding profession. 
+   
+
+
+    Liberty Mutual has proudly been recognized as a “Great Place to Work” by Great Place to Work® US for the past several years. We were also selected as one of the “100 Best Places to Work in IT” on IDG's Insider Pro and Computerworld's 2020 list. For many years running, we have been named by Forbes as one of America's Best Employers for Women and one of America's Best Employers for New Graduates—as well as one of America's Best Employers for Diversity. To learn more about our commitment to diversity and inclusion please visit: https://jobs.libertymutualgroup.com/diversity-inclusion 
+   
+
+
+    We value your hard work, integrity and commitment to make things better, and we put people first by offering you benefits that support your life and well-being. To learn more about our benefit offerings please visit: https://LMI.co/Benefits 
+   
+
+
+    Liberty Mutual is an equal opportunity employer. We will not tolerate discrimination on the basis of race, color, national origin, sex, sexual orientation, gender identity, religion, age, disability, veteran's status, pregnancy, genetic information or on any basis prohibited by federal, state or local law.
+   
+
+
+ 15
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+We develop software to help managers better understand their business, create and adapt operating plans and execute towards their vision. We are building a database system and frontend application designed to handle the next generation of business intelligence and finance workloads.
+What We Offer
+Candidates who are innately interested in high performance systems, algorithms and intellectually challenging work will enjoy being part of our team. Our team consists of high caliber professionals from finance and engineering.
+Who We’re Looking For
+This is a remote position.
+We are seeking a JavaScript React and NodeJS developer with at least 5 years of total programming experience. The right candidate will be familiar with React and enjoy crafting beautiful UX. The candidate will be comfortable working in a start-up environment, be willing to iterate quickly, have a great sense of user experience and business needs, and be able to collaborate with low level, database systems engineers as well as our business partners.
+The Software Stack
+The platform is developed in C/C++, React and NodeJS. We use React and NodeJS for our frontend application and C/C++ for our high-performance code.
+Required Skills
+
+You love to craft beautiful UX
+You have a very firm grasp of JavaScript / React
+You are familiar with NodeJS and have no problem diving in and coding in the backend, if needed
+Some level of DevOps abilities is a plus
+Experience of automation tools such as JEST or Puppeteer is a big plus
+
+Additional Requirements
+
+A specific desire to work at an early stage start-up and an understanding of the pros and cons associated with this
+Bachelor’s degree in Computer Science (or related field) is preferred, but not required for candidates with demonstrated abilities
+At least 5 years of programming experience
+Desire to interface with business users and demonstrated ability to translate business requirements into beautiful UX
+
+Job Type: Full-time
+Pay: $120,000.00 - $160,000.00 per year
+Benefits:
+
+401(k)
+Dental insurance
+Health insurance
+Paid time off
+Retirement plan
+Vision insurance
+
+Schedule:
+
+Monday to Friday
+
+Supplemental Pay:
+
+Bonus pay
+
+Work Location: Remote
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+As a frontend software engineer, you’ll lead our UX development work both within CTA and with our partners developing and creating solutions to make data easier to understand and act on.
+
+ Our infrastructure leverages powerful open-source and cloud-based tools, including Google BigQuery, Cloud Composer, Airbyte (ELT/ETL), and dbt. We use ReactJS, Webpack, and other modern client-side tooling to develop our Chrome Extension and web applications on the front-end. We also leverage WordPress for CMS work.
+
+ We use this tooling to empower our progressive organization partners to help them run effective campaigns and help bring clarity to pressing analytics and targeting problems in the progressive space.
+
+
+ About us
+
+ Community Tech Alliance is a group of progressive technologists and strategists formed to provide data infrastructure building blocks to the progressive ecosystem at a low cost. CTA seeks to uplevel program impact by unlocking the potential of data, using software and data engineering, and removing the barriers to entry. We are a small team of engineers, data practitioners, product managers, and strategists looking to create infrastructure for progressive change.
+
+ Community Tech Alliance believes strongly that:
+
+
+ Inclusive teams are strongest, and supportive work environments take investment, intentionality, and openness
+ Empathy is the cornerstone of building smart technology solutions
+ All team members should take ownership of the project and team’s development
+ Iteration is key, and smart solutions require action not perfection
+ Nothing great has been built without making mistakes and learning from them
+
+ As a frontend software engineer, you should:  
+
+Have experience working with Product to implement features in modern web frameworks
+ Have worked with ReactJS (or similar)
+ Have experience working with WordPress
+ Have experience working with cloud-based infrastructure projects with multiple engineers or contributors
+ Bring a security and reliability, and accessibility-first mindset to how we build and support products
+
+ We use things like:
+
+ On the backend, Python, SQL, and Java run in containerized environments on Google Compute Engine and Kubernetes Engine
+ ReactJS, Webpack, and other modern client-side tooling
+ To manage our infrastructure: HashiCorp Terraform and open-source build and testing tooling
+ Google Cloud Platform (too many individual services and APIs to name!)
+ Airplane and other cloud-hosted tools that allow us to run an efficient remote team and solve problems quickly and without a lot of overhead
+
+
+ We don’t expect every applicant to know or have worked with every technology we’ve listed, so we urge you to apply if you’re interested and some of the above apply to you! We’re looking for engineers of all levels and hiring for the people over the position above all else.  
+
+
+Physical Demands  
+The physical demands here represent those that an employee must meet to perform the essential functions of this job successfully. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions:
+
+Ability to sit at a computer monitor for extended periods of time
+
+Salary and Benefits
+
+ For a full-time role, salary commensurate with experience in the range of $130k-155k annually.
+ Contract rates start at $150/hour for part-time or $16,000/month for full-time. 
+We are a remote-first organization, so we provide equipment for your home workspace. We offer a competitive compensation salary and benefits package, including:  
+
+Generous healthcare, vision & dental insurance for employees
+Matching 401K contributions
+Generous paid time off (PTO)
+Generous holiday schedule
+Paid family leave
+Community Tech Alliance provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. 
+  
+ This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.
+ 
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+Job Description
+
+ Remote: This position does not require the employee to be on-site full-time to perform most effectively. The employee's role enables them to work off-site on a permanent basis.
+  
+ Work life balance, flexibility and your happiness are important to us!
+  
+ Welcome to the new era of 
+  ELECTRIFICATION! 
+  
+ Our vision is a world with ZERO Crashes, ZERO Emissions and ZERO Congestion. We embrace the responsibility to lead the change that will make our world better, safer, and more equitable for all. We are going to ELECTRIFY the WORLD with exciting new electric vehicles and much more!!
+  
+ Do you have a passion for coding and take pride in the software you create? Consider joining our GM family of Software Engineers in VMEC (Vehicle Motion Embedded Controls).
+  
+ The VMEC team is comprised of inclusive and diverse Agile teams, where everyone has a voice in the conversation. Our Software Development process translates Customer requirements into designs, creates code, executes testing, and then integrates our solutions into reality. Our team's software is demonstrated in vehicles today like the recently launched GMC Hummer, upcoming Cadillac Lyriq and electric Chevy Silverado. You can collaborate with the team that has a direct impact on the dramatically growing electric vehicle portfolio and help bring our vision of electric ecosystems, with energy storage solutions for homes & businesses, to production. We cover many domains and the list below provides details on each.
+  
+ Please review the Software Engineer role descriptions and required skillsets. All skillsets are NOT required collectively. Passion, ability to learn quickly, and interest in the products are important to us!
+  
+
+Job Description:
+
+
+ Embedded Controls SW Engineer
+
+ Produce or deliver software for embedded controls systems in the electrification, autonomous, engine, transmission, or chassis space. 
+ Design, development and implementation of Physics and Controls requirements to continuously improve software for mechatronic controls and diagnostics strategies as well as controller communication. 
+ Test & demonstrate software functionality & readiness 
+ Supply common solutions across all GM owned software 
+ Document requirements for design solution and link them to test cases that can demonstrate software functionality 
+ Utilize automated test tools in build environments, benches, and vehicles to verify functionality of the feature at the Controller, System and Vehicle level
+
+ Team Collaboration
+
+ Function as an inclusive Agile Scrum team member to deliver software solutions 
+ Coordinate and collaborate w/ departments outside VMEC such as Systems & Safety, Electrical Architecture, Software Defined Vehicle, Calibration and Vehicle Performance 
+ Have voice in software planning events, share ideas & learnings and help teach/train others
+
+
+
+ Additional Job Description
+
+
+Minimum Skillset Required
+
+
+ BS in Engineering - Electrical, Mechanical, Computer or BS in Computer Science 
+ Minimum 2+ years of experience with proven technical and professional skills in job-related area - embedded controls software 
+ Proficient in C, C++ programming 
+ Knowledge of Auto Code Generation 
+ Knowledge of Java, Matlab, Simulink, Python scripting, INCA, etc 
+ Outstanding levels of interpersonal and relationship management skills to effectively collaborate with varying levels of the organization as required 
+ Emerging partnership and teamwork skills and ability to learn from and share knowledge with co-workers in a fast-paced environment 
+ High level of integrity, ability to deal with ambiguity, take initiative/self-directed 
+ Consistent demonstration of innovative thinking that is customer-centric
+
+
+ Preferred Skills Required
+
+
+ MS in Engineering, Electrical, Mechanical, Computer or Computer Science 
+ Skilled in C, C++, Matlab, Simulink, Auto Code Generation, Python scripting, ETAS, INCA, MDA and other software tools for either the development or testing of software 
+ Experience with JIRA and Scaled Agile Framework 
+ Experience with bootloader, embedded operating systems, controller communication or diagnostics 
+ Knowledge of AUTOSAR standards and methodology 
+ Knowledge and experience with CAN, LIN, ARXML, or Ethernet communications protocol 
+ Architecture
+
+
+ Domains (areas of focus based on your passion and experience):
+
+
+Electrification, High Voltage - Our focus is High Voltage Contactor Controls, which enables propulsion of the vehicle, and High Voltage Energy Management, which focuses on dynamically monitoring the health of the battery system. 
+  
+
+Electrification Energy Transfer - Charging & Discharging interfaces, communications, & protocols to enable vehicle to successfully charge and discharge. Includes but not limited to vehicle level AC/DC charging, V2x features, EVSE interfaces, DIN/ISO, CCS, CHAdeMO, GB/T, etc.
+  
+
+Electrification Driver Data - Human Interface
+  ; Cluster, radio (HMI), & mobile app customer interfaces and notifications: vehicle range, state of charge, energy usage estimations; plug-in charging experience - schedules, locations, statuses, predictive and energy assist displays.
+  
+
+Battery Software Management - Algorithms designed for battery wireless sensing and communication, as well battery data detection & reporting and battery life management
+  
+
+Drive Mode - Software to support various drive mode features such as Shift-by-wire, cruise control, torque request, driver modes (sport, tour, tow/haul).
+  
+
+Electrification Propulsion - Software focused on optimizing system operation to maximize range and drivability of electrified vehicles
+  
+
+Thermal Management - Software to manage integrated thermal loops to optimize energy use and thermal storage capability. 
+  
+
+BSW- Basic Software - Software Development of Core Infrastructure functions; Memory Management, Communication & Diagnostic services, for all GM In-house Software Applications 
+  
+
+Safety Controls - Algorithms that detect controls errors and transition the system to a safe state. Focus of work will be electrification and engine controls. Topics include motor control, vehicle motion control, wheel control, and various engine controls topics.
+  
+
+Brake and Chassis - Software focused on areas such as Vehicle Dynamics & Chassis Controls
+  
+
+Transmission - Transmission Software positions focused on delivering world class transmission software covering updates and new features.
+  
+
+Gasoline Engine - Software development utilizing advanced controls methods to deliver world class efficiency and performance for increasingly complicated system architectures.
+  
+
+FOR GM INTERNAL CANDIDATES: This role is posted at both the 6th and 7th level. The determination by HR and the Hiring Manager as to whether an offer will be lateral or promotional will be based on a candidate's relevant experience and whether the role will amount to a significant increase in level of responsibility.
+  
+
+Compensation: This position may be filled with a 
+  senior level or mid-career professional. The median salary / compensation for both roles are as follows:
+  
+ Senior Career Professional - Median salary is $109,283
+  
+ Mid-Career Professional - Median salary is $88,667
+  
+
+Bonus Potential: An incentive pay program offers payouts based on company performance, job level, and individual performance.
+  
+
+Benefits: GM offers a variety of health and wellbeing benefit programs. Benefit options include medical, dental, vision, Health Savings Account, Flexible Spending Accounts, retirement savings plan, sickness and accident benefits, life insurance, paid vacation & holidays, tuition assistance programs, employee assistance program, GM vehicle discounts and more
+  
+ #LI-Remote
+  
+ #LI-Hybrid
+  
+
+About GM
+
+ Our vision is a world with Zero Crashes, Zero Emissions and Zero Congestion and we embrace the responsibility to lead the change that will make our world better, safer and more equitable for all.
+  
+
+Why Join Us
+
+ We aspire to be the most inclusive company in the world. We believe we all must make a choice every day - individually and collectively - to drive meaningful change through our words, our deeds and our culture. Our Work Appropriately philosophy supports our foundation of inclusion and provides employees the flexibility to work where they can have the greatest impact on achieving our goals, dependent on role needs. Every day, we want every employee, no matter their background, ethnicity, preferences, or location, to feel they belong to one General Motors team.
+  
+
+Benefits Overview
+
+ The goal of the General Motors total rewards program is to support the health and well-being of you and your family. Our comprehensive compensation plan incudes, the following benefits, in addition to many others:
+  
+
+Paid time off including vacation days, holidays, and parental leave for mothers, fathers and adoptive parents;
+Healthcare (including a triple tax advantaged health savings account and wellness incentive), dental, vision and life insurance plans to cover you and your family;
+Company and matching contributions to 401K savings plan to help you save for retirement;
+Global recognition program for peers and leaders to recognize and be recognized for results and behaviors that reflect our company values; 
+Tuition assistance and student loan refinancing;
+Discount on GM vehicles for you, your family and friends.
+
+
+ Diversity Information
+
+ General Motors is committed to being a workplace that is not only free of discrimination, but one that genuinely fosters inclusion and belonging. We strongly believe that workforce diversity creates an environment in which our employees can thrive and develop better products for our customers. We understand and embrace the variety through which people gain experiences whether through professional, personal, educational, or volunteer opportunities.GM is proud to be an equal opportunity employer.
+  
+ We encourage interested candidates to review the key responsibilities and qualifications and apply for any positions that match your skills and capabilities.
+  
+
+Equal Employment Opportunity Statements
+
+ The policy of General Motors is to extend opportunities to qualified applicants and employees on an equal basis regardless of an individual's age, race, color, sex, religion, national origin, disability, sexual orientation, gender identity/expression or veteran status. Additionally, General Motors is committed to being an Equal Employment Opportunity (EEO) Employer and offers opportunities to all job seekers including individuals with disabilities. If you need a reasonable accommodation to assist with your job search or application for employment, email us atCareers.Accommodations@GM.com. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.
+ 
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+Day-to-Day *
+An employer is looking for a Sr Embedded SWE in the San Diego, CA or REMOTE working PST hours.
+Duties and Responsibilities:
+1. Understand the software response to system and controls requirements, develop software based on software requirements and design, create Test Specification Documents, and deliver software solutions of highest quality
+2. Work in hard and soft real time domain with complex hardware interfaces and various communication protocols and platforms (Xilinx SOC, PLC, TCP/IP, Ethercat, Profinet)
+3. Ability to develop code for a distributed control system. The coding will require programming in different languages (C++, Python) on Linux OS environments.
+4. Conform to the approved Software Development Process and the Program Development Process, and be an active champion of process improvement.
+5. Utilize knowledge to design software for large complex multi-processor systems.
+6. Articulate (verbal and written) the design decisions and implementations made to management, its development partners and the customer.
+7. Participates in the screening and selection of software development team members and in the mentoring of new software development team members.
+8. 70% development including unit test – 20% meetings/reviews – 10% automation of test
+Job Type: Full-time
+Pay: $55.00 - $85.00 per hour
+Benefits:
+
+401(k)
+Dental insurance
+Health insurance
+
+Schedule:
+
+8 hour shift
+
+Education:
+
+Bachelor's (Required)
+
+Experience:
+
+Embedded software: 3 years (Required)
+C++: 3 years (Required)
+Python: 3 years (Required)
+Linux: 3 years (Preferred)
+
+Work Location: Remote
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+1+ years of experience contributing to the system design or architecture (architecture, design patterns, reliability and scaling) of new and current systems.
+ 2+ years of non-internship professional software development experience
+ Programming experience with at least one software programming language.
+
+ Job summary Over the past 20 years, Amazon has reinvented on behalf of customers and is one of the largest internet retailers. We are now reinventing on behalf of the business customers to build an innovative Business-to-Business (B2B) payment experience, and we are recruiting to make this vision a reality. B2B Payments represents an incredible opportunity to address a vast new market segment. Our customers include individual professionals, small businesses to large institutions. Our B2B customers have different needs than the traditional Amazon customer so we are reinventing everything from how we display our selection and provide the right paying experience. To succeed in this role, you must be a passionate advocate for the customer, always looking to invent and simplify on their behalf. You must think big and build a solution that can scale to meet the global needs of thousands of customers. You will be responsible for designing and implementing key architectures that drive initiatives to meet our B2B customers' needs and work with technologies to support large-scale distributed software systems that shape the Amazon retail infrastructure. As a Software Development Engineer I, you will be part of the larger technical leadership community at Amazon. This community forms the backbone of the company, plays a critical role in the broad business planning, working closely with senior executives to develop business targets and resource requirements, influences our long-term technical and business strategy and enables us to deliver innovative new solutions rapidly. 
+  • Bachelor in Computer Science or related area or equivalent industry experience • Experience writing code in a high volume, service based architecture • 1+ years professional experience in software development • Computer Science fundamentals in object-oriented design and data structures • Experience with algorithm design, problem solving, and complexity analysis • Proficiency in, at least, one modern programming language such as Java, Python, C++ or C# Amazon is committed to a diverse and inclusive workplace. Amazon is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. For individuals with disabilities who would like to request an accommodation, please visit https://www.amazon.jobs/en/disability/us.
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+eNGINE builds Technical Teams. We are a Solutions and Placement firm shaped by decades of interaction with Technical professionals. Our inspiration is continuous learning and engagement with the markets we serve, the talent we represent, and the teams we build. Our Consulting Workforce is encouraged to enjoy career fulfillment in the form of challenging projects, schedule flexibility, and paid training/certifications. Successful outcomes start and finish with eNGINE.
+eNGINE is seeking full stack software engineer in support of a client in the healthcare documentation space. This person will be working on the billing side of web applications and will require a skill set in both front and back end engineering. Below are some of the languages and tools required for this role:
+
+C#
+VB.NET
+SQL
+Typescript/Durandal/jQuery/Bootstrap
+
+This position will be 100% remote with preference given to those candidates living in the EST time zone.
+To see how eNGINE can impact your career, apply today!
+Job Type: Full-time
+Pay: $115,000.00 - $160,000.00 per year
+Benefits:
+
+401(k)
+Dental insurance
+Flexible schedule
+Health insurance
+Paid time off
+Vision insurance
+
+Schedule:
+
+Monday to Friday
+
+Experience:
+
+C#: 3 years (Required)
+VB.NET: 3 years (Required)
+SQL: 3 years (Required)
+
+Work Location: Remote
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+We are looking for a talented ReactJS developer to help us build out our product that ultimately will give customers a “dashboard” of their security posture and actionable insights on how to improve it. As a full-stack engineer, you’ll contribute to the front-end development of the product as well as have an opportunity to contribute to our Go backend.
+
+ What You'll Be Doing
+
+
+ Coding, coding, coding
+ Actively participate in the software development planning process
+ Ensure quality and ease of deployment by writing unit, integration, and end-to-end tests
+ Collaborating with the rest of our team in California and across the globe (working primarily in PST)
+
+ What We're Looking For
+
+
+ 2-4 years of experience in ReactJS
+ Experience with Javascript, HTML, CSS
+ Self-motivated individual that thrives in a dynamic environment
+ Excellent communication skills, as this job is remote
+ BS in Computer Science, or related technical field
+
+  Equal Opportunity Employer
+
+ Trustero is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, color, gender identity or expression, marital status, national origin, disability, protected veteran status, race, religion, pregnancy, sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances.
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+*Join us in creating better futures through bold decisions.*
+We’re a data technology studio that focuses on helping our clients create operational change (faster) with their data. We’ve worked inside some of the world’s largest companies: Walmart, Zappos, Tyson, Chick-fil-A, H-E-B, and many more.
+Our mission of creating better futures isn’t something we just seek for clients, but for ourselves as well. We are proud to be a collective of high-performers that champion necessary change when we see it. We strive to model new (better) ways of working within our own company — taking a people‐first approach to everything we do.
+We’ve been named a Best Place to Work for four years and made Entrepreneur’s list of “Top Company Culture” winners. We’re also proud to have made the Inc. 5000 list of America’s Fastest‐Growing Private Companies for four years running (2017, 2018, 2019, 2020)
+About the Role: We are looking for a Front End Engineer to join our ranks. At RevUnit, you'll have the opportunity to make a meaningful difference in the lives of people by empowering them to work better through the products and platforms we build. Our teams are working together to transform enterprise technology, delivering work to people all around the globe every single day. If you value collaboration, exploration, and taking ownership in your work, our team has what you're looking for.In this role, you will be part of a cross-functional product team comprised of product owners, designers and technologists. The team will be working together to support an enterprise client as we work to reimagine the ways in which technology comes to life for their employees. We are working to improve user experiences and modernize the technology that powers them. You will need to be a self-starter with the drive and ability to help us move forward, even in the absence of clear direction.Our engineering team is a diverse and deeply talented assembly of individuals coming from various experiences ranging from startup to enterprise. We value these experiences and the level of breadth and depth they add to our collective technology stack. If this sounds like the kind of thing that inspires and motivates you, we'd love to hear from you.RequirementsIdeally you'll have all of the below, but encourage you to apply even if you don't!
+
+You have experience developing front end solutions with your product team, partnering with other developers, designers, and product managers to meet client requirements
+You have at least 1 year of experience working on a cross-functional team of designers & product managers and feel confident enough in your skills to deliver on enterprise projects quickly.
+You are pragmatic in your approach to developing products, can pivot the team as needed, and know how to ship.
+Development of front end web applications - technologies we use are React, Angular, and Vue (mostly React).
+Develop data visualization solutions using d3.js
+Agile environment experience - you will be a member of a cross functional agile team. You are an active participant in the team's core ceremonies - standup, sprint planning, story pointing, retrospectives, and sprint demos.
+Ability to dig in and understand legacy code. A part of reimagining and re-engineering systems is the ability to learn and take advantage of what is already there. You have a knack for inspecting code bases and finding opportunities to simplify and optimize the solution.
+
+Bonus Points: 
+
+Familiarity with the Agile and Lean frameworks
+Local to the NW Arkansas area. This will allow our team members to mentor and guide in the best way possible.
+Experience in an agency environment
+Experience partnering with nearshore/offshore teams
+Expertise designing and building solutions for processes improvement/modernization, data intelligence/visualization, and up-skilling systems at scale.
+
+Benefits
+
+RevUnit pays 100% of your individual premiums for Medical, Dental, Vision, and both Short and Long-Term Disability
+Basic Life and AD&D
+Health Savings Account (HSA) option
+401k matching program
+Employee Assistance Program (EAP)
+Unlimited paid time off
+8 Paid holidays
+Paid parental leave
+All Hands Meetings (All-Company in-person 2x per year. Focus on skill development, team building, and celebration.)
+Monthly stipend for snacks/food
+Company laptop, monitor, and accessories
+
+We're committed to hiring the best people for the job, regardless of race, religion, national origin, gender identity, sexual orientation, age, marital status, veteran status, or disability status.In compliance with federal law, all persons hired will be required to verify identity and eligibility to work in the United States and to complete the required employment eligibility verification document form upon hire.
+Notice of E-Verify ParticipationRight to Work - EnglishRight to Work - Spanish
+Job Type: Full-time
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+About BlackLine:
+ BlackLine is a global market leader in the Fintech space providing cloud technology solutions and analytics that helps companies modernize and transform Finance and Accounting financial operations with intelligent automation, ensuring more accurate and insightful financial statements and a more efficient financial close process. More than 3,700 companies around the world trust BlackLine to help ensure balance sheet integrity and confidence.
+ PLEASE ONLY APPLY FOR THIS POSITION ONCE - USA REMOTE. Location preferences are specified within the job title. Multiple applications may delay our recruitment process.
+ About the job:
+ Through the New College Grad Software Engineer Program, be part of a dynamic and diverse team that engineers large-scale, complex, and resilient cloud technology solutions that drive our global Fintech. This program will help you take the lead in both solving scoped problems and contributing to projects while learning and growing within your team. This role is as much about learning as it is about doing and making an impact. We are looking for passionate university graduates that are excited to build awesome products and features, create visually rich experiences, spearhead the discovery problem, and pinpoint tomorrow’s engineering challenge as we maneuver through exponential growth and massive scale.
+ About the Team:
+ Our Software Engineering team is a collection of extremely passionate engineers who play a crucial role in delivering high-quality releases to our customers by designing, developing, troubleshooting, maintaining, and scaling our cloud-based services. The research, test, benchmark, and evaluate new technologies, collaborate with other teams to define and build new scalable features, and optimize existing features while writing elegant code. Few teams offer such amazing learning opportunities and possibilities for advancement as the BlackLine Engineering team.
+ What You'll Do:
+
+ Work with a team to deliver features and improve architecture
+ Own full software development lifecycle: design, development, testing, and operating in production
+ Build solutions with an elevated level of reliability, scalability, and security
+ Demonstrate an ability to learn and adopt relevant innovative technologies, tools, methods, and processes to leverage in your solutions
+ Independently take ownership over the completion and quality of your tasks and project
+
+ What We're Looking For: 
+
+Completing a degree in Computer Science or related technical field
+ Experience in previous software engineering internships
+ Proficiency in an object-oriented programming language such as C#, Java, or C++
+ Familiarity with HTML, JavaScript, CSS, and REST APIs
+ Team player, effective communication skills and product sense
+ Passion for Blackline and the ability to manage ambiguity and continually learn from your experiences
+
+ Thrive at BlackLine:
+
+ We offer comprehensive health coverage including medical, dental, and vision
+ 401(k) matching
+ Flexible time off
+ Paid Holidays
+ Paid parental leave
+ Basic and supplemental life insurance, short and long-term disability and so much more!
+
+ Our commitment to Diversity:
+ At BlackLine every door is open. BlackLine offers a wide variety of professional development seminars and inclusive affinity groups to celebrate and support our diversity. We are a culture that is kind, open, and accepting. We are committed to diversity, equity, and inclusion because of a conviction that every voice holds value. Our mission is to bring everyone the inspiration to create a life they love—and that includes our employees. We’re taking on the most exciting challenges of our working lives, and we succeed with a team that represents an inclusive and diverse set of identities and backgrounds.
+  We're looking for looking for all kinds of people.
+ BlackLine is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity or expression, race, age, religious creed, national origin, physical or mental disability, ancestry, color, marital status, sexual orientation, military or veteran status, status as a victim of domestic violence, sexual assault or stalking, medical condition, genetic information, or any other protected class or category recognized by applicable equal employment opportunity or other similar laws. Work is primarily sedentary in nature; no special demands required.
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+
+    A market leader in credit intelligence, Reorg brings together journalists, financial analysts, legal analysts, technologists, and data scientists to collect and synthesize highly complex information into actionable intelligence. Since 2013, tens of thousands of professionals across hedge funds, investment banks, management consulting, and law firm verticals have come to rely on Reorg to make better, faster, and more confident decisions in pace with the fast-moving credit markets. A proud member of the Warburg Pincus portfolio since 2018, Reorg’s operations continue to grow rapidly across North America, the UK, EMEA, and APAC. For more information, visit: www.reorg.com
+   
+
+
+
+ Working at Reorg
+
+
+
+
+     Consistent with our growth, Reorg hires innovators and trailblazers across the globe to drive our business and our incredible corporate culture alike. Our core values – 
+    Action Oriented, 
+    Customer First Mindset, 
+    Effective Team Players, and 
+    Driven to Excel – define an organizational ethos that’s as high-performing as it is human. Among other perks, Reorg employees enjoy competitive health benefits, matched 401k and pension plans, PTO and Summer Fridays generous parental leave, gym subsidies, educational reimbursements for career development, recognition programs, pet-friendly offices, and much more.
+   
+
+
+ The Role
+
+
+
+ Create new product features and optimize current architecture. The individual for this role will perform administrative duties required by the business.
+   
+
+
+
+Essential Job Functions
+
+ Collaborate with other professionals to determine functional and non-functional requirements for new software or applications Develop high-level product specifications with attention to system integration and feasibility Use tools and methodologies to create representations for functions and user interface of desired product Define all aspects of development from appropriate technology and workflow to coding standards
+
+
+
+
+
+    Reorg provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability or genetics. In addition to federal law requirements, Reorg complies with applicable state and local laws governing nondiscrimination in employment in every location in which the company has facilities. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.
+   
+
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+   #WeAreCrowdStrike and our mission is to stop breaches. As a global leader in cybersecurity, our team changed the game. Since our inception, our market leading cloud-native platform has offered unparalleled protection against the most sophisticated cyberattacks. We’re looking for people with limitless passion, a relentless focus on innovation and a fanatical commitment to the customer to join us in shaping the future of cybersecurity. Consistently recognized as a top workplace, CrowdStrike is committed to cultivating an inclusive, remote-first culture that offers people the autonomy and flexibility to balance the needs of work and life while taking their career to the next level. Interested in working for a company that sets the standard and leads with integrity? Join us on a mission that matters - one team, one fight.
+  
+
+
+    About the Role:
+  
+
+    CrowdStrike Falcon Host is a two-component security product. One component is a “sensor”: a driver installed on client machines that observes system activity and recognizes malicious behavior, then provides on-box prevention capability and remote telemetry to the Falcon Host cloud. The sensor processes thousands of events per second to provide deep visibility into operations on the endpoint, and performs rich correlation and computation to identify malicious events and blocks malicious activity.
+  
+
+
+    The cloud component aggregates sensor telemetry for each customer’s network, correlates malicious behavior across multiple machines, and presents our customers’ operations teams with a prioritized summary of the threats detected in their environments.
+  
+
+
+    This is a senior Software Development Engineer (SDE) role in the engineering team that delivers the sensor (lightweight agent) on Windows. SDE’s in the team own design and development of core features on the platform. Features will cross-cut most core OS subsystems such as file system, memory, process, and networking. Many features are also built in a way that they will have shared components across Linux and Mac. The team operates under the Agile development principles and ships frequently.
+  
+
+
+    Responsibilities:
+  
+
+
+
+      Provide partnership on the sensor development team involved in architecture, strategy, in building and improving next-generation Anti-Virus and Enhanced Detection and Response Security Software.
+    
+
+
+      Develop new product concepts.
+    
+
+
+      Support development teams in designing and building software with cross-platform deliverables (Windows, Mac, Linux).
+    
+
+
+      Own features from design to delivery including participation in product demo at the end of the sprint
+    
+
+
+      Collaborate with multi-functional teams in various locations
+    
+
+
+
+    What You’ll Need:
+  
+
+
+
+      In depth knowledge with C++ and Windows OS Kernel and Driver Development
+    
+
+
+      Strong low-level OS internals in Windows
+    
+
+
+      Experience debugging memory corruptions, process contentions and system performance
+    
+
+
+      Experience working with teams to ship major features and releases.
+    
+
+
+      Lead, mentor, communicate, collaborate, and work effectively in a distributed team
+    
+
+
+
+    Bonus Points Awarded For:
+  
+
+
+
+      Strong background in scalable, light-weight and highly performing systems
+    
+
+
+      OS system expertise for core concepts and subsystems
+    
+
+
+      Familiarity and experience with Agile process
+    
+
+
+      Knowledge in Security
+    
+
+
+
+    #LI-Remote
+  
+
+    #LI-CW1
+  
+
+    #LI-DG1
+  
+
+    #HTF
+  
+
+
+    Benefits of Working at CrowdStrike:
+  
+
+
+
+      Remote-first culture
+    
+
+
+      Market leader in compensation and equity awards
+    
+
+
+      Competitive vacation and flexible working arrangements
+    
+
+
+      Comprehensive and inclusive health benefits
+    
+
+
+      Physical and mental wellness programs
+    
+
+
+      Paid parental leave, including adoption
+    
+
+
+      A variety of professional development and mentorship opportunities
+    
+
+
+      Offices with stocked kitchens when you need to fuel innovation and collaboration
+    
+
+
+
+
+     We are committed to fostering a culture of belonging where everyone feels seen, heard, valued for who they are and empowered to succeed. Our approach to cultivating a diverse, equitable, and inclusive culture is rooted in listening, learning and collective action. By embracing the diversity of our people, we achieve our best work and fuel innovation - generating the best possible outcomes for our customers and the communities they serve.
+   
+
+
+
+    CrowdStrike is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex including sexual orientation and gender identity, national origin, disability, protected veteran status, or any other characteristic protected by applicable federal, state, or local law.
+  
+ CrowdStrike, Inc. is committed to fair and equitable compensation practices. For applicants in Colorado the salary range is $133.770 - $222.950 + bonus + equity + benefits. A candidate’s salary is determined by various factors including, but not limited to, relevant work experience, skills, and certifications. The salary range may differ in other states.
+  
+
+    CrowdStrike participates in the E-Verify program.
+  
+
+
+    Notice of E-Verify Participation
+   
+
+
+
+    Right to Work
+   
+
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+Summary: 
+We are looking for a Software Engineer to join our team and participate in ongoing projects.
+Must be able to undergo interviews with clients.
+Must be able to pass the background check.
+Requirements: 
+- Understanding of Agile methodologies
+- Experience implementing source control technologies such as git and gitlab
+- Experience implementing testing in order to maintain a stable code base
+- Experience working as part of a software team
+- Able to take notes and create in technical documentation
+- Understands the CICD pipeline
+- Understanding of OOPs methodologies
+- Ability to analyse new code bases
+- Ability to debug code
+Job Types: Full-time, Contract
+Pay: $75,000.00 - $130,000.00 per year
+Benefits:
+
+Paid time off
+
+Schedule:
+
+8 hour shift
+Monday to Friday
+On call
+
+Supplemental Pay:
+
+Bonus pay
+
+Experience:
+
+Flask: 4 years (Preferred)
+React: 4 years (Preferred)
+Angular: 4 years (Preferred)
+Express: 3 years (Preferred)
+Django: 3 years (Preferred)
+Vue.js: 3 years (Preferred)
+jQuery: 3 years (Preferred)
+Ruby on Rails: 3 years (Preferred)
+Spark: 3 years (Preferred)
+.Net Core: 3 years (Preferred)
+
+Work Location: Remote
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+Who we're looking for
+
+1+ years of professional experience shipping production-grade code.
+You have a strong focus on delivering value as fast as possible to our core users.
+You have a willingness to learn whatever it takes to reach impact.
+You’re pragmatic in knowing when to refactor and when to ship.
+You ship incrementally to move fast and can communicate how the team needs to handle product transitions.
+You’re scrappy. We have to out-compete heavily funded for-profit competitors.
+You can navigate and extend APIs to support incredible frontend experiences written in React and React Native.
+
+Why You’ll Love Us
+
+A welcoming and collaborative environment with people who are dedicating their lives to fighting the commercialization of incarceration
+Experience working closely with users who rely on our product to stay in touch with their loved ones
+An environment for rapid experimentation and ownership
+Ownership of entire systems and features that deliver society-changing impact
+Contributing to the foundation and culture of a young and growing organization
+Experience working cross-functionally and exposure to a variety of business functions
+An incredibly high bar for velocity of shipping and the quality of your work
+
+Job Type: Full-time
+Pay: Up to $150,000.00 per year
+Education:
+
+Bachelor's (Preferred)
+
+Experience:
+
+Software Development Occupations: 5 years (Required)
+React: 3 years (Required)
+
+Work Location: Remote
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+Working in an evolving healthcare setting, we use our shared expertise to deliver innovative solutions. Our fast-growing team has opportunities to learn and grow through rewarding interactions, collaboration and the freedom to explore professional interests. 
+ Our associates are given valuable opportunities to contribute, to innovate and create meaningful work that makes an impact in the communities we serve around the world. We also offer a culture of excellence that drives customer success and improves patient care. We believe in giving back to the community and offer a competitive benefits package including: 
+
+Comprehensive Medical, Dental, Vision & RX Coverage 
+Paid Time Off, Volunteer Time & Holidays 
+401K with Company Match 
+Company-Paid Life Insurance, Short-Term Disability & Long-Term Disability 
+Tuition Reimbursement 
+Parental Leave 
+
+
+R1 RCM Inc. (“the Company”) is dedicated to the fundamentals of equal employment opportunity. The Company’s employment practices , including those regarding recruitment, hiring, assignment, promotion, compensation, benefits, training, discipline, and termination shall not be based on any person’s age, color, national origin, citizenship status, physical or mental disability, medical condition, race, religion, creed, gender, sex, sexual orientation, gender identity and/or expression, genetic information, marital status, status with regard to public assistance, veteran status or any other characteristic protected by federal, state or local law. Furthermore, the Company is dedicated to providing a workplace free from harassment based on any of the foregoing protected categories. 
+
+If you have a disability and require a reasonable accommodation to complete any part of the job application process, please contact us at 312-496-7709 for assistance.
+
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+   Work Styles at Zoom
+  
+
+
+    In most cases, you will have the opportunity to choose your preferred working location from the following options when you join Zoom: in-person, hybrid or remote. Visit this page for more information about 
+   
+    Zoom's Workstyles
+   .
+  
+
+
+    About Us
+  
+
+
+    Zoomies help people stay connected so they can get more done together. We set out to build the best video product for the enterprise, and today help people communicate better with products like Zoom Contact Center, Zoom Phone, Zoom Events, Zoom Apps, Zoom Rooms, and Zoom Webinar.
+  
+
+
+    We’re problem-solvers, working at a fast pace to design solutions with our customers and users in mind. Here, you’ll work across teams to deliver impactful projects that are changing the way people communicate and enjoy opportunities to advance your career in a diverse, inclusive environment.
+  
+
+
+    About the Team
+  
+
+    You will joining Zoom Phone! This is one of Zoom's fastest growing products. You will work with your manager and teammates to build a new product from scratch.
+  
+
+
+    About the Role
+  
+
+ Build and deploy web applications
+ Work through full SDLC
+ You will report to your Hiring Manager
+
+
+
+    About You
+  
+
+ 3+ Years of experience
+ Proficient in Java and Spring Boot
+ knowledgable of AWS
+
+
+
+    We believe that the unique contributions of all Zoomies is the driver of our success. To make sure that our products and culture continue to incorporate everyone's perspectives and experience we never discriminate on the basis of race, religion, national origin, gender identity or expression, sexual orientation, age, or marital, veteran, or disability status. Zoom is proud to be an equal opportunity workplace and is an affirmative action employer. All your information will be kept confidential according to EEO guidelines.
+  
+
+
+    We welcome people of different backgrounds, experiences, abilities and perspectives including qualified applicants with arrest and conviction records and any qualified applicants requiring reasonable accommodations in accordance with the law. If you need any assistance or accommodations due to a medical condition, or if you need assistance accessing our website or completing the application process, please let us know by emailing us at 
+   
+    careers@zoom.us
+   .
+  
+
+
+    Zoom requires all U.S. employees who will work in person at a Zoom office, attend in-person Zoom meetings or have in-person customer meetings to be fully vaccinated. Zoom will consider requests for reasonable accommodations for religious or medical reasons as required under applicable law.
+  
+
+
+    At Zoom, we care about our employees, their families, and their well-being. As part of our award-winning workplace culture and commitment to delivering happiness, our benefits program offers a variety of perks, benefits, and options to help employees maintain their physical, mental, emotional, and financial health; support work-life balance; and contribute to their community in meaningful ways. To view our benefits, click 
+   
+    here
+   .
+  
+
+
+    Explore Zoom:
+  
+
+
+
+
+       Hear from our leadership team
+     
+
+
+
+
+       Browse Awards and Employee Reviews on Comparably
+     
+
+
+
+
+       Visit our Blog
+     
+
+
+
+
+       Zoom with us!
+     
+
+
+
+      Find us on social at the links below and on 
+     
+      Instagram
+     
+
+
+
+      View more jobs, sign up for job alerts and join our talent community. 
+     
+      Visit the Zoom careers site
+     .
+    
+
+ #LI-Remote
+ 
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+We are looking for a Senior Backend Software Engineer to join our team! Our company is a subsidiary of the Digital Currency Group, and we’re working toward a common goal of empowering a decentralized infrastructure. Our team is passionate about the future of finance and is looking for other like-minded individuals who share in this vision. While we are inclusive and diverse in workforce and style, we all agree that digital assets will change the world.
+Responsibilities
+
+Develop and maintain the infrastructure of the mining and staking operations. This includes:
+API server
+Back-end software for managing Bitcoin wallet and automating transactions. This software interfaces with Bitcoin Core full nodes through the RPC protocol.
+Ensure strong system security to protect funds in Bitcoin wallet.
+Make sure payment and statistics servers are coded correctly and operating properly.
+Ubuntu Linux system administration for servers running in Amazon AWS or colocation datacenter.
+Write documentation on how to maintain and troubleshoot the system.
+Remain in an on-call rotation with other engineers in the team to troubleshoot critical downtime.
+Work closely with product owners, project managers, other development teams, DevOps and infrastructure teams.
+
+About You:
+
+5+ years professional experience in software engineering, software architecture, focused on backend development.
+Bachelor's Degree preferred
+Passionate about technology and interested in Bitcoin, blockchain, and tech entrepreneurship
+Strong understanding of web services, API, databases, I18N, Kafka, and data analysis & reporting
+Interest in researching topics related to digital assets, mining, and staking
+Have a working knowledge of databases and monitoring and alerting systems
+Self-starter, strong problem-solving skills, and ability to meet tight deadlines
+Comfortable working in agile and lean project environments
+Working knowledge of Bitcoin mining and/or interest to learn development
+Preferred Qualifications; Knowledge, Skills and Abilities
+
+Technical skills
+
+Very strong Java programming skills (5+ years recent professional experience). Kotlin skills a big plus.
+Ubuntu Linux system administration
+REST/HTTP, JSON/XML, RPC
+Database Operations (SQL, NoSQL, Redis)
+Cloud servers such as Amazon AWS and Digital Ocean
+Experience in operating mining, staking, or running validating node efforts
+Microservices architecture
+Git version control
+
+What we offer:
+
+The chance to work in a fast-paced start-up environment with experienced industry leaders
+A learning environment where you can dive deep into the latest technologies and make an impact
+Competitive salary and benefits
+Flexible vacation policy - work with your manager to take time off when you need it
+
+Job Type: Full-time
+Pay: $150,000.00 - $160,000.00 per year
+Benefits:
+
+401(k)
+Dental insurance
+Flexible schedule
+Health insurance
+Paid time off
+Vision insurance
+
+Schedule:
+
+8 hour shift
+Monday to Friday
+
+Supplemental Pay:
+
+Bonus pay
+
+Work Location: Remote
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ Under Armour has one mission: to make you better. We have a commitment to innovation that lies at the heart of everything we do, not just for our athletes but also for our teammates. As a global organization, our teams around the world push boundaries and think beyond what is expected. Together our teammates are unified by our values and are grounded in our vision to inspire you with performance solutions you never knew you needed but can’t imagine living without.
+Position Summary
+Note: Role is REMOTE- we will consider candidates located anywhere in the United States.
+Come join Under Armour and create software to power the future of connected fitness. We’re serious about individual growth and athlete achievement, and we’d like you to join us to build real products that will help millions of people improve their lives through better health & fitness. You will learn, grow, and play in an environment that focuses on results and delivery, all backed by one of the strongest consumer brands in history. Our Lead Software Engineers are responsible for helping their teams continuously improve. You will spend a significant amount of time coaching other engineers and aiding the team in eliminating roadblocks. You will set best practices for architecture, coding, delivery, and operation of your team's services. In addition, you will build relationships with other teams to collaborate and lead the way in developing reusable, scalable designs that benefit the entire organization. You will partner with other engineering teams, product, design, infrastructure, and project management while serving as a mentor and advocate for your own team.
+Essential Duties & Responsibilities
+Contribute to the vision for the team and the platform as technical leader, identifying new and strategic technologies that improve security, scalability, reliability, and performance
+Design, build and support automated provisioning, continuous deployment and telemetry systems that help our teammates work more effectively.
+Mentor up and coming engineers helping them to grow at Under Armour.
+Help put out fires when development teams run into infrastructure related issues.
+Build quality codebases through a process of personal and peer-reviewed development.
+Qualifications (Knowledge, Skills & Abilities)
+Experience with automated configuration management and provisioning frameworks like Terraform, SaltStack, Puppet, Ansible, or Chef.
+Experience configuring and administering CI/CD solutions like Jenkins, CircleCI, Gitlab, Github Actions, or Spinnaker.
+Experience with Linux or Unix-based infrastructure in a cloud environment.
+Experience with container technologies like Docker and Kubernetes is required.
+Experience with GitOps tooling such as Flux is a plus.
+Experience with VPN, VPC, Transit Gateways, IPSEC is a plus.
+Education And / Or Experience
+Bachelor’s Degree in Information System Management, Computer Science, or a relevant business area
+Real-world experience building resilient, scalable systems and troubleshooting full-stack challenges in production.
+Experience with AWS and its commonly used services
+2+ years in software development using Python, Ruby, JavaScript, or Go.
+Other Requirements
+Relocation
+Role is REMOTE- we will consider candidates located anywhere in the United States
+No relocation provided
+At Under Armour, we are committed to providing an environment of mutual respect where equal employment opportunities are available to all applicants and teammates without regard to race, color, religion, sex, pregnancy (including childbirth, lactation and related medical conditions), national origin, age, physical and mental disability, marital status, sexual orientation, gender identity, gender expression, genetic information (including characteristics and testing), military and veteran status, and any other characteristic protected by applicable law. Under Armour believes that diversity and inclusion among our teammates is critical to our success as a global company, and we seek to recruit, develop and retain the most talented people from a diverse candidate pool.
+Learn more about Under Armour’s COVID-19 response and Teammate vaccination policies here.
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+Title : Senior Software Engineer (Windows Graphics Rendering)
+Location : 100% RemoteDuration : Full timeStart date : ASAP
+Visa type : Any visa is fine, sponsorship available.
+Key skills required for the job are: 
+Required Skills
+· C/C++ SW development
+· Experience with the Windows graphics rendering pipeline
+· GPU programming with DirectX, Vulkan, CUDA, Direct Compute, OpenGL, or OpenCL
+· Significant experience with DirectShow, DirectDraw, Microsoft Media Foundation, Windows Composition API, HLSL, or Win2D
+· Knowledge of real-time stream solutions (e.g. RTP)
+Job Type: Full-time
+Salary: $150,000.00 - $200,000.00 per year
+Benefits:
+
+401(k)
+401(k) matching
+Dental insurance
+Employee assistance program
+Health insurance
+Life insurance
+Paid time off
+Vision insurance
+
+Schedule:
+
+8 hour shift
+Monday to Friday
+
+Education:
+
+Bachelor's (Preferred)
+
+Experience:
+
+RESTWindows graphics rendering pipeline: 5 years (Preferred)
+C: 5 years (Preferred)
+C++: 5 years (Preferred)
+
+Work Location: Remote
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+Company: FedEx Services
+  
+Job Title: Software Quality Engineer Advisor - Remote
+  
+Job Requisition Number: RC519283
+  
+Category: Information Technology
+  
+Pay Type: Exempt
+  
+Locations:
+ Coraopolis, Pennsylvania 15108
+   United States
+  
+ Remote
+   United States
+  
+ Brookfield, Wisconsin 53045
+   United States
+  
+
+Colorado Residents Only – Compensation: Monthly Salary $7466.02 - $11252.71
+   The estimate displayed represents the typical salary range or starting rate of candidates hired in Colorado. Factors that may be used to determine your actual salary may include your specific skills, your work location, how many years of experience you have, and comparison to other employees already in this role. This information is provided to applicants in accordance to the Colorado Equal Pay for Equal Work Act.
+   Job Description  Acts as a key leader in the development and execution of software quality methods and processes. Typically responsible for tests, methods, and procedures to ensure continuous improvement to software quality assurance standards. 1. Develop, execute, and document software/hardware/firmware test plans using both automated and manual testing to ensure products meet design specifications. 2. Assist with transforming manual test documentation into automated test scripts 3. Present progress and results of automated testing efforts to appropriate teams. 4. Continuously improve upon the productivity and efficiency of our testing efforts using innovative tools and techniques. 5. Setup/configure/maintain automated testing environments in a continuous integration setting. 6. Coach, mentor, and support other software quality engineers. Communicate effectively, manage conflict amongst team members, and remove impediments. 7. Stay current on new technologies and best practices as appropriate 8. Be able to test both ui centric applications as well as back-end services 9. Troubleshoot issues down to the root cause and provide detailed bug reports  Additional Job Description:
+
+ Strong written and verbal communication skills 
+ Good facilitation skills to coordinate efforts among testers
+
+
+ Minimum Qualifications:
+ Bachelor's degree in computer science, engineering, information systems or related field and/or equivalent formal training or work experience. Five (5) equivalent work experience in computer support or information technology environment. A related advanced degree may offset the related experience requirements.
+  
+
+Domicile:
+
+
+ Coraopolis, PA (Suburb of Pittsburgh) 
+ Brookfield, WI (Suburb of Milwaukee) 
+ The ability to work remotely within the United States may be available based on business need.
+
+
+ Relocation:
+ Relocation assistance may be available based on business need.
+  
+
+Application 
+Instructions/Deadline:
+ Upload current copy of Resume (Microsoft Word or PDF format only) and answer job screening questionnaire by close of business (5:00pm CST) on the date below. If the date below is blank, there is no specified closing date for this requisition.
+   05-26-2022
+  
+ Employee Benefits: Medical, dental, and vision insurance; paid Life and AD&D insurance; tuition reimbursement; paid sick leave; paid parental leave, paid vacation, and additional paid time off; geographic pay ranges; 401K with Company match and incentive bonus potential; sales incentive compensation for selling roles.
+ FedEx. Where now meets next.
+ Our vision is to be the earth's most engaged advocates of connected commerce where open borders, new markets and fair, sustainable practices are the norm for the billions of personal supply chains being managed every day in our always on, mobile-first world. We stand for ease, access and opportunity. We lead purposeful innovation, champion entrepreneurs, advocate free trade and empower humans and their place in the era of autonomy and AI. We fight for our customers, a more sustainable planet and an ethical playing field.
+ FedEx inspires its more than 570,000 team members to remain focused on safety, the highest ethical and professional standards and the needs of their customers and communities. FedEx is committed to connecting people and possibilities around the world responsibly and resourcefully, with a goal to achieve carbon-neutral operations by 2040.
+ FedEx has been recognized on many different lists both for business success and for being a great employer:
+
+ Fortune "World’s Most Admired Companies" – 2021
+ Forbes "Best Employers for Diversity" - 2021
+ LinkedIn "Top 100 Companies" - 2021
+ TIME "100 Most Influential Companies" - 2021
+ World HRD Congress "Best Gender Equality Workplace" – 2021
+ InsiderPro ComputerWorld "Best Places to Work for IT" – 2021
+
+
+ Application Instructions/Deadline:
+ Upload current copy of Resume (Microsoft Word or PDF format only) and answer job screening questionnaire by close of business (5:00pm CST) on the date below. If the date below is blank, there is no specified closing date for this requisition.
+ FedEx Services is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, sexual orientation, gender identity, national origin, age, genetics disability, or protected Veteran status.
+ FedEx Services does not discriminate against qualified individuals with disabilities in regard to job application procedures, hiring, and other terms and conditions of employment. Further, FedEx Services is prepared to make reasonable accommodations for the known physical or mental limitations of an otherwise qualified applicant or employee to enable the applicant or employee to be considered for the desired position, to perform the essential functions of the position in question, or to enjoy equal benefits and privileges of employment as are enjoyed by other similarly situated employees without disabilities, unless the accommodation will impose an undue hardship. If a reasonable accommodation is needed, please contact recruitmentsupport@fedex.com.
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ The Challenge:
+Do you want to build software that solves enterprise-scale challenges while learning and growing your skills?
+This role is more than just coding. Our junior developers use their passion to learn new tools and techniques and apply them towards identifying and delivering needed software solutions. You will learn software development principles and how to apply them through various development methodologies, like Scrum, Scaled Agile Framework, and Kanban, to name a few. Our goal in hiring a junior developer is to match your intensity and passion for software development with our deep experience in the practice of software delivery to help deliver products for our customers and to evolve your career. This position is open to remote delivery anywhere within the U.S., to include the District of Columbia.
+Join us. The world can’t wait.
+You Have:Experience with Java, Python, and JavaScript in industry or academic environmentsExperience with Agile methodology, including documenting testing and maintenance of system correctionsKnowledge of Web protocols and servicesAbility to analyze and solve problemsAbility to work independently and within a teamAbility to obtain a security clearanceHS diploma or GED
+Nice If You Have:Experience with Agile software development processes and tools, including the Atlassian Tool SuiteExperience with researching, designing, developing, or modifying enterprise-wide systems or applications software in an internship or academic environmentKnowledge of Oracle or MS SQLBachelor's degree
+Clearance:
+Applicants selected will be subject to a security investigation and may need to meet eligibility requirements for access to classified information.
+Compensation:
+The proposed salary range for this position in Colorado is 70,000 to 80,000. Final salary will be determined based on various factors.
+At Booz Allen, we celebrate your contributions, provide you with opportunities and choice, and support your total well-being. Our comprehensive benefit offerings include healthcare, retirement plan, insurance programs, commuter program, employee assistance program, paid and unpaid leave programs, education assistance, and childcare benefits.
+Build Your Career:
+A challenging and dynamic work environment isn’t all we have to offer. When you join Booz Allen, you’ll have access to:
+experts in virtually every field
+a culture that focuses on supporting our employees
+opportunities that provide stability while offering variety
+You’ll also be exposed to a wealth of training resources through our Digital University, an online learning portal featuring more than 5000 functional and technical courses, certifications, and books. Build your technical skills through hands-on training on the latest tools and tech from our in-house experts. Pursuing certifications that directly impact your role? You may be able to take advantage of our tuition assistance, on-site bootcamps, certification training, academic programs, vendor relationships, and a network of professionals who can give you helpful tips. We’ll help you develop the career you want as you chart your own course for success.
+We’re an EOE that empowers our people—no matter their race, color, religion, sex, gender identity, sexual orientation, national origin, disability, veteran status, or other protected characteristic—to fearlessly drive change.
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+Company Description  Since we first opened our doors in 2009, the world of commerce has evolved immensely – and so has Square. After enabling anyone to take a payment and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into software and started building integrated, omnichannel solutions – to help sellers sell online, manage inventory, run a busy kitchen, book appointments, engage loyal buyers, and hire and pay staff. And across it all, we’ve embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow all in one place.  Today, we’re a partner to sellers of all sizes – large, enterprise-scale businesses with complex commerce operations, sellers just starting out, as well as merchants who began selling with Square and have grown larger over time. As our sellers scale, so do our solutions. We all grow together.   There is a massive opportunity in front of us. We’re building a business that is big, meaningful, and lasting. And we are helping sellers around the world do the same.
+
+
+  Job Description
+   Merchants hire the Help Experience Team to provide them the right solutions at the right time to ensure they continue to be successful with their business.
+ As a software engineer on this team, you'll be a part of evolving our support products for Square's millions of merchants. We leverage experimentation, personalization, recommendation relevancy, and more to ensure that we route sellers to the right help experiences at the right time according to their unique needs. We must do this with technical sustainability and scale in mind for our merchants and teams at Square to benefit from our work.
+
+
+
+  Qualifications
+   You will...
+
+ Be exposed to and impact real business challenges.
+ Identify and explore ways to improve application architecture, testing, and building pipeline.
+ Continually seek to optimize and improve the seller experience.
+ Iterate rapidly on features, tooling, and processes.
+ Provide technical leadership, mentor and coach junior engineers.
+
+ You’ll need to…
+
+ Have 8+ years of engineering experience.
+ Be proficient in building web apps and large-scale applications.
+ Build with modern front-end and server-side technologies and frameworks
+ Develop product infrastructure and web services.
+ Work in a collaborative environment and partner with other cross-disciplinary teams to achieve optimal results.
+ Embrace proactive and respectful communications in an inclusive environment.
+
+ Technologies we use and teach...
+
+ Ruby on Rails, JavaScript, React, TypeScript
+ MySQL, Redis, Elasticsearch, PostgreSQL, Memcached
+
+ Additional Information
+  
+ We’re working to build a more inclusive economy where our customers have equal access to opportunity, and we strive to live by these same values in building our workplace. Block is a proud equal opportunity employer. We work hard to evaluate all employees and job applicants consistently, without regard to race, color, religion, gender, national origin, age, disability, veteran status, pregnancy, gender expression or identity, sexual orientation, citizenship, or any other legally protected class.
+ We believe in being fair, and are committed to an inclusive interview experience, including providing reasonable accommodations to disabled applicants throughout the recruitment process. We encourage applicants to share any needed accommodations with their recruiter, who will treat these requests as confidentially as possible. Want to learn more about what we’re doing to build a workplace that is fair and square? Check out our I+D page.
+ Additionally, we consider qualified applicants with criminal histories for employment on our team, assessing candidates in a manner consistent with the requirements of the San Francisco Fair Chance Ordinance.
+ Perks
+ We want you to be well and thrive. Our global benefits package includes:
+
+ Healthcare coverage
+ Retirement Plans
+ Employee Stock Purchase Program
+ Wellness perks
+ Paid parental leave
+ Paid time off
+ Learning and Development resources
+
+ Block, Inc. (NYSE: SQ) is a global technology company with a focus on financial services. Made up of Square, Cash App, Spiral, TIDAL, and TBD, we build tools to help more people access the economy. Square helps sellers run and grow their businesses with its integrated ecosystem of commerce solutions, business software, and banking services. With Cash App, anyone can easily send, spend, or invest their money in stocks or Bitcoin. Spiral (formerly Square Crypto) builds and funds free, open-source Bitcoin projects. Artists use TIDAL to help them succeed as entrepreneurs and connect more deeply with fans. TBD is building an open developer platform to make it easier to access Bitcoin and other blockchain technologies without having to go through an institution.
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 

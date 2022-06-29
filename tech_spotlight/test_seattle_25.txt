@@ -1,0 +1,1098 @@
+
+
+
+Your Job
+
+
+    If you are an engineer who's passionate about building innovative products that scale to tens of millions of page views a day, Indeed is looking for you. Indeed offers smart developers like you a complex development ecosystem with short release cycles. Every week sees the new release of multiple products that meet the growing needs of millions of employers and jobseekers worldwide.
+   
+ Responsibilities:
+  
+
+ As a Software Engineer in the SMB Growth team, you will build software that guides employers to post high-quality jobs which achieve good performance in Indeed’s search results.
+ You will build UIs and APIs to offer helpful guidance to employers and highlight problems with jobs that could prevent them from being filled.
+ You will join a collaborative team of extremely talented Engineers, UX designers, and Product Managers. We constantly dig into the data available at Indeed to analyze, inform and develop solutions to the right problems. If looking at data, slicing and dicing it in multiple ways and coming up with interesting insights is something you thrive upon, you will fit right in.
+
+
+ Who You Are
+
+
+ Bachelor’s degree required in Computer Science, Electrical Engineering, Computer Engineering or Mathematics or equivalent field required
+ 2+ years experience programming with at least one of the following languages: Java, JavaScript, Python
+ GraphQL experience is preferred
+ Experience with large scale, high-performance systems preferred
+
+
+ Who we are
+
+
+    The Small to Medium Businesses (SMB) organization at Indeed develops products centered around the hiring needs of SMB businesses, making the hiring process simpler, faster and more effective so they always find the talent that is right for their business, when they need it. The solutions we provide are focused on three main pillars, including ‘Building for the Long-Term’, ‘Delivering the Hire’ and ‘Driving Performance’. The impact of our work helps grow companies and communities around the world.
+  
+
+ Our Mission
+
+
+    As the world’s number 1 job site*, our mission is to help people get jobs. We strive to cultivate an inclusive and accessible workplace where all people feel comfortable being themselves. We're looking to grow our teams with more people who share our enthusiasm for innovation and creating the best experience for job seekers.
+  
+
+ (*comScore Total Visits, September 2021)
+  
+
+ Salary Range Disclaimer
+
+
+    The base salary range represents the low and high end of the Indeed salary range for this position. Actual salaries will vary depending on factors including but not limited to location, experience, and performance. The range listed is just one component of Indeed's total compensation package for employees. Other rewards may include quarterly bonuses, Restricted Stock Units (RSUs), an open Paid Time Off policy, and many region-specific benefits.
+  
+
+ Salary Range Transparency
+
+ Seattle 104,000 - 150,000 USD per year
+
+ Equal Opportunities and Accommodations Statement
+
+
+    Indeed is deeply committed to building a workplace and global community where inclusion is not only valued, but prioritized. We’re proud to be an equal opportunity employer, seeking to create a welcoming and diverse environment. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, family status, marital status, sexual orientation, national origin, genetics, neuro-diversity, disability, age, or veteran status, or any other non-merit based or legally protected grounds.
+  
+
+
+ Indeed is committed to providing reasonable accommodations to qualified individuals with disabilities in the employment application process. To request an accommodation, please contact Talent Attraction Help at 
+   1-855-567-7767, or by email at TAhelp@indeed.com at least one week in advance of your interview.
+  
+
+ Fair Chance Hiring
+
+
+
+ We value diverse experiences, including those who have had prior contact with the criminal legal system. We are committed to providing individuals with criminal records, including formerly incarcerated individuals and individuals with arrest or conviction records, a fair chance at employment. We also comply with state and local requirements such as the San Francisco Fair Chance Ordinance.
+  
+
+ Our Policies and Benefits
+
+
+    View Indeed's Applicant Privacy and Accessibility Policies - https://www.indeed.com/legal/indeed-jobs
+  
+
+    Learn about our global employee perks, programs and benefits - https://benefits.indeed.jobs/
+  
+
+
+ Where legally permitted, Indeed requires all individuals attending or working out of Indeed offices or visiting Indeed clients to be fully vaccinated against COVID-19. For positions that can only be performed at an Indeed office, candidates must be fully vaccinated against COVID-19 and present acceptable proof of vaccination by the date of hire as a condition of employment. For positions that require some in-office work or in-person client meetings, exceptions to these in-office or in-person job requirements may be made at the discretion of the business through June 2022, at which point full vaccination will be required. Indeed will consider requests for reasonable accommodation as required under applicable law. To qualify as being fully vaccinated against COVID-19 there should have been a two week period after receiving the second dose (or any government recommended booster shot) in a 2-dose COVID-19 vaccine series, or a two week period after receiving a single-dose (or any government recommended booster shot) in a single dose COVID-19 vaccine.
+  
+
+ Reference ID: 39804
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+About the team This is an opportunity on Zillow Group's Identity Access Management team, which is at the center of Zillow's multi-year strategy. In the web and mobile-first world, we seek to improve the customer experience by better understanding and defining the journey to make home buying or the rental process more accessible.
+  
+ About the role
+ In this role, the Senior Software Engineer will have an opportunity to join our team and contribute meaningfully to the #1 real estate portal. We are a technology driven group who strives to build products that delight our users. We are re-imagining an authenticated customer journey by adding customer-facing features and bringing creative solutions to develop strong but comprehensible identity systems
+
+ As a Senior Software Engineer, you will:
+
+ Contribute and deliver long-term product strategy for Identity and Access Management services
+ Build and evolve high scale distributed services.
+ Work with partner teams to understand and resolve sophisticated issues.
+ Communicate strategy, roadmap, and development to senior leadership
+ Champion improvements in the quality and stability of service fundamentals and promote engineering best practices
+ Demonstrate strong customer empathy, curiosity and willingness to question and learn
+
+ This role has been categorized as a Remote position. “Remote” employees do not have a permanent corporate office workplace and, instead, work from a physical location of their choice which must be identified to the Company. Employees may live in any of the 50 US States, with limited exceptions. In certain cases, an employee in a remote-designated job may need to live in a specific region or time zone to support customers or clients as part of their role.
+   In Colorado, Connecticut, Nevada and New York City the standard base pay range for this role is $144,000.00 - $230,000.00 Annually. This base pay range is specific to Colorado, Connecticut, Nevada and New York City and may not be applicable to other locations.
+  
+ Who you are
+
+ 8+ years full stack experience
+ 7+years of experience building and shipping production grade software or services
+ Firm understanding of software design patterns and principles
+ 4+ years of experience building distributed services
+ Operational ownership of low-latency, high-availability services
+ Experience with Security, Access Management or Authentication
+ Experience in developing high-scale and high availability services
+ Strong communication skills to interact with audiences that include customers, peers and executive leadership
+
+ In addition to a competitive base salary this position is also eligible for equity awards based on factors such as experience, performance and location.
+  
+ Get to know us
+ Zillow is reimagining real estate to make it easier to unlock life’s next chapter.
+
+ As the most-visited real estate website in the United States, Zillow® and its affiliates help movers find and win their home through digital solutions, first class partners, and easier buying, selling, financing and renting experiences. Millions of people visit Zillow Group sites every month to start their home search, and now they can rely on Zillow to help make it easier to move. The work we do is helping people move from dreaming to transacting — and no matter what job you're in, you will play a critical role in making this vision a reality.
+ Our efforts to streamline the real estate transaction are supported by a deep-rooted culture of innovation, our passion to redefine the employee experience, a fundamental commitment to Equity and Belonging, and world-class benefits. We’re also setting the standard for work experiences of the future, where our employees are supported in doing their best work and living a flexible, well-balanced life. But don’t just take our word for it. Read recent reviews on Glassdoor and recent recognition from multiple organizations, including: the 100 Best Companies to Work For in 2022 list, Glassdoor Employees’ Choice Award, honoring the Best Places to Work in 2022, Bloomberg Gender-Equality Index 2022, Human Rights Campaign (HRC) Corporate Equity Index and Best Place to Work for LGBTQ Equality 2022, and TIME 100 Most Influential Companies list. 
+
+Zillow Group is an equal opportunity employer committed to fostering an inclusive, innovative environment with the best employees. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. If you have a disability or special need that requires accommodation, please contact us at RecruitingAccessibility@zillowgroup.com.
+
+ Applicants who receive job offers from Zillow Group will be asked to sign a Proprietary Rights Agreement which includes confidentiality, intellectual property assignment, customer and employee non-solicitation, and non-competition provisions. If you are contacted for a role at Zillow Group and wish to review a copy of the Proprietary Rights Agreement prior to receiving an offer, you may request a copy from your Recruiter.
+
+ See what information we collect about you.
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ We are seeking creative and talented individuals who love learning and are motivated to launch their Technology career. No prior professional experience required.
+Revature is the largest and fastest growing employer of emerging technology talent across the U.S. Come join our community! As a Revature Entry Level Software Engineer you will receive on-the-job-training to become an experienced software engineer
+Remote Interviews are starting now!
+Benefits for Entry Level Software Engineers:
+Launch a Software Engineering career with no prior experience
+Learn to code on the job. That’s right: We pay you to learn.
+Competitive salary
+Relocation & housing assistance
+Paid time off
+Industry Certifications – Employer paid.
+401k
+Mentoring program
+Experience with the largest companies in the US
+Career acceleration: Over 72% of Revature alumni have received an additional promotion and 92% saw their salary significantly increase after launching their tech career with Revature
+Entry Level Software Engineer Training Program:
+Full-time, paid training
+Work on real world projects in a team environment to get you enterprise-ready for placement with one of our corporate partners.
+Training on the most in-demand programming skills in the job market. We work together with our corporate partners, to identify the skills that are most vital to their organization
+We’re invested in your success—you’ll have an employee engagement team member to support and provide you with a wide range of assistance.
+As a Revature employee, you’ll also have access to our expansive network of like-minded peers who you can collaborate with
+What We Are Looking For:
+College degree (Associates or Bachelors)
+Must be authorized to work in the US
+Strong desire to learn to code – No prior professional experience required.
+A natural problem solver
+Team player
+Challenge seekers looking to develop tech skills
+Adaptable
+Strong communication and interpersonal skills
+Willing to relocate anywhere in the US – Relocation assistance provided
+Working for Revature is more than a job, we develop you into an experienced Software Engineer and put you on an accelerated career path. Fast track your tech career and work for a company that invests in you and values learning-whose own success is dependent on your success.
+Equal Employment Opportunity
+The Company is an equal opportunity employer. We will extend equal opportunity to all individuals without regard to race, religion, color, sex, pregnancy, childbirth or related medical conditions, sexual orientation, gender identity, national origin, disability, age, genetic information, marital status, veteran status, or any other status protected under applicable federal, state, or local laws. This policy applies to all terms and conditions of employment, including but not limited to, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, benefits, compensation and training. If you require an accommodation to work based on any of these protected factors, please notify the Human Resources Department, and the Company will evaluate the request and provide an accommodation in accordance with applicable law.
+We seek to comply with all applicable federal, state and local laws related to discrimination and will not tolerate the interference with the ability of any of the Company’s employees to perform their job duties. Our policy reflects and affirms the Company’s commitment to the principles of fair employment and the elimination of all discriminatory practices.
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+About the Role
+
+    Observability is a space that has grown beyond just monitoring. At Uber, we provide a centralized, reliable, and interactive Telemetry platform including metrics, logging and tracing that empowers engineers to work quickly and confidently at scale.
+  
+
+    The tracing team, one of the core parts of the telemetry platform, is responsible for providing an end to end distributed tracing solution (Jaeger), driving adoption and integration with thousands of micro services within the Uber engineering ecosystem. In addition to large distributed system challenges, the team also works on trace correlation with metrics, logging, as well as providing aggregated insights like deep dependency graphs, critical path analysis etc., to provide a holistic observability and production debugging experience for Uber.
+  
+
+    We're an agile team with diverse backgrounds from companies such as Google, Microsoft, Amazon, LinkedIn and other startups. We dream big, aim high, and practice grounded execution. Come join our team to solve tough large scale distributed system challenges and raise the bar of distributed tracing for Uber.
+  
+ What the Candidate Will Do
+
+ Design system architecture, own key components to deliver distributed tracing solutions for Uber.
+ Join on call rotation, driving continuous improvements on system availability, scalability, performance and efficiency.
+ Provide technical leadership, influence fellow engineers and role model solid engineering practices.
+ Collaborate with other infrastructure teams, production engineer team and product manager to drive adoption and best practices, and to design and implement high impact, cross-product features.
+
+ Basic Qualifications
+
+ BS or higher degree in Computer Science, or a related technical discipline, or equivalent experience.
+ Proficient in one or more backend languages, like Java, Go, C/C++, C#, with the ability to pick up new ones quickly.
+ Strong problem solving skills, with relevant experience in designing and implementing large scale distributed backend services
+
+ Preferred Qualifications
+
+ Proven record of building and operating highly reliable distributed systems at scale.
+ This role requires a lot of organizational alignment and consensus building - excellent written and verbal communication skills is a huge plus.
+ Experience with OpenTelemetry, and/or building and operating monitoring infrastructure at large scale. E.g. PB sized ES clusters, Prometheus, Kibana, Grafana, Jaeger, etc.
+ Batch and stream data process pipeline experience is a plus.
+ Passionate about pursuing technical excellence and mentoring engineers.
+
+
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ Revature is the fastest growing employer of emerging technology talent in the US.
+One day someone is going to ask you where you got your start…This is IT!
+With a wide range of Fortune 500 enterprises, government organizations and top systems integrators as our clients, we not only provide you with the skills needed to succeed through an employer-paid training program but will also give you the opportunity to put those skills to use, on projects that matter.
+What We Are Looking For
+College degree (Associates or Bachelors)
+Must be authorized to work in the US
+Strong desire to learn to code – No prior professional experience required.
+A natural problem solver
+Strong communication and interpersonal skills
+Willing to relocate anywhere in the US – Relocation assistance provided
+What We Offer
+Competitive salary
+Relocation & housing assistance
+Health, vision & dental insurance
+Paid time off
+Industry Certifications
+Life Insurance Policy
+401k
+Mentoring program and ongoing support throughout your entire Revature career
+Experience with the largest and most reputable companies in the US
+Apply Today. Interviews are going on now.
+#SoftwareEngineering
+Equal Employment Opportunity
+The Company is an equal opportunity employer. We will extend equal opportunity to all individuals without regard to race, religion, color, sex, pregnancy, childbirth or related medical conditions, sexual orientation, gender identity, national origin, disability, age, genetic information, marital status, veteran status, or any other status protected under applicable federal, state, or local laws. This policy applies to all terms and conditions of employment, including but not limited to, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, benefits, compensation and training. If you require an accommodation to work based on any of these protected factors, please notify the Human Resources Department, and the Company will evaluate the request and provide an accommodation in accordance with applicable law.
+We seek to comply with all applicable federal, state and local laws related to discrimination and will not tolerate the interference with the ability of any of the Company’s employees to perform their job duties. Our policy reflects and affirms the Company’s commitment to the principles of fair employment and the elimination of all discriminatory practices.
+ 
+ _________________________________New Job______________________________ 
+ 
+ One day someone is going to ask you where you got your start…This is IT!
+With a wide range of Fortune 500 enterprises, government organizations and top systems integrators as our clients, we not only provide you with the skills needed to succeed through an employer-paid training program but will also give you the opportunity to put those skills to use, on projects that matter.
+What We Are Looking For
+College degree (Associates or Bachelors)
+Must be authorized to work in the US
+Strong desire to learn to code – No prior professional experience required.
+A natural problem solver
+Strong communication and interpersonal skills
+Willing to relocate anywhere in the US – Relocation assistance provided
+What We Offer
+Competitive salary
+Relocation & housing assistance
+Health, vision & dental insurance
+Paid time off
+Industry Certifications
+Life Insurance Policy
+401k
+Mentoring program and ongoing support throughout your entire Revature career
+Experience with the largest and most reputable companies in the US
+Apply Today. Interviews are going on now.
+Equal Employment Opportunity
+The Company is an equal opportunity employer. We will extend equal opportunity to all individuals without regard to race, religion, color, sex, pregnancy, childbirth or related medical conditions, sexual orientation, gender identity, national origin, disability, age, genetic information, marital status, veteran status, or any other status protected under applicable federal, state, or local laws. This policy applies to all terms and conditions of employment, including but not limited to, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, benefits, compensation and training. If you require an accommodation to work based on any of these protected factors, please notify the Human Resources Department, and the Company will evaluate the request and provide an accommodation in accordance with applicable law.
+We seek to comply with all applicable federal, state and local laws related to discrimination and will not tolerate the interference with the ability of any of the Company’s employees to perform their job duties. Our policy reflects and affirms the Company’s commitment to the principles of fair employment and the elimination of all discriminatory practices.
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+   Allied Universal®, North America’s leading security and facility services company, provides rewarding careers that give you a sense of purpose. While working in a dynamic, diverse and inclusive workplace, you will be part of a team that fuels a culture that will reflect in our communities and customers we serve. We offer medical, dental and vision coverage, life insurance, 401K, employee assistance programs, company discounts, perks and more for all full-time positions!
+  
+ As a Security Guard, you will serve and safeguard clients in a range of industries such as Commercial Real Estate, Healthcare, Education, Government and more.
+ Responsibilities:
+
+ Provide customer service to our clients by carrying out safety and security procedures, site-specific policies and when appropriate, emergency response activities
+ Respond to incidents and critical situations in a calm, problem solving manner
+ Conduct regular and random patrols around the business and perimeter. Working environments and conditions may vary by client site.
+
+ Minimum Requirements:
+
+ Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles
+ Possess a high school diploma or equivalent, or 5 years of verifiable experience
+ As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws. Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.
+ As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.
+ Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.
+
+A valid driver’s license will be required for driving positions only
+
+
+ Perks and Benefits:
+
+ Health insurance and 401k plans for full-time positions 
+Flexible part time and full-time schedules that fit with your personal life goals
+ Ongoing paid training programs and career growth opportunities
+ Employee discounts through our perks program to your favorite restaurants, entertainment venues and much more…
+
+
+ Allied Universal® is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com
+  
+
+
+
+   If you have any questions regarding Equal Employment Opportunity, Affirmative Action, Diversity and Inclusion, have difficulty using the online system and require an alternate method to apply, or require an accommodation at any time during the recruitment and/or employment process, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.
+  
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+Heartdub is looking for a creative individual who is passionate and dedicated to digital fashion innovation through immersive visualization technology. The Software Engineer will design and implement a new digital experience to leverage Heartdub’s vast catalog that utilizes the latest game-engine-based software tools.
+Qualification: 
+Required
+
+Bachelor's degree in Computer Science, Electrical Engineering or related technical field or equivalent practical experience
+Fluency in one or more general programming languages including but not limited to: Java, C/C++, C#, Python, JavaScript, Objective-C
+At least 3+ years of programming experience
+Strong passion and eagerness to learn new technologies
+Excellent communication skills, both written and verbal
+Ability to work in a fast-paced environment
+
+Preferred
+
+Master's degree or Ph.D. in Computer Science or related technical field
+Experience with project management
+
+Responsibilities: 
+
+Manage specific modules of the platform by taking features from idea to implementation
+Maintain the platform program with neat figure design, elegant coding, and periodical refactoring
+Review and provide comments for the code submitted by colleagues
+Collaborate with other teams to develop new features from the requirement
+Optimize the design of the project and improve the availability and maintainability
+
+Heartdub is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations, and ordinances.
+Job Type: Full-time
+Pay: Up to $150,698.00 per year
+Benefits:
+
+Dental insurance
+Flexible schedule
+Health insurance
+Life insurance
+Paid time off
+Referral program
+Vision insurance
+
+Schedule:
+
+Monday to Friday
+On call
+
+Supplemental Pay:
+
+Bonus pay
+Signing bonus
+
+Ability to commute/relocate:
+
+Bellevue, WA 98005: Reliably commute or planning to relocate before starting work (Required)
+
+Education:
+
+Bachelor's (Required)
+
+Experience:
+
+programming: 2 years (Required)
+
+Work Location: One location
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+   Are you a software engineer looking for a challenge and ready to make great user impact across WebXT, Office and Windows to create homepage and new tab page experiences for over 500M users and drive daily habit with users?
+  
+
+
+ On the Start Experiences team, our goal is to help users build a daily habit as they start their online journey with contextual, personally relevant, engaging and highly performant homepage and new tab experiences. Our Start Experiences in FY22 will focus on driving growth and engagement on Windows and Edge with homepage and new tab pages on desktop, mobile and Xbox, additional browser plug ins, super app homepage and our direct nav homepage experiences: Bing.com, MSN.com and Microsoftnews.com.
+  
+ Responsibilities
+
+ Design and develop backend services to support Start Experiences directly impacting key business metrics for 500M+ users.
+ Closely collaborate with ML Data science team to design and integrate models to optimize front-end experience.
+ Work with partner teams across Content Services to deliver coordinated value and services
+ Contribute to rigorous engineering processes to ensure service quality, predictable delivery of new capabilities, and continuously improving metrics
+ Create scalable solutions that can be applied for solving multiple scenarios across different partners and customer topologies
+ Help ensure live site health for the product
+
+ Qualifications
+
+ Required Qualifications:
+
+
+
+ Design and develop backend services to support Start Experiences.
+ Closely collaborate with ML Data scientist team to design and integrate models to optimize front-end experience.
+ Work with partner teams in Content Services to deliver coordinated value and services
+ Contribute to rigorous engineering processes to ensure service quality, predictable delivery of new capabilities, and continuously improving metrics
+ Create scalable solutions that can be applied for solving multiple scenarios across different partners and customer topologies
+ Help ensure live site health for the product
+
+
+
+ Preferred Qualifications:
+
+
+ 1+ years of strong experience with backend service programming and hosting (e.g., C#, .Net, Azure Service Fabric, Docker)
+ 1+ years of experience with one or more general purpose programming language. Prefer fluency in C#, HTML, Javascript.
+ Experience with any of the following engineering areas: scalability, compliance, performance, security, privacy, reliability, accessibility, localization/globalization.
+ 1+ years of proven ability to develop successful long-term code/service architectures.
+ Excellent understanding of testing methodologies and practices
+ Experience in Azure DevOps and working across teams with different working processes
+ Strong customer obsession to solve real user problems
+ A systematic problem solver who quickly ramps up, understand complex problems, and create solutions that cross many services
+
+
+ Additional preferences:
+
+
+ Experience working with local and remote teams
+ Familiarity with GIT and Azure development is a plus.
+
+
+
+ #contentservices# #webXT# #FullStack#
+  
+
+
+ Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request via the Accommodation request form.
+  
+
+
+ Benefits/perks listed below may vary depending on the nature of your employment with Microsoft and the country where you work.
+  
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+Programming experience with at least one software programming language.
+ 1+ years of experience in software development
+ Experience with the syntax of languages such as Java, C/C++ or Python.
+ Computer Science fundamentals such as object-oriented design, algorithm design, data structures, problem solving, and complexity analysis.
+
+
+
+
+  Job summary
+   Do you want to solve business challenges through innovative technology? Do you enjoy working on cutting-edge, scalable services technology in a team environment? Do you like working on industry-defining projects that move the needle?
+  
+ At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. The focus we have on our customers is why we are one of the world’s most beloved brands – customer obsession is part of our company DNA. Our Software Development Engineers (SDEs) use cutting-edge technology to solve complex problems and get to see the impact of their work first-hand.
+  
+ The challenges SDEs solve for at Amazon are big and influence millions of customers, sellers, and products around the world. We are looking for individuals who are passionate about creating new products, features, and services from scratch while managing ambiguity and the pace of a company where development cycles are measured in weeks, not years. If this sounds interesting to you, apply and come chart your own path at Amazon.
+   KEY JOB RESPONSIBILITIES
+  
+
+ Collaborate with experienced cross-disciplinary Amazonians to conceive, design, and bring innovative products and services to market.
+ Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry.
+ Create solutions to run predictions on distributed systems with exposure to innovative technologies at incredible scale and speed.
+ Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use.
+ Design and code the right solutions starting with broadly defined problems.
+ Work in an agile environment to deliver high-quality software.
+
+
+
+
+
+Experience with distributed, multi-tiered systems, algorithms, and databases.
+ Effectively articulate technical challenges and solutions.
+ Adept at handling ambiguous or undefined problems as well as ability to think abstractly.
+
+ Amazon is committed to a diverse and inclusive workplace. Amazon is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. For individuals with disabilities who would like to request an accommodation, please visit https://www.amazon.jobs/en/disability/us.
+ 
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+We are looking for a passionate Software Development Engineer who will work with an outstanding development team to create high scale distributed services that expand the reach and functionality of Config. In this role, you will own solutions from design and execution through deployment and support, using the best of available tools, including EC2 Native, Lambda, DynamoDB, and ElasticSearch. You will be responsible for holding the code quality high, even as we optimize our development processes to better serve our customers, and will be expected to mentor and guide junior engineers. You should be invested in helping our enterprise customers enforce IT policies and best practices across their applications on AWS and beyond, understanding that it is important to pair infrastructure with the ability to properly manage it at scale. Most importantly, you should be comfortable working in a fast-paced environment where delivery of new products and features is very rapid. AWS Config is one of the most critical requirements for large enterprises moving to AWS.
+Basic qualifications: 
+Programming experience with at least one modern language such as Java, C++, or C# including object-oriented design
+Preferred qualifications: 
+
+Passion for building new products in a fast paced, team-oriented environment.
+Solid coding practices including good design documentation, unit testing, peer code reviews, and a preference for agile methods
+Sharp analytical abilities
+
+Come join us in forging the future of AWS.
+Amazon is committed to a diverse and inclusive workplace. Amazon is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. For individuals with disabilities who would like to request an accommodation, visit US Disability Accommodations (https://www.amazon.jobs/en/disability/us).
+Job Type: Full-time
+Pay: $1.00 - $2.00 per year
+Benefits:
+
+401(k)
+Dental insurance
+Health insurance
+Paid time off
+Vision insurance
+
+Schedule:
+
+8 hour shift
+Monday to Friday
+
+Supplemental Pay:
+
+Bonus pay
+Signing bonus
+
+Ability to commute/relocate:
+
+Seattle, WA: Reliably commute or planning to relocate before starting work (Required)
+
+Experience:
+
+Software Development Occupations: 1 year (Required)
+REST: 1 year (Preferred)
+Java: 1 year (Preferred)
+
+Work Location: One location
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+Be unstoppable with us! T-Mobile is synonymous with innovation–and you could be part of the team that disrupted an entire industry! We reinvented customer service, brought real 5G to the nation, and now we’re shaping the future of technology in wireless and beyond. Our work is as exciting as it is rewarding, so consider the career opportunity below as your invitation to grow with us, make big things happen with us, above all, #BEYOU with us. Together, we won’t stop!
+ The Technology Software Engineer will work with a team of other software developers and network and systems engineers to design, implement, and deploy software which meet customer’s requirements, scales easily, removes the limitations of traditional networking solutions, and supports deployment in highly available environments The engineer will participate in architecture and design of various software components focused on creating applications that leverage technologies such as virtualization, micro services, SDN, NFV, and Big Data platforms and technologies.
+    Leads work on technical assignments that are semi routine in nature but recognizes that need for occasional deviation from accepted practice. Normally follows established procedures on routine work, requires instructions only on new assignments.
+   
+ The Technology Software Engineer will work with a team of other software developers and network and systems engineers to design, implement, and deploy software which meet customer’s requirements, scales easily, removes the limitations of traditional networking solutions, and supports deployment in highly available environments The engineer will participate in architecture and design of various software components focused on creating applications that leverage technologies such as virtualization, micro services, SDN, NFV, and Big Data platforms and technologies. Leads work on technical assignments that are semi routine in nature but recognizes that need for occasional deviation from accepted practice. Normally follows established procedures on routine work, requires instructions only on new assignments.
+
+ Technical System Expertise: Understands system protocols, how systems operate and data flows. Aware of current technology benefits. Expected to independently develop a full software stack. Understands the building blocks, interactions, dependencies, and tools required to complete software and automation work. Independent study of current technology is expected. Interact with system engineers to define system requirement and/or necessary requirements for automation.
+ Technical Engineering Services: Supports engineering projects by developing software solutions; conducting tests and inspections; preparing reports and calculations. Expected to supervise associate engineers on occasion.
+ Innovation: Presents new ideas which improve an existing system/process/service. Presents new ideas which utilize new frameworks to improve an existing system/process/service. Express new perspectives based on independent study of the industry. Review current company processes to highlight questions that may drive process refinement.
+ Technical Writing: Maintains knowledge of existing technology documents. Writes basic documentation on how technology works. Contributes clear documentation for new code and systems used. Documenting systems designs, presentations, and business requirements for consumption at the engineer level.
+ Technical Leadership: Collaborates with technical teams and utilizes system expertise to deliver technical solutions.
+ Continuously learns new technologies.
+ Technology Strategy: Understands current technology that supports business goals.
+ Supports team initiatives and creates an inclusive environment
+ 2+ Years Technical engineering experience
+ Focus: Able to communicate goals in support of the business' mission.
+ Drive: Self-motivated and able to work well under pressure.
+ Collaboration: Ability and desire to work in coordination with team members.
+ Communication: Ensure that information is passed on to others who should be kept informed. Express self clearly in conversations and interactions. Clear business and technical writing skills.
+ Customer Dedication: Demonstrate concern and meet external and/or internal customers’ needs.
+ Analytical: Tackle a problem by using a logical, systematic, sequential approach.
+ Technical Expertise: The ability to demonstrate depth of knowledge and skill in a technical area.
+ Travel requirements
+ May require up to 20% of domestic overnight travel within the region, and occasional trips to the Bellevue Headquarters.
+
+
+
+ Bachelor’s degree - Computer Science or Engineering
+ At least 18 years of age
+ Legally authorized to work in the United States
+ High School Diploma or GED
+ T-Mobile requires all employees in this position to be fully vaccinated for COVID-19 prior to starting work, unless precluded from doing so by applicable law. The CDC currently defines "fully vaccinated" as two weeks after the second dose for Pfizer and Moderna, and two weeks after the single dose of Johnson & Johnson. T-Mobile will require proof of vaccination prior to successful applicant’s first day of work, and will consider requests for exemption from this requirement during the offer phase (1) as a reasonable accommodation for medical reasons or sincerely held religious beliefs where the accommodation would not cause T-Mobile undue hardship or pose a direct threat to the health and safety of others, or (2) for other reasons under applicable law.
+
+
+ Never stop growing! T-Mobile doesn’t have a corporate ladder–it’s more like a jungle gym of possibilities! We love helping our employees grow in their careers, because it’s that shared drive to aim high that drives our business and our culture forward.  If you’d like to receive more information about careers at T-Mobile, sign up for the T-Mobile Talent Community today! https://www.tmobile.careers/profile/join/  T-Mobile USA, Inc. is an Equal Opportunity Employer. All decisions concerning the employment relationship will be made without regard to age, race, ethnicity, color, religion, creed, sex, sexual orientation, gender identity or expression, national origin, religious affiliation, marital status, citizenship status, veteran status, the presence of any physical or mental disability, or any other status or characteristic protected by federal, state, or local law. Discrimination, retaliation or harassment based upon any of these factors is wholly inconsistent with how we do business and will not be tolerated.  Talent comes in all forms at the Un-carrier. If you are an individual with a disability and need reasonable accommodation at any point in the application or interview process, please let us know by emailing ApplicantAccommodation@t-mobile.com or calling 1-844-873-9500. Please note, this contact channel is not a means to apply for or inquire about a position and we are unable to respond to non-accommodation related requests.
+
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ About Us
+
+Twitch is the world's biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It's where millions of people come together to chat, interact, and make their own entertainment.
+
+We're about community, inside and out. You'll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We're on a quest to empower live communities, so if this sounds good to you, see what we're up to on LinkedIn and Twitter, get interviewing tips on Instagram, and discover projects we're solving on our Blog.
+
+About the Role
+
+At Twitch, creators are at the center of our success. As a member of the Community Insights team, you'll enhance and build products that help streamers achieve their goals by delivering powerful tools for them to understand the performance of their streams and businesses.
+
+We're looking for engineers that love to delight people with incredible user experiences. On this team, you'll work closely with designers, product managers, and other engineers to transform millions of events each minute into digestible, relevant insights that close the loop for streamers in understanding how their behavior impacts their success. We're looking for interest and experience in server-side programming (web architecture, SOA, database architecture) and passion for building clean, scalable, and well-tested systems using cutting-edge open-source and Amazon Web Services (AWS) tools. You'll report to the Director of Community Insights and can work from either Seattle or San Francisco!
+
+You Will:
+Design, deliver, and improve performant, reliable, and high-performance systems which process billions of events each day
+Embrace and champion engineering best practices within your group and Twitch
+Produce clean, high-quality code, tests, and documentation
+Actively participate in code and design reviews with peers and partners
+Contribute engineering input and feedback into product planning processes
+Partner with fellow engineering teams to deliver on complex initiatives together
+You Have:
+Willingness to try new things and work with a diverse group of people
+2+ years of experience developing software in a professional environment
+Bachelor's degree in Computer Science or related field or equivalent industry experience as a Software Engineer
+Strong foundation of data structures and algorithms. Familiarity with scalability, concurrency, API design, data modeling, and fundamentals of distributed systems or high-volume data processing
+Bonus Points
+Familiarity with AWS infrastructure
+Experience writing Go in production systems
+Experience with Apache Druid, Apache Flink
+Are a Twitch user yourself
+Perks
+Medical, Dental, Vision & Disability Insurance
+401(k), Maternity & Parental Leave
+Flexible PTO
+Commuter Benefits
+Amazon Employee Discount
+Monthly Contribution & Discounts for Wellness Related Activities & Programs (e.g., gym memberships, off-site massages),
+Lunch Served Daily
+Free Snacks & Beverages
+
+We are an equal opportunity employer and value diversity at Twitch. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
+
+Job ID: TW7081
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+  Overview: 
+  
+ You: You are a software engineer who strives for excellence in the user’s experience as well as in your technical solutions. You have a curious mind and a passion for continuous improvement. You thrive in an agile and fast-paced environment.
+  
+
+
+ Us: We are a high-performing cross-functional team of developers, product managers, and designers. We are passionate about delivering elegant solutions to complex business problems and we have a proven track record of delivering successful v1 applications that delight our customers.
+   Responsibilities: 
+  
+    You will work with your scrum team to deliver impactful and valuable features bi-weekly. You will personally own end-to-end features from concept to design to production, and partner with product managers, user experience designers, and other engineers to achieve high-quality solutions.
+   Qualifications: 
+  
+ Basic Qualifications:
+
+
+ Knowledge of data structures, algorithms, asynchronous architectures, and object-oriented programming.
+ Experience with Java or C#.
+ Experience with React.js development.
+ B.S. in Computer Science or equivalent experience.
+
+ Preferred Qualifications:
+
+ Experience with cloud technologies in AWS, Azure, or Google Cloud, etc. and their associated microservices.
+ Experience developing Software as a Service (SaaS) applications and understanding the impact of this architecture in a deployment environment
+ Experience with SQL or Postgres
+
+
+ The Company
+
+
+    Apptio is the leading software to fuel digital transformation. We help technology and finance leaders make smart decisions as they plan, analyze, and optimize technology investments in pursuit of digital transformation. Apptio’s software uses machine learning to translate technology costs and utilization across on-premises systems, vendors, projects, agile and cloud systems into a holistic, business-centric view. With Apptio, IT leaders make smarter digital transformation investments. Companies of all sizes and geographies trust Apptio to fuel their digital transformation, including 60% of the Fortune 100. For more information, please visit www.Apptio.com.
+  
+
+    Apptio, Inc. is not open to 3rd party solicitation or resumes for our posted FTE positions. Resumes received from 3rd party agencies that are unsolicited will be considered complimentary.
+  
+
+    Apptio, Inc. provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, sexual orientation, national origin, age, disability, genetic information, marital status, amnesty, or status as a covered veteran in accordance with applicable federal, state and local laws. Apptio, Inc. complies with applicable state and local laws governing nondiscrimination in employment in every location in which the company has facilities.
+  
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+Programming experience with at least one software programming language.
+ 1+ years of experience in software development
+
+
+
+Job summary Additional locations include: New York City, NY, San Francisco, CA, and Sunnyvale, CA.    About Amazon Music  Amazon Music reimagines music listening by enabling customers to unlock millions of songs and thousands of curated playlists and stations with their voice. Amazon Music provides unlimited access to new releases and classic hits across iOS and Android mobile devices, PC, Mac, Echo, and Alexa-enabled devices including Fire TV and more. With Amazon Music, Prime members have access to ad-free listening of 2 million songs at no additional cost to their membership. Listeners can also enjoy the premium subscription service, Amazon Music Unlimited, which provides access to more than 75 million songs and the latest new releases. Amazon Music Unlimited customers also now have access to the highest-quality listening experience available, with more than 75 million songs available in High Definition (HD), more than 7 million songs in Ultra HD, and a growing catalog of spatial audio. Customers also have free access to an ad-supported selection of top playlists and stations on Amazon Music. All Amazon Music tiers now offer a wide selection of podcasts at no additional cost, and live streaming in partnership with Twitch. Engaging with music and culture has never been more natural, simple, and fun. For more information, visit amazonmusic.com or download the Amazon Music app.  Position is available in Seattle, Bay Area or New York.
+
+
+
+Previous technical internship(s).
+ Experience with distributed, multi-tiered systems, algorithms, and relational databases.
+ Experience in optimization mathematics such as linear programming and nonlinear optimization.
+ Effectively articulate technical challenges and solutions.
+ Adept at handling ambiguous or undefined problems as well as ability to think abstractly.
+
+ Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
+  
+ Amazon is committed to a diverse and inclusive workplace. Amazon is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. For individuals with disabilities who would like to request an accommodation, please visit https://www.amazon.jobs/en/disability/us.
+ 
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+  As a member of our Software Engineering Group, we look first and foremost for people who are passionate around solving business problems through innovation and engineering practices. You'll be required to apply your depth of knowledge and expertise to all aspects of the software development lifecycle, as well as partner continuously with your many stakeholders on a daily basis to stay focused on common goals. We embrace a culture of experimentation and constantly strive for improvement and learning. You'll work in a collaborative, trusting, thought-provoking environment-one that encourages diversity of thought and creative solutions that are in the best interests of our customers globally.
+  
+ This role requires a wide variety of strengths and capabilities, including:
+  
+
+BS/BA degree or equivalent experience
+Advanced knowledge of application, data, and infrastructure architecture disciplines
+Understanding of architecture and design across all systems
+Working proficiency in developmental toolsets
+Knowledge of industry-wide technology trends and best practices
+Ability to work in large, collaborative teams to achieve organizational goals
+Passionate about building an innovative culture
+Proficiency in one or more modern programming languages
+Understanding of software skills such as business analysis, development, maintenance, and software improvement
+
+JPMorgan Chase & Co., one of the oldest financial institutions, offers innovative financial solutions to millions of consumers, small businesses and many of the world's most prominent corporate, institutional and government clients under the J.P. Morgan and Chase brands. Our history spans over 200 years and today we are a leader in investment banking, consumer and small business banking, commercial banking, financial transaction processing and asset management. 
+We recognize that our people are our strength and the diverse talents they bring to our global workforce are directly linked to our success. We are an equal opportunity employer and place a high value on diversity and inclusion at our company. We do not discriminate on the basis of any protected attribute, including race, religion, color, national origin, gender, sexual orientation, gender identity, gender expression, age, marital or veteran status, pregnancy or disability, or any other basis protected under applicable law. In accordance with applicable law, we make reasonable accommodations for applicants' and employees' religious practices and beliefs, as well as any mental health or physical disability needs. 
+The health and safety of our colleagues, candidates, clients and communities has been a top priority in light of the COVID-19 pandemic. JPMorgan Chase was awarded the "WELL Health-Safety Rating" for all of our 6,200 locations globally based on our operational policies, maintenance protocols, stakeholder engagement and emergency plans to address a post-COVID-19 environment.
+ As a part of our commitment to health and safety, we have implemented various COVID-related health and safety requirements for our workforce. Employees are expected to follow the Firm's current COVID-19 or other infectious disease health and safety requirements, including local requirements. Requirements include sharing information including your vaccine card in the firm's vaccine record tool, and may include mask wearing. Requirements may change in the future with the evolving public health landscape. JPMorgan Chase will consider accommodation requests as required by applicable law.
+ Equal Opportunity Employer/Disability/Veterans
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+
+
+    REI is committed to becoming a fully inclusive, antiracist, multicultural organization. To fulfill our brand promise of enabling a life well-lived outside for everyone, we are seeking candidates who demonstrate shared values of diversity, equity, inclusion, and antiracism.
+    
+
+
+
+
+    IT Enterprise Data & Analytics team at REI has been going through a transformational journey to enable the co-op to be a data driven organization. Along with a complete revamp of the entire analytical platform ecosystem which includes onboarding new technologies and migrating to Cloud, the team continues to enhance our already rich data platforms with additional data and develop new analytical products that helps to drive actionable insights across the Co-op. One of the Strategic initiatives of the Co-op for the next three years is leveraging AI/ML capabilities in solving complex business problems. In support of this, the Enterprise Data & Analytics team is growing to accelerate the development of AI models and standing up an Enterprise MLOps team to automate, deploy and support Machine Learning pipelines developed by Data scientists from across the Co-op.
+    
+
+
+
+
+    As a 
+    Machine Learning Engineer within the IT Enterprise Data & Analytics team at REI, you will have the opportunity to work on rich, cross-functional data sets, leverage the latest technologies and deploy end-to-end Machine Learning pipelines that influence the long-term evolution of our analytics capability. This role will help operationalize key initiatives in support of REI’s multi-channel objectives that helps to significantly improve our customer’s experience, brand and social impact. You will also play a pivotal role in defining and implanting the technology landscape needed in support of Machine Learning development and deployment. You also get to be part of a super fun team and an organization that values work-life balance and inspires you to live a life outdoors!
+    
+
+
+
+
+Responsibilities 
+
+
+
+
+    As part of the Enterprise MLOps team, you will have the opportunity to build ML pipelines in support of a variety of business problems ranging from website optimization, inventory optimization, web analytics, customer relationship management, and supply chain.
+    
+
+
+
+
+    You will get to work side-by-side with Data Scientists and other Engineering roles to help productionize and provide ongoing support to automated machine learning pipelines. Your work will enable the data science models to get to market faster leveraging CI/CD pipelines, help to continually evaluate and improve the outcome of the models and accelerate the generation of business value of the team.
+    
+
+
+
+
+
+You will build, maintain and own the Enterprise Machine learning ecosystem comprising of Dataiku, AWS resources and other required software and SaaS solutions, that will be leveraged by Data Scientists and Machine Learning engineers across the Coop to build and deploy models. 
+You will monitor deployed models for model drift and performance, support model retraining and provide incident management support.
+ You will build, maintain and own the Enterprise Machine learning ecosystem comprising of Dataiku, AWS resources and other required software and SaaS solutions, that will be leveraged by Data Scientists and Machine Learning engineers across the Coop to build and deploy models.
+ You will monitor deployed models for model drift and performance, support model retraining and provide incident management support.
+
+
+
+
+
+
+
+Bring your passion and expertise
+
+
+
+2+ years’ experience deploying AI model pipelines in the Cloud (AWS preferred) and integrating AI/ML and other Cloud services into large-scale production applications.
+ Proficiency in at least one modern programming language like Python and ML frameworks like Tensorflow, Scikit-learn, Pytorch , nympy, pandas etc
+ Solid understanding and 2+ years’ experience working with one of the cloud computing environments such as AWS, Azure, Google Cloud
+ 2+ years of experience in building data pipelines to build, train and evaluate ML models using data from relational database technologies like Snowflake, BigQuery, Redshift, Oracle, SQL Server or object storage services like S3.
+ Solid understanding of applied data science methods, feature engineering and machine learning algorithms.
+ Bachelor's degree in computer science, engineering, mathematics, or related field of study OR 2+ years of professional work experience.
+ Must possess strong verbal and written communication skills, be self-driven, accountable and constant learner.
+ Experience working for a large retail company is preferred
+ Experience with Data Science Platforms like Dataiku, Databricks, Domino Data Lab, Datarobot etc is preferred
+
+
+
+ #LI-TS1
+    
+
+
+
+As required by the Colorado Equal Pay Transparency Act, REI provides a range of minimum compensation for roles that may be hired in Colorado. Factors that may be used to determine your actual salary may include a wide array of factors, including: your specific skills and experience, geographic location or other relevant factors. The salary range for this position may be lower or higher in different markets.
+$75,000 to $147,500 per year
+To review benefits information, including medical, retirement, and time off visit http://foryourbenefit-rei.com.
+
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+About HiveHive is the leading provider of cloud-based enterprise AI solutions to power the next wave of intelligent automation. We offer a portfolio of best-in-class deep learning models, built with consensus-validated training data sourced and annotated by our distributed workforce of more than 2 million contributors globally. Hive's APIs enable use cases including automated content moderation, contextual advertising, advertising and sponsorship measurement, document parsing, and more. We process billions of API requests per month for many of the world's largest and most innovative companies.Hive has raised over $120M in capital from leading investors, including General Catalyst, 8VC, Glynn Capital, Jericho Capital, Bain & Company, Visa Ventures, and others. We have over 170 employees globally in our San Francisco and Delhi offices. Please reach out if you are interested in joining the future of AI!
+Frontend Engineer
+Frontend Engineers are an essential part of the Hive Data and Hive Enterprise products. Working closely with designers, product owners, and other engineers, we implement the user interfaces that define our core platforms. We leverage the latest web technologies such as React,* Redux*, Webpack,* and ES6* to deliver innovative interfaces and rich user experiences. The team is small and fast moving, and you will be expected to iterate quickly and make software design decisions on product features. As a front-end engineer at Hive, your breadth of skills paired with our bottom-up product process will give you as much autonomy and responsibility as you can handle. We are looking for technically-strong teammates who are passionate about frontend technologies and thrive in a fast-paced environment.Responsibilities
+
+Build robust, high performance, and scalable applications
+Work with the design and product teams to develop new features that are focused on user experience
+Actively participate in product decisions, ensuring we set reasonable development deadlines
+Look for opportunities to improve team efficiency and work with your team to implement improvements
+
+Requirements
+
+You have a Bachelor's degree in Computer Science or equivalent
+You have at least 1 year of experience working in web development
+You have experience working with 3rd party APIs and libraries
+You have in-depth knowledge of JavaScript, HTML, CSS, and related web technologies
+You have a good grasp of React and Redux (or similar frameworks) and the concepts behind it
+You are capable of creating beautiful web products and have good UX sensibilities
+You are eager to learn new technologies and share your knowledge with your teammates
+You are receptive to feedback and always looking for opportunities to sharpen your skills
+You have excellent communication skills and experience in collaborative environments
+You write understandable, testable code with an eye towards maintainability and scalability
+
+*Who We Are***We are a group of ambitious individuals who are passionate about creating a revolutionary AI company. At Hive, you will have a steep learning curve and an opportunity to contribute to one of the fastest growing AI start-ups in San Francisco. The work you do here will have a noticeable and direct impact on the development of the company.Thank you for your interest in Hive and we hope to meet you soon!
+Job Type: Full-time
+Schedule:
+
+Monday to Friday
+
+Work Location: One location
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+SQL Developer
+
+ Are you an experienced, passionate pioneer in technology - a solutions builder, a roll-up-your-sleeves technologist who wants a daily collaborative environment, think-tank feel and share new ideas with your colleagues - without the extensive demands of travel? If so, consider an opportunity with our US Delivery Center - we are breaking the mold of a typical Delivery Center.
+  
+ Our US Delivery Centers have been growing since 2014 with significant, continued growth on the horizon. Interested? Read more about our opportunity below ...
+  
+ The team
+  
+ The HR Transformation team is a core component of our Human Capital practice - the work we do supports the five major issues our clients are facing. We collaborate with our clients to develop leading global HR strategies and support organizations in achieving excellence through implementing solutions that transform how they organize, develop capabilities, deploy leading technology, and deliver a leading employee experience.
+  
+ Keeping the employee in mind, all our services cater to improving an organization's productivity through their human capital asset. The client issues we work with range from the need for a comprehensive HR strategy to determining the need for new and enabling technologies, to streamlining HR operations and transforming the way HR is delivered.
+  
+ Our Workday practice is the implementation partner of choice for Workday's largest clients. We have over 1000 Workday certified professionals working on the most comprehensive and complex projects in North America and we are looking for high energy, committed and ambitious people to join our Workday community. 
+  
+ Required:
+  
+
+ Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience
+ 2+ years of IT experience
+ Advanced working knowledge of SQL coding experience, schema design and performance tuning
+ Superior communication skills, both written and verbal
+ Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future
+ Ability to travel 10%, on average, based on the work you do and the clients and industries/sectors you serve.
+
+ Preferred:
+  
+
+ MIS degree
+ Workday experience
+ Experience with integrations
+
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+ HireArt is helping the world’s largest social network hire a Software Engineer (AR/VR) to partner with expert research scientists and other engineers to build cutting-edge prototypes and create the technology that makes AR/VR universal. 
+ 
+
+As a Software Engineer (AR/VR), you'll:
+
+
+Build an immersive VR environment in Unity that enables user studies and demos.
+Integrate XR devices and other components to create end to end experiences.
+Add logging and instrumentations to user studies to collect high quality data, which enables effective data analysis.
+Collaborate closely with researchers, engineers, data scientists, and product managers to improve the speed at which research scientists can create demo and user studies.
+Write clean code, test/validate the experience, debug complex problems, prioritize ruthlessly, and get things done with a high level of efficiency.
+
+Benefits:
+
+
+Pre-tax commuter benefits
+Employer (HireArt) Subsidized healthcare benefits
+Flexible Spending Account for healthcare-related costs
+HireArt covers all costs for short and long term disability and life insurance
+401k package
+Bachelor's degree in computer science or related field
+1+ years experience with game engines, such as Unity
+Familiarity with C# and Python
+Experience shipping one or more products of high complexity using standard software development tool sets, such as source control, unit testing and continuous integration systems
+
+Preferred Qualifications:
+
+
+Experience with C++
+Familiarity with logging framework and instrumentations
+Experience with AR/VR
+Experience in the domain of embedded systems development
+
+Commitment: This is a full-time, 12-month contract position staffed via HireArt. It will be fully remote until offices reopen and is available to candidates local to Redmond, WA or Toronto, CA. 
+ 
+ HireArt values diversity and is an Equal Opportunity Employer. We are interested in every qualified candidate who is eligible to work in the United States. Unfortunately, we are not able to sponsor visas or employ corp-to-corp.
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+Job Description
+ A Software Engineer 2 is part of a key team of Nordstrom Technology professionals that applies scientific, mathematical and social principles to design, build, and maintain technology products, devices, systems and solutions. These technology products and solutions provide amazing customer experiences while meeting the needs of the business. The scope, responsibility and accountability is at the function level.
+
+ Supply Chain technology transformation is central to Nordstrom’s strategic vision and our leadership is investing in our growth. In the past year, we’ve aggressively begun streamlining our technology to support a scalable and AI driven supply chain network. This will provide the foundation to quickly integrate state of the art automated, omni-channel fulfillment and distribution management systems. Nordstrom’s supply chain services process hundreds of thousands of orders per day, with transactions in tens of millions of dollars per day, and account for roughly half of the company’s multi-billion dollar sales for the year.
+
+ A day in the life…
+
+ Design and collaborate with local and partner teams
+ Test all scenarios and conform to quality standards
+ Identify performance issues; apply knowledge of security coding practices and secure system fundamentals (e.g., cross-site scripting, security certificates)
+ Demonstrate thorough knowledge of information technology concepts issues, trends and best practices as they relate to the discipline/practice
+ Demonstrate advanced knowledge of specific needs of a major line of business and the related set of applications, systems or functions
+
+
+ You own this if you have…
+
+ 3+ years of professional experience as a software development engineer
+ 3+ years of Java or Go Development experience
+ 1+ years experience with public cloud infrastructure (AWS)
+ Knowledge in collaborating with other disciplines like program management and product management to deliver features
+ Bachelor’s or Master’s degree in CS, Engineering or equivalent practical experience
+ Knowledge in event driven design and implementation patterns, containers and micro-services, REST APIs are a bonus
+
+
+ We’ve got you covered…
+
+ Our employees are our most important asset and that’s reflected in our benefits. Nordstrom is proud to offer a variety of benefits to support employees and their families, including:
+
+ Medical/Vision, Dental, Retirement and Paid Time Away
+ Life Insurance and Disability
+ Merchandise Discount and EAP Resources
+
+
+ A few more important points...
+
+ The job posting highlights the most critical responsibilities and requirements of the job. It’s not all-inclusive. There may be additional duties, responsibilities and qualifications for this job.
+
+ Nordstrom will consider qualified applicants with criminal histories in a manner consistent with all legal requirements.
+
+ Applicants with disabilities who require assistance or accommodation should contact the nearest Nordstrom location, which can be identified at www.nordstrom.com.
+
+ © 2022 Nordstrom, Inc
+
+ Current Nordstrom employees: To apply, log into Workday, click the Careers button and then click Find Jobs.
+
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ Primary skills: Java, J2EE, JavaScript, JSP, Data Modelling.
+Duration: 6 months with possible extension/conversion.
+Contract type: W2 only
+Location: Seattle, WA (Remote)
+
+To follow up with any questions, please contact Murali at 408.512.2353
+
+This is for world's largest e-Commerce company.
+
+JOB RESPONSIBILITIES :
+Building functional and technical requirements into detailed architecture and design
+Coding and testing complex system components
+Participating in code and design reviews to maintain our high development standards
+Overall system architecture, scalability, reliability, and performance
+Mentoring other engineers, defining our challenging technical culture, and helping to build a new fast-growing team.
+JOB REQUIREMENTS :
+J2EE
+Java
+JavaScript
+JSP
+Data Modelling
+Please note: Manager expressed that it is important for the candidate to have experience with Java.
+
+ABOUT AKRAYA
+Akraya is an award-winning IT staffing firm and the staffing partner of choice for many leading companies across the US. Akraya was recently voted as a 2021 Best Staffing Firm to Temp for by Staffing Industry Analysts and voted by our employees and consultants as a 2022 Glassdoor Best Places to Work.
+ 
+ _________________________________New Job______________________________ 
+ 
+ JOB DESCRIPTION
+Responsibilities
+
+You will work on a compute cluster supporting ML researchers using both CPU and GPU nodes. You will be working in python with Kubernetes and other distributed compute technologies. You will support both users of the platform as well as developing new features. This role will include client side work in addition to server side work, but will focus on backend plumbing systems work such as working on our Kubernetes and Docker containers to support new storage and tools, and user security work.
+MINIMUM REQUIREMENTS
+Required Qualifications
+Experience with:
+Docker,
+Kubernetes,
+Compute Clusters,
+Pytorch,
+Python
+DESIRED SKILLS
+Preferred Qualifications
+Experience with: Tilt, Helm
+Education:
+
+BS in comp sci or related field
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+
+  Database Developer 
+  
+   Location: REMOTE
+    Skills: MySQL Database Development/Administration
+    Salary: 80-120k
+   
+ Opportunity to join a high growth SaaS startup with a B2B2C and a B2B platform.
+  
+ Top Reasons to Work with Us
+
+Great opportunity to join a company at any early stage 
+We are in high growth mode so there's LOTs of growth potential
+Stellar product with limited competition in our niche
+Amazing company culture with quality people who care about their work
+If you're local to Newport Beach.....Game room and fully stacked fridge! Never buy lunch again!
+
+ What You Will Be Doing
+
+MySQL Database Design & Development 
+Create fast and efficient database queries
+Database troubleshooting
+Data migrations
+Creating new database instances
+
+ What You Need for this Position
+
+Prior experience in a similar role with MySQL
+Ideally experience with multiple different databases
+Ability to own projects
+
+ What's In It for You
+
+    Competitive base + benefits including: health/dental/medical, unlimited PTO, 401k, disability, life insurance, AD&D. Bonus potential.
+  
+
+    So, if you are a Database Developer with experience, please apply today!
+  
+
+    Colorado employees will receive paid sick leave. For additional information about available benefits, please contact Sally Janavicius
+  
+
+
+
+Applicants must be authorized to work in the U.S.
+
+CyberCoders, Inc is proud to be an Equal Opportunity Employer
+
+ All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, protected veteran status, or any other characteristic protected by law. 
+  
+
+Your Right to Work – In compliance with federal law, all persons hired will be required to verify identity and eligibility to work in the United States and to complete the required employment eligibility verification document form upon hire.
+ 
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
+We're ArenaNet—we've created a studio that makes online worlds infused with innovation, hand-crafted excellence, and creative passion. We're not the only ones who share this passion; gamers made Guild Wars 2 the fastest selling MMO game in the West with more than 3 million copies sold in its first 9 months, and players and press have consistently called it one of the best MMOs of all time.Our studio is built on foundations of excellence with a focus on community. We constantly innovate, unlocking the true potential of online role-playing with game-changing titles like Guild Wars 2 and beyond. The status quo is not good enough for our dedicated worldwide community of players, which is why we question the de facto industry conventions and demand more from ourselves as developers.We are looking for an entry-level designer interested in learning about providing exciting and fulfilling virtual store content for our players. Do you love MMOs and the social experience of games? Are you hoping to learn about the fundamentals of game design, game economies, how to build a compelling virtual store, and the inner workings of game development? Maybe you enjoy creating experiences that delight and entertain others? Do you want to learn more about optimizing MTX content and systems? Are you the type of person who loves diving into spreadsheets, tracking data, and searching for answers to complicated questions? If any of this sound like you, we would love to hear from you!
+Why Join the ArenaNet Design Team?The Design team and ArenaNet are the ones responsible for envisioning and implementing the encounters, events, items, rewards, etc. that our players interact with in the game. We work collaboratively across multiple disciplines to create, iterate, and refine ideas and put them in the game. Our work requires empathy, patience, communication, the ability to understand a variety of players and playstyles, and attention to detail.
+As a designer, you will utilize your love of games along with your innovation and creative problem-solving skills to define and craft experiences that affect our players over the lifetime of their relationship with the products that we (and you) develop. You will learn the nuts and bolts of game development and be responsible for things that players see and purchase in the game.
+We also believe that a healthy team is the first step to making fun, engaging games. And a healthy team is one of mutual respect, psychological safety, and diversity. We believe that new perspectives and voices help us to improve our game and find the best ideas.
+TYPICAL TRAITS: 
+
+Familiarity with video games, especially MMOs
+A desire to work collaboratively with various teams to bring ideas to life
+Ability to clearly communicate in a variety of formats and with a variety of people
+Experience with problem solving, compromise, and coordination
+Basic understanding of monetization or game design
+
+NICE TO HAVES: 
+
+Experience with managing and updating spreadsheets or databases
+Familiarity with best practices for accessibility in games
+Familiarity with MTX or monetization design across various games
+
+Job Type: Full-time
+
+ 
+ _________________________________New Job______________________________ 
+ 
+ 
