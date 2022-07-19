@@ -1,6 +1,14 @@
 import re
 import csv
 
+"""
+Global 
+TODO: refactor with OOP structure.
+TODO: Type hint the methods/function.
+TODO: add line comments where code is vauge.
+TODO: work in commitizen and pre-commits.
+"""
+
 
 def open_text(read_file):
     """
@@ -31,6 +39,7 @@ def open_terms(terms_file):
     return tech_terms
 
 
+# TODO: refactor this for loop, perhaps map over the patterns rather than the if else statements.
 def get_terms(read_file, terms_file):
     """
     Function calls open_text() and open_terms() functions
@@ -48,9 +57,9 @@ def get_terms(read_file, terms_file):
     for term in term_list:
         if term == "Amazon EC2":
             pattern = r'Amazon EC2\W[^C]'
-        if term == "Angular":
+        elif term == "Angular":
             pattern = r'\WAngular\D[^jsJS]'
-        if term == "Apache Tomcat":
+        elif term == "Apache Tomcat":
             pattern = r'Tomcat'
         elif term == "CSS 3":
             pattern = r'CSS'

@@ -8,6 +8,16 @@ import sys
 from tech_term_search import write_data
 
 
+"""
+Global
+TODO: refactor with OOP structure
+TODO: typehint menthods/function
+TODO: add inline comments for vauge code or refactor for readability
+TODO: impliment pre-commit / commitizen. 
+TODO: rename function/methods for readability
+"""
+
+
 def soup_kitchen(job_title, location, age, start):
     """
     Function receives args and formats URL query for each cycle through scraper.
