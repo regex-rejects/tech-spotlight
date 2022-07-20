@@ -98,7 +98,7 @@ ___
 
 ### Kaggle Notebook
 
-This is the kaggle notebook we produced from datasets we scraped during our project. It includes insights based on our interpretations of the data.  
+This is the kaggle notebook we produced from datasets we scraped during our project. It includes insights based on our interpretations of the data.
 
 [Indeed Past 7 Day 900 Listing Term Data 18 May 2022](https://www.kaggle.com/code/edenbrekke/tech-spotlight-indeed-data-18may2022/notebook)
 
